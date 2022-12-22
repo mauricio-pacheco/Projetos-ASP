@@ -1,0 +1,154 @@
+body{margin-left:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; background-color: #F0F0F0; background-image:url(../images/bg.gif); background-repeat:repeat-x; background-position:top}
+.iframe_scroll { overflow-x: hidden; overflow-y: hidden; }
+.hr_lista { height:1px; margin-top:10px; _margin-top:6px; margin-bottom:10px; _ margin-bottom:6px; border:0px; color:none; }
+
+.barra_topo { width:430px; border-bottom:1px solid #CCCCCC; font-size:14px; color: #666666; text-align:left; margin-top:-10px; padding-bottom:4px; margin-bottom:20px}
+.lista_menu{margin:0px; margin-left:-20px; _margin-left:20px; line-height:20px; list-style:none;}
+.ButtonBusca{font-family: Tahoma; font-weight: bold;font-size:11px;	color:#666666; background-color:#F5F5F5;border:none;height:30px;width: 60px;}
+
+.Form{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF; border-left: 1px solid #BBC2B7; border-top: 1px solid #BBC2B7; border-right: 1px solid #E2E7E3; border-bottom: 1px solid #E2E7E3; }
+
+.text_gd{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:420px;}
+.text_md{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:250px;}
+.text_pq{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:160px;}
+.ddd{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:21px;}
+.fone{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:32px;}
+.cep1{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:65px;}
+.ano{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:40px;}
+.cep2{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:30px;}
+.select_pq{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:105px;}
+.select_md{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:160px;}
+
+.dia_mes{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:20px;}
+
+.ano{font-family: Tahoma; font-size: 11px;	color: #666666;	background-color: #FFFFFF;	border: 1px inset #CCCCCC;width:40px;}
+
+.ButtonEnviar{width:70px; height:22px; font-family:Tahoma; color:#666666; font-size:11px;}
+.ButtonLimpar{width:70px; height:22px; font-family:Tahoma; color:#666666; font-size:11px;}
+
+.amarelo10{font-family:Tahoma;font-size:10px;color:#CC9900;text-decoration:none}
+.amarelo11{font-family:Tahoma;font-size:11px;color:#CC9900;text-decoration:none}
+.amarelo12{font-family:Tahoma;font-size:12px;color:#CC9900;text-decoration:none}
+
+.azul10{font-family:Tahoma;font-size:10px;color:#0066CC;text-decoration:none}
+.azul11{font-family:Tahoma;font-size:11px;color:#0066CC;text-decoration:none}
+.azul12{font-family:Tahoma;font-size:12px;color:#0066CC;text-decoration:none}
+
+.branco10{font-family:Tahoma;font-size:10px;color:#FFFFFF;text-decoration:none}
+.branco11{font-family:Tahoma;font-size:11px;color:#FFFFFF;text-decoration:none}
+.branco12{font-family:Tahoma;font-size:12px;color:#FFFFFF;text-decoration:none}
+
+.cinza10{font-family:Tahoma;font-size:10px;color:#999999;text-decoration:none}
+.cinza11{font-family:Tahoma;font-size:11px;color:#999999;text-decoration:none}
+.cinza12{font-family:Tahoma;font-size:12px;color:#999999;text-decoration:none}
+
+.laranja10{font-family:Tahoma;font-size:10px;color:#F58735;text-decoration:none}
+.laranja11{font-family:Tahoma;font-size:11px;color:#F58735;text-decoration:none}
+.laranja12{font-family:Tahoma;font-size:12px;color:#F58735;text-decoration:none}
+
+.preto10{font-family:Tahoma;font-size:10px;color:#000000;text-decoration:none}
+.preto11{font-family:Tahoma;font-size:11px;color:#000000;text-decoration:none}
+.preto12{font-family:Tahoma;font-size:12px;color:#000000;text-decoration:none}
+
+.verde10{font-family:tahoma;font-size:10px;color:#6EA004;text-decoration:none}
+.verde11{font-family:Tahoma;font-size:11px;color:#6EA004;text-decoration:none}
+.verde12{font-family:Tahoma;font-size:12px;color:#6EA004;text-decoration:none}
+
+.vermelho10{font-family:Tahoma;font-size:10px;color:#F00000;text-decoration:none}
+.vermelho11{font-family:Tahoma;font-size:11px;color:#F00000;text-decoration:none}
+.vermelho12{font-family:Tahoma;font-size:12px;color:#F00000;text-decoration:none}
+
+
+.cinza_esc10{font-family:Tahoma;font-size:10px;color:#666666;text-decoration:none}
+.cinza_esc11{font-family:Tahoma;font-size:11px;color:#666666;text-decoration:none}
+.cinza_esc12{font-family:Tahoma;font-size:12px;color:#666666;text-decoration:none}
+
+.verde_esc10{font-family:tahoma;font-size:10px;color:#485400;text-decoration:none}
+.verde_esc11{font-family:Tahoma;font-size:11px;color:#485400;text-decoration:none}
+.verde_esc12{font-family:Tahoma;font-size:12px;color:#485400;text-decoration:none}
+
+<!-- LINKS --!>
+
+.Aamarelo10{font-family:Tahoma;font-size:10px;color:#CC9900;text-decoration:none}
+.Aamarelo11{font-family:Tahoma;font-size:11px;color:#CC9900;text-decoration:none}
+.Aamarelo12{font-family:Tahoma;font-size:12px;color:#CC9900;text-decoration:none}
+
+.Aazul10{font-family:Tahoma;font-size:10px;color:#0066CC;text-decoration:none}
+.Aazul11{font-family:Tahoma;font-size:11px;color:#0066CC;text-decoration:none}
+.Aazul12{font-family:Tahoma;font-size:12px;color:#0066CC;text-decoration:none}
+
+.Abranco10{font-family:Tahoma;font-size:10px;color:#FFFFFF;text-decoration:none}
+.Abranco11{font-family:Tahoma;font-size:11px;color:#FFFFFF;text-decoration:none}
+.Abranco12{font-family:Tahoma;font-size:12px;color:#FFFFFF;text-decoration:none}
+
+.Acinza10{font-family:Tahoma;font-size:10px;color:#999999;text-decoration:none}
+.Acinza11{font-family:Tahoma;font-size:11px;color:#999999;text-decoration:none}
+.Acinza12{font-family:Tahoma;font-size:12px;color:#999999;text-decoration:none}
+
+.Alaranja10{font-family:Tahoma;font-size:10px;color:#F58735;text-decoration:none}
+.Alaranja11{font-family:Tahoma;font-size:11px;color:#F58735;text-decoration:none}
+.Alaranja12{font-family:Tahoma;font-size:12px;color:#F58735;text-decoration:none}
+
+.Apreto10{font-family:Tahoma;font-size:10px;color:#000000;text-decoration:none}
+.Apreto11{font-family:Tahoma;font-size:11px;color:#000000;text-decoration:none}
+.Apreto12{font-family:Tahoma;font-size:12px;color:#000000;text-decoration:none}
+
+.Averde10{font-family:tahoma;font-size:10px;color:#6EA004;text-decoration:none}
+.Averde11{font-family:Tahoma;font-size:11px;color:#6EA004;text-decoration:none}
+.Averde12{font-family:Tahoma;font-size:12px;color:#6EA004;text-decoration:none}
+
+.Avermelho10{font-family:Tahoma;font-size:10px;color:#F00000;text-decoration:none}
+.Avermelho11{font-family:Tahoma;font-size:11px;color:#F00000;text-decoration:none}
+.Avermelho12{font-family:Tahoma;font-size:12px;color:#F00000;text-decoration:none}
+
+
+.Acinza_esc10{font-family:Tahoma;font-size:10px;color:#666666;text-decoration:none}
+.Acinza_esc11{font-family:Tahoma;font-size:11px;color:#666666;text-decoration:none}
+.Acinza_esc12{font-family:Tahoma;font-size:12px;color:#666666;text-decoration:none}
+
+.Averde_esc10{font-family:tahoma;font-size:10px;color:#485400;text-decoration:none}
+.Averde_esc11{font-family:Tahoma;font-size:11px;color:#485400;text-decoration:none}
+.Averde_esc12{font-family:Tahoma;font-size:12px;color:#485400;text-decoration:none}
+
+
+
+.Aamarelo10:hover{font-family:Tahoma;font-size:10px;color:#CC9900;text-decoration:none}
+.Aamarelo11:hover{font-family:Tahoma;font-size:11px;color:#CC9900;text-decoration:none}
+.Aamarelo12:hover{font-family:Tahoma;font-size:12px;color:#CC9900;text-decoration:none}
+
+.Aazul10:hover{font-family:Tahoma;font-size:10px;color:#0066CC;text-decoration:none}
+.Aazul11:hover{font-family:Tahoma;font-size:11px;color:#0066CC;text-decoration:none}
+.Aazul12:hover{font-family:Tahoma;font-size:12px;color:#0066CC;text-decoration:none}
+
+.Abranco10:hover{font-family:Tahoma;font-size:10px;color:#FFFFFF;text-decoration:none}
+.Abranco11:hover{font-family:Tahoma;font-size:11px;color:#FFFFFF;text-decoration:none}
+.Abranco12:hover{font-family:Tahoma;font-size:12px;color:#FFFFFF;text-decoration:none}
+
+.Acinza10:hover{font-family:Tahoma;font-size:10px;color:#0066CC;text-decoration:none}
+.Acinza11:hover{font-family:Tahoma;font-size:11px;color:#0066CC;text-decoration:none}
+.Acinza12:hover{font-family:Tahoma;font-size:12px;color:#0066CC;text-decoration:none}
+
+.Alaranja10:hover{font-family:Tahoma;font-size:10px;color:#F58735;text-decoration:none}
+.Alaranja11:hover{font-family:Tahoma;font-size:11px;color:#F58735;text-decoration:none}
+.Alaranja12:hover{font-family:Tahoma;font-size:12px;color:#F58735;text-decoration:none}
+
+.Apreto10:hover{font-family:Tahoma;font-size:10px;color:#000000;text-decoration:none}
+.Apreto11:hover{font-family:Tahoma;font-size:11px;color:#000000;text-decoration:none}
+.Apreto12:hover{font-family:Tahoma;font-size:12px;color:#000000;text-decoration:none}
+
+.Averde10:hover{font-family:tahoma;font-size:10px;color:#6EA004;text-decoration:none}
+.Averde11:hover{font-family:Tahoma;font-size:11px;color:#6EA004;text-decoration:none}
+.Averde12:hover{font-family:Tahoma;font-size:12px;color:#6EA004;text-decoration:none}
+
+.Avermelho10:hover{font-family:Tahoma;font-size:10px;color:#F00000;text-decoration:none}
+.Avermelho11:hover{font-family:Tahoma;font-size:11px;color:#F00000;text-decoration:none}
+.Avermelho12:hover{font-family:Tahoma;font-size:12px;color:#F00000;text-decoration:none}
+
+
+.Acinza_esc10:hover{font-family:Tahoma;font-size:10px;color:#0066CC;text-decoration:none}
+.Acinza_esc11:hover{font-family:Tahoma;font-size:11px;color:#0066CC;text-decoration:none}
+.Acinza_esc12:hover{font-family:Tahoma;font-size:12px;color:#0066CC;text-decoration:none}
+
+.Averde_esc10:hover{font-family:tahoma;font-size:10px;color:#FFFFFF;text-decoration:none}
+.Averde_esc11:hover{font-family:Tahoma;font-size:11px;color:#FFFFFF;text-decoration:none}
+.Averde_esc12:hover{font-family:Tahoma;font-size:12px;color:#FFFFFF;text-decoration:none}

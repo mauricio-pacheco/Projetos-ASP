@@ -1,0 +1,36 @@
+.menulink {
+	PADDING-LEFT: 10px; FONT-SIZE: 11px; COLOR: #ffffff; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.toppage {
+	FONT: bold 12px "trebuchet ms", arial, verdana; TEXT-TRANSFORM: none; COLOR: #990000; TEXT-DECORATION: none
+}
+.start_boxes {
+	FONT-SIZE: 11px; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 10px; COLOR: #333333; LINE-HEIGHT: normal; MARGIN-RIGHT: 10px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: justify; TEXT-DECORATION: none
+}
+.start_link {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: justify; TEXT-DECORATION: none
+}
+.start_link:hover {
+	TEXT-DECORATION: underline
+}
+.start_boxes:hover {
+	TEXT-DECORATION: underline
+}
+.fonte {
+	FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.page_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #990000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Trbuchet MS", Arial, Helvetica, sans-serif; TEXT-ALIGN: justify; TEXT-DECORATION: none
+}
+.page_subtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #990000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Trbuchet MS", Arial, Helvetica, sans-serif; TEXT-ALIGN: justify; TEXT-DECORATION: none
+}
+.borda {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid
+}
+.bordafc {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.start {
+	FONT-SIZE: 11px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: justify; TEXT-DECORATION: none
+}

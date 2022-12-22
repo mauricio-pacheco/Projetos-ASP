@@ -1,0 +1,89 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+
+Application("titulo") = "Seja bem vindo ao Bate Papo da Rádio Luz e Alegria!"
+Application("fundochat") = "fundo.gif"
+Application("tarja_r") = "#EEEEEE"
+
+	If Session("careta") = "nao" Then
+		strCareta = ""
+	else
+		strCareta = "<img src=caretas/" & Session("careta") & ".gif>"
+	end if
+
+Sub Application_onStart
+
+   Dim sl01_Usuarios(20)  
+   Dim sl01_Mensagens(20)
+   Dim sl01_UltimaUsuarios(20)
+   Dim sl01_ParaUsuario(20)
+   Dim sl01_Exclusiva(20)
+   Dim sl01_DeUsuario(20)
+    
+   sl01_Mensagens(0) = "<center><font size=4 face=arial><b></b></font></center>"
+   sl01_Exclusiva(0) = 0
+   sl01_ParaUsuario(0) = 0
+   sl01_DeUsuario(0) = 0
+   sl01_Usuarios(0) = "Todos"
+
+   For i=1 To 19
+   sl01_Mensagens(i) = ""
+   sl01_Exclusiva(i) = 0
+   sl01_ParaUsuario(i) = 0
+   sl01_DeUsuario(i) = 0
+   sl01_Usuarios(i) = ""   
+   Next
+   Application("sl01_Exclusiva") = sl01_Exclusiva
+   Application("sl01_ParaUsuario") = sl01_ParaUsuario
+   Application("sl01_DeUsuario") = sl01_DeUsuario
+   Application("sl01_UltimaUsuarios") = sl01_UltimaUsuarios
+   Application("sl01_Usuarios") = sl01_Usuarios
+   Application("sl01_Mensagens") = sl01_Mensagens
+   
+'end sala01
+
+End sub
+'======================
+Sub Session_onStart
+   Session.Timeout = 1
+   Session("rolagem") = "checked"
+End Sub
+'======================
+Sub Session_onEnd
+'begin sala01
+   If Session("sl01_Usuario") <> 0 Then
+   Application.Lock 
+   sl01_Usuarios = Application("sl01_Usuarios")
+   sl01_Mensagens = Application("sl01_Mensagens")
+   sl01_ParaUsuario = Application("sl01_ParaUsuario")
+   sl01_Exclusiva = Application("sl01_Exclusiva")
+   sl01_DeUsuario = Application("sl01_DeUsuario")
+
+   For i=18 To 0 Step -1
+      sl01_Mensagens(i+1) = sl01_Mensagens(i) 
+      sl01_Exclusiva(i+1) = sl01_Exclusiva(i)
+	  sl01_ParaUsuario(i+1) = sl01_ParaUsuario(i)
+	  sl01_DeUsuario(i+1) = sl01_DeUsuario(i)
+   Next
+
+   sl01_StrNovaMensagem = "<font size=1 face=Verdana>("+formatdatetime(now,vblongtime)+")</font>" & strCareta & "<font size=2 face=Verdana><B> " & sl01_Usuarios(Session("sl01_Usuario")) & ": </b></font><font size=1 face=Verdana> sai da sala...</font>"
+   sl01_StrNovaMensagem = sl01_StrNovaMensagem 
+   sl01_Mensagens(0) = sl01_StrNovaMensagem 
+   sl01_ParaUsuario(0) = 0
+   sl01_DeUsuario(0) = Session("sl01_Usuario")
+   sl01_Exclusiva(0) = 0
+   sl01_Usuarios(Session("sl01_Usuario")) = ""
+
+   'Retorna a matriz
+   Application("sl01_Mensagens") = sl01_Mensagens
+   Application("sl01_Exclusiva") = sl01_Exclusiva
+   Application("sl01_ParaUsuario") = sl01_ParaUsuario
+   Application("sl01_DeUsuario") = sl01_DeUsuario
+   Application("sl01_Usuarios") = sl01_Usuarios
+   Application.UnLock 
+   End if
+'end sala01
+
+end sub
+
+</SCRIPT>

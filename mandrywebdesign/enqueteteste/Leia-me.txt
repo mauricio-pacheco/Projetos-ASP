@@ -1,0 +1,33 @@
+                                   
+                                    BR Enquete - versão 1.0
+
+
+Este script foi desenvolvido por: Bruno Linhares - w w w . b r d e s i g n . n e t
+
+****************************************************************************************
+**                                                                                    **
+**                                                                                    **
+**  Informações de Copyright                                                          **
+**  Copyright 2003 - Bruno Linhares - www.brdesign.net - Todos os direitos reservados.**
+**                                                                                    **
+**  Este script pode ser usado e distribuido livremente,                              **
+**  desde que sejam mantidos os direitos autorais.                                    **
+**                                                                                    **
+**                                                                                    **
+**                         w w w . b r d e s i g n . n e t                            **
+**                                         					      **
+**              BR design - web design and web development solutions                  **
+**                                                                                    **
+**                                                                                    **
+**      Criação, manutenção e desenvolvimento de websites e tecnologias para web      **
+**                                                                                    **
+**                                                                                    **
+****************************************************************************************
+
+
+BR Enquete é um sistema de votação simples através de um banco de dados access, que 
+permite realizar apenas um voto de cada ip por dia, onde além de ser exibida a enquete atual,
+você tem possibilidade de acompanhar os resultados de enquetes que foram realizadas 
+anteriormente.
+
+Em breve teremos versões atualizadas...

@@ -1,0 +1,16 @@
+textField6b=<b>Annual and quarterly reports</b>
+Interim report 3 -2004-2005<br><font color="#FF3333"><a href="pdf/quarterly03_2004_2005.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 2 -2004-2005<br><font color="#FF3333"><a href="pdf/quarterly02_2004_2005.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 1 -2004-2005<br><font color="#FF3333"><a href="pdf/quarterly01_2004_2005.pdf" target="_blank">click here to download PDF</a></font>
+Annual Report 2003-2004<br><font color="#FF3333"><a href="pdf/annualreport2003_2004.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 3 -2003-2004<br><font color="#FF3333"><a href="pdf/quarterly03_2003_2004.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 2 -2003-2004<br><font color="#FF3333"><a href="pdf/quarterly02_2003_2004.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 1 -2003-2004<br><font color="#FF3333"><a href="pdf/quarterly01_2003_2004.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 3 -2002-2003<br><font color="#FF3333"><a href="pdf/quarterly03_2002_2003.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 2 -2002-2003<br><font color="#FF3333"><a href="pdf/quarterly02_2002_2003.pdf" target="_blank">click here to download PDF</a></font>
+Interim report 1 -2002-2003<br><font color="#FF3333"><a href="pdf/quarterly01_2002_2003.pdf" target="_blank">click here to download PDF</a></font>
+Annual Report 2002-2003<br><font color="#FF3333"><a href="pdf/annualreport2002_2003.pdf" target="_blank">click here to download PDF</a></font>
+Annual Report 2001-2002<br><font color="#FF3333"><a href="pdf/annualreport2001_2002.pdf" target="_blank">click here to download PDF</a></font>
+Annual Report 2000-2001<br><font color="#FF3333"><a href="pdf/annualreport2000_2001.pdf" target="_blank">click here to download PDF</a></font>
+Annual Report 1999-2000<br><font color="#FF3333"><a href="pdf/annualreport1999_2000.pdf" target="_blank">click here to download PDF</a></font>
+Annual Report 1998-1999<br><font color="#FF3333"><a href="pdf/annualreport1998_1999.pdf" target="_blank">click here to download PDF</a></font>

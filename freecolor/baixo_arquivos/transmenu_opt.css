@@ -1,0 +1,45 @@
+.transMenu {
+	LEFT: -1000px; OVERFLOW: hidden; POSITION: absolute; TOP: -1000px
+}
+.transMenu .content {
+	POSITION: absolute
+}
+.transMenu .items {
+	Z-INDEX: 2; LEFT: 0px; POSITION: relative; TOP: 0px
+}
+.top .items {
+	BORDER-TOP-STYLE: none
+}
+.transMenu .item {
+	FONT-SIZE: 10px; CURSOR: pointer; COLOR: #fff; BORDER-TOP-STYLE: none; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+.transMenu .background {
+	Z-INDEX: 1; FILTER: alpha(opacity=85); LEFT: 0px; POSITION: absolute; TOP: 0px; moz-opacity: .8
+}
+.transMenu .shadowRight {
+	Z-INDEX: 3; FILTER: alpha(opacity=40); WIDTH: 2px; POSITION: absolute; TOP: 3px; moz-opacity: .4
+}
+.transMenu .shadowBottom {
+	Z-INDEX: 1; FILTER: alpha(opacity=40); LEFT: 3px; POSITION: absolute; HEIGHT: 2px; moz-opacity: .4
+}
+.transMenu .hover {
+	BACKGROUND: #fff; COLOR: #8d1c1c
+}
+.transMenu .item IMG {
+	MARGIN-LEFT: 10px
+}
+.navBar {
+	CLEAR: both; FONT-WEIGHT: bold; FONT-SIZE: 10px; Z-INDEX: 1; WIDTH: 768px; FONT-FAMILY: Verdana,Sans-serif; POSITION: relative
+}
+.navItem {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; CURSOR: pointer; COLOR: #fff; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TOP: 0px; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: none
+}
+.navItem IMG {
+	LEFT: 0px; VERTICAL-ALIGN: middle; POSITION: absolute; TOP: 0px
+}
+.navItem A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navItem A:hover {
+	COLOR: #ccc
+}

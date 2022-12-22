@@ -1,0 +1,1 @@
+<img src="pracima.jpg" width="757" height="202" />

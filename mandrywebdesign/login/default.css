@@ -1,0 +1,132 @@
+FONT {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+TD {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+BODY {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+P {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+DIV {
+	FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+FORM {
+	DISPLAY: inline
+}
+INPUT {
+	MARGIN-BOTTOM: 2px; MARGIN-TOP: 2px; TEXT-INDENT: 2px
+}
+INPUT {
+	BORDER-BOTTOM-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-TOP-COLOR: #000000; COLOR: #000000; FONT-SIZE: 10px; input.radio: #F4F6FB
+}
+TEXTAREA {
+	BORDER-BOTTOM-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-TOP-COLOR: #000000; COLOR: #000000; FONT-SIZE: 10px; input.radio: #F4F6FB
+}
+SELECT {
+	BORDER-BOTTOM-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-TOP-COLOR: #000000; COLOR: #000000; FONT-SIZE: 10px; input.radio: #F4F6FB
+}
+INPUT {
+	BACKGROUND: #ffffff; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 1px; FONT: 10px Verdana,Arial,Helvetica,sans-serif
+}
+TEXTAREA {
+	BACKGROUND: #ffffff; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 1px; FONT: 10px Verdana,Arial,Helvetica,sans-serif
+}
+SELECT {
+	BACKGROUND: #ffffff; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-WIDTH: 1px; FONT: 10px Verdana,Arial,Helvetica,sans-serif
+}
+INPUT.button {
+	BACKGROUND: #000000; COLOR: #000000
+}
+INPUT.catbutton {
+	BACKGROUND: #000000; COLOR: #000000; FONT-SIZE: 10px
+}
+INPUT.button {
+	BACKGROUND: #000000; COLOR: #000000; FONT-SIZE: 10px
+}
+INPUT.liteoption {
+	BACKGROUND: #000000; COLOR: #000000
+}
+INPUT.mainoption {
+	BACKGROUND: #000000; COLOR: #000000; FONT-WEIGHT: bold
+}
+INPUT.post {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+TEXTAREA.post {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+SELECT {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+.helpline {
+	BACKGROUND: #000000; BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; COLOR: #000000
+}
+.code {
+	BACKGROUND: #000000; BORDER-BOTTOM: #d1d7dc 1px solid; BORDER-LEFT: #d1d7dc 1px solid; BORDER-RIGHT: #d1d7dc 1px solid; BORDER-TOP: #d1d7dc 1px solid; COLOR: #006600; FONT: 10px Courier,"Courier New",sans-serif; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.quote {
+	BACKGROUND: #000000; BORDER-BOTTOM: #d1d7dc 1px solid; BORDER-LEFT: #d1d7dc 1px solid; BORDER-RIGHT: #d1d7dc 1px solid; BORDER-TOP: #d1d7dc 1px solid; COLOR: #444444; FONT: 10px/125% Verdana,Arial,Helvetica,sans-serif
+}
+.bodyline {
+	BACKGROUND: #f7f8fc; BORDER-BOTTOM: #98aab1 1px solid; BORDER-LEFT: #98aab1 1px solid; BORDER-RIGHT: #98aab1 1px solid; BORDER-TOP: #98aab1 1px solid; COLOR: #000000
+}
+BODY {
+	BACKGROUND: #000000; COLOR: #000000; FONT: 10px Verdana,Arial,Helvetica,sans-serif; scrollbar-3dlight-color: #000000; scrollbar-arrow-color: #000000; scrollbar-darkshadow-color: #000000; scrollbar-face-color: #000000; scrollbar-highlight-color: #000000; scrollbar-shadow-color: #000000; scrollbar-track-color: #000000
+}
+HR {
+	BORDER-BOTTOM: #ffffff 0px solid; BORDER-LEFT: #ffffff 0px solid; BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 1px solid; HEIGHT: 0px
+}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #00ff00; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #00ff00; TEXT-DECORATION: none
+}
+A.postlink {
+	COLOR: #00ff00; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #839fbc; TEXT-DECORATION: underline
+}
+A.topictitle:hover {
+	COLOR: #839fbc; TEXT-DECORATION: underline
+}
+.title {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.content {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px
+}
+.block-title {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #516a88; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px
+}
+.storytitle {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #516a88; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.storycat {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.boxtitle {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.boxcontent {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px
+}
+.option {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tiny {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 10px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.footmsg_l {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 9px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.small {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; FONT-SIZE: 8px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}

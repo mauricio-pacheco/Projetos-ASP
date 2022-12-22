@@ -1,0 +1,32 @@
+List of changes made to the original PH2 Theme from pitcher.no
+
+
+- New color scheme.
+
+- Removed all HTML file and included all the code in the theme.php file.
+
+- Added Printer Mod to Forum Template (All files included).
+
+- Added seperate stylesheet for printer mod.
+
+- Added gradient text effect script to theme.
+
+- Added graphics images to the Forums for user options.
+
+- Added Gradient effects to URL images.
+
+- Changed the style of the Stories (Posted by:) cell.
+
+- Changed Vote Poll graphics bar.
+
+- Removed unwanted graphics.
+
+- Merged left and right side blocks into one.
+
+- Modified Forum Center Block appearance and code.
+
+- Removed the Registration option from the PHPBB forum template (Not compatible with PHP-Nuke).
+
+- Included (admin) images folder which can be placed in the themes/PH2BLUE/images/ folder.
+
+- Included (topics) images folder which can be placed in the themes/PH2BLUE/images/ folder.

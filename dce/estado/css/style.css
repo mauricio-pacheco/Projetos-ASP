@@ -1,0 +1,30 @@
+BODY {	
+	scrollbar-3dlight-color:595959;
+	scrollbar-arrow-color:ffffff;
+	scrollbar-base-color:CFCFCF;
+	scrollbar-darkshadow-color:FFFFFF;
+	scrollbar-face-color:CFCFCF;
+	scrollbar-highlight-color:FFFFF;
+	scrollbar-shadow-color:595959;
+}
+A:link {COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none}
+A:visited {COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none}
+A:hover {COLOR: #3492DA; FONT-FAMILY: Verdana; TEXT-DECORATION: none}
+A:active {COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none}
+body, td {FONT-FAMILY: Verdana; FONT-SIZE: 11px;line-height: 13pt; TEXT-DECORATION: none}
+input, option, select,textarea {COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 11px; TEXT-DECORATION: none;}
+
+.button1 {font-family:Verdana, Arial; font-size:9pt; color:#000000;}
+
+.border1 {border:solid 1px #BBBBBB; padding: 2px}
+.border2 {border:solid 1px #CCCCCC; padding:0px}
+
+.memuheader {
+	background: #009AFF;
+	color: #FFFFFF;
+}
+
+.titleheader {
+	background: #9CBAEF;
+	color: #FFFFFF;
+}

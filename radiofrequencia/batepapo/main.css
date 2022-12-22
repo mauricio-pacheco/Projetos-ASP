@@ -1,0 +1,21 @@
+//Desenvolvido por Armando Miani Neto
+
+BODY {
+	font-family: Verdana;	 
+}
+TD {
+	font-family: Verdana; font-size: 11px; color: #FFFFFF
+}
+
+A {
+	color: #000000; text-decoration: none
+}
+A:hover {
+	color: #000000; text-decoration: underline
+}
+.style_menu {
+	font-family: Verdana; color: #666666; font-size: 10px
+}
+.style_forms {
+	border-color: #000000; border-width: 1; border-style: solid; background-color:#ffffff; font-size: 10; font-family: verdana
+}

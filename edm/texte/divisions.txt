@@ -1,0 +1,44 @@
+textField6=<b>DIVISIONS</b>
+<b>BÉDARD<br>Émile Hudon,</b> President 
+7025, rue des Châtaigniers<br>Bécancour (Québec)<br>G9H 3K4
+5, avenue Rousseau<br>Edmundston (Nouveau-Brunswick)<br>E3V 4H4
+825, boul. Industriel<br>Granby (Québec)<br>J2J 1A5
+726, rue Principale<br>Saint-Étienne-de-Lauzon (Québec)<br>G6J 1J5
+<b>CASEGOODS AND VENEER<br>Claude O'Reilly,</b> President
+10, rue Bishop<br>Bishopton (Québec)<br>J0B 1G0
+510, rue Saint-François<br>Disraeli (Québec)<br>G0N 1E0
+2425, rue Commerciale<br>Saint-François-de-Madawaska<br>(Nouveau-Brunswick)<br>E7A 1B7
+42, rue Curé-Suzor<br>Victoriaville (Québec)<br>G6P 6M8
+<b>Placages Lennox</b><br>3106, Route 108 Est<br>Canton Eaton (Québec)<br>J1M 2A2
+<b>CHANDERIC<br>Benoit Racine,</b> President
+3100, Route 108 Est<br>Canton Eaton (Québec)<br>J1M 2A2
+<b>IMPORT<br>Guy Boileau,</b> General Manager, imports
+2171, rue King Ouest<br>Sherbrooke (Québec)<br>J1J 2G1
+B room, 8th floor, Hua An Building<br>Chang Quing Rd, Chang An Town<br>Dong Guan City<br>Guang Dong Province 523850<br>Chine
+<b>UPHOLSTERY DIVISION<br>Guy Patenaude,</b> President
+<b>Sofas International S.I. Inc.</b> (1)<br>5455, boul. des Grandes-Prairies<br>Saint-Léonard (Québec)<br>H1R 1B1
+<b>Jaymar Furniture Corp.</b> (1)<br><b>Tony Troia,</b> Vice-president, Production
+75, rue Jaymar<br>Terrebonne (Québec)<br>J6W 1M5
+<b>SAWMILLS<br>Marc Lamarre,</b> General Manager
+<b>Mégabois Inc.</b> (1)<br>3408, rue Lafontaine<br>C.P. 187<br>Lac-Mégantic (Québec)<br>G6B 2S6
+<b>Montauban Inc.</b> (1)<br>100, route du Lac-Georges<br>Notre-Dame-de-Montauban (Québec)<br>G0X 1W0
+<b>Shermag Corp. Dba Woodtek</b> (1)<br>P.O. Box 29<br>Route 201 A<br>North Anson, Maine  04958<br>U.S.A.
+<b>HEAD OFFICE</b>
+2171, rue King Ouest<br>Sherbrooke (Québec)<br>J1J 2G1
+Tel: (819) 566-1515<br>Fax: (819) 566-7323
+E-mail: info@shermag.com<br>Web site: www.shermag.com
+<b>DISTRIBUTION CENTRES</b>
+104, rue de la Burlington<br>Sherbrooke (Québec)<br>J1L 1H1
+365, du Saguenay<br>Victoriaville (Québec)<br>G6T 1T5
+360, rue du Séminaire<br>Saint-Jean-sur-Richelieu (Québec)<br>J3B 6Y9
+<b>SHOWROOMS</b>
+<b>Shermag</b>
+International Centre<br>6900 Airport Road - Suite 102<br>Mississauga (Ontario)<br>L4V 1E8
+International Home Furniture Centre<br>210 E. Commerce Street<br>D-1220 Design Center Wing - 12th Floor<br>High Point, NC 27260<br>U.S.A.
+<b>Jaymar</b>
+1000, rue Saint-Antoine Ouest<br>Bureau 200<br>Montréal (Québec)<br>H3C 3R7
+International Centre<br>6900 Airport Road - Suite 260<br>Mississauga (Ontario) L4V 1E8
+International Home Furniture Centre<br>210 E. Commerce Street<br>D-1214 Design Center Wing - 12th Floor<br>High Point. NC 27260<br>U.S.A.
+<b>Sofas International</b>
+International Home Furniture Centre<br>210 E. Commerce Street<br>H-712 Hamilton Wing - 7th Floor<br>High Point. NC 27260<br>U.S.A.
+(1) Wholly-owned subsidiary

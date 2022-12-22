@@ -1,0 +1,58 @@
+body {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10px;
+}
+.menuhd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-weight: normal;
+}
+.poll {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 2px;
+}
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0099CC;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0099CC;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0099CC;
+	text-decoration: underline;
+}
+.fat {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+.tabele {
+	background-color: #ffffff;
+}
+.formlook {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.pollbg {
+	background-color: #FCFCFC;
+	padding-left: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}

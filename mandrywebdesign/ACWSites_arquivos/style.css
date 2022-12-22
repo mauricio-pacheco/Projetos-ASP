@@ -1,0 +1,99 @@
+FONT {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+TD {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+BODY {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+P {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+DIV {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #dee3e7; BACKGROUND: #e5e5e5; FONT: 12px Verdana,Arial,Helvetica,sans-serif; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #dee3e7; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #d1d7dc; SCROLLBAR-ARROW-COLOR: #006699; SCROLLBAR-TRACK-COLOR: #efefef; SCROLLBAR-DARKSHADOW-COLOR: #98aab1
+}
+.bodyline {
+	BORDER-RIGHT: #98aab1 1px solid; BORDER-TOP: #98aab1 1px solid; BORDER-LEFT: #98aab1 1px solid; BORDER-BOTTOM: #98aab1 1px solid; BACKGROUND-COLOR: #ffffff
+}
+A:link {
+	FONT-SIZE: 10px; COLOR: #304c80; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 10px; COLOR: #304c80; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 10px; COLOR: #304c80; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 10px; COLOR: #ca453f; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.content {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica
+}
+.block-title {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff; FONT-FAMILY: Verdana, Helvetica
+}
+.storytitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffffff; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.storycat {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline
+}
+.boxtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.boxcontent {
+	FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica
+}
+.option {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.tiny {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+.small {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none
+}
+SELECT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT: 11px Verdana,Arial,Helvetica,sans-serif; BORDER-LEFT: 1px solid; COLOR: #000000; BORDER-BOTTOM: 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT: 11px Verdana,Arial,Helvetica,sans-serif; BORDER-LEFT: 1px solid; COLOR: #000000; BORDER-BOTTOM: 1px solid
+}
+INPUT {
+	BORDER-LEFT-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #ffffff; FONT: 11px Verdana,Arial,Helvetica,sans-serif; COLOR: #000000; BORDER-TOP-COLOR: #ffffff; BORDER-RIGHT-COLOR: #ffffff
+}
+INPUT.post {
+	BACKGROUND: #ffffff
+}
+TEXTAREA.post {
+	BACKGROUND: #ffffff
+}
+SELECT {
+	BACKGROUND: #ffffff
+}
+INPUT {
+	TEXT-INDENT: 2px
+}
+INPUT.button {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BACKGROUND: #efefef; FONT: 11px Verdana,Arial,Helvetica,sans-serif; BORDER-LEFT: 1px solid; COLOR: #000000; BORDER-BOTTOM: 1px solid
+}
+INPUT.mainoption {
+	FONT-WEIGHT: bold; BACKGROUND: #fafafa
+}
+INPUT.liteoption {
+	FONT-WEIGHT: normal; BACKGROUND: #fafafa
+}
+.code {
+	BORDER-RIGHT: #d1d7dc 1px solid; BORDER-TOP: #d1d7dc 1px solid; BACKGROUND: #fafafa; FONT: 11px Courier,'Courier New',sans-serif; BORDER-LEFT: #d1d7dc 1px solid; COLOR: #006600; BORDER-BOTTOM: #d1d7dc 1px solid
+}
+.quote {
+	BORDER-RIGHT: #d1d7dc 1px solid; BORDER-TOP: #d1d7dc 1px solid; BACKGROUND: #fafafa; FONT: 11px/125% Verdana,Arial,Helvetica,sans-serif; BORDER-LEFT: #d1d7dc 1px solid; COLOR: #444444; BORDER-BOTTOM: #d1d7dc 1px solid
+}

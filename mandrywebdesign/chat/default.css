@@ -1,0 +1,56 @@
+UNKNOWN {
+	COLOR: #fe934c; TEXT-DECORATION: none
+}
+.menu:hover {
+	TEXT-DECORATION: none
+}
+.sidemenu {
+	COLOR: #fe934c; TEXT-DECORATION: none
+}
+.m1 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.orange {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+.orange:hover {
+	TEXT-DECORATION: none
+}
+.dropshad {
+	FILTER: DropShadow(OffX=2, OffY=3, color:#666666)
+}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #FFFF00; TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000000
+}
+TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000000
+}
+SELECT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000000
+}
+INPUT {
+	BORDER-BOTTOM-COLOR: #FFFF00; BORDER-LEFT-COLOR: #FFFF00; BORDER-RIGHT-COLOR: #FFFF00; BORDER-TOP-COLOR: #FFFF00; COLOR: #FFFF00; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+TEXTAREA {
+	BORDER-BOTTOM-COLOR: #FFFF00; BORDER-LEFT-COLOR: #FFFF00; BORDER-RIGHT-COLOR: #FFFF00; BORDER-TOP-COLOR: #FFFF00; COLOR: #FFFF00; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+SELECT {
+	BORDER-BOTTOM-COLOR: #FFFF00; BORDER-LEFT-COLOR: #FFFF00; BORDER-RIGHT-COLOR: #FFFF00; BORDER-TOP-COLOR: #FFFF00; COLOR: #FFFF00; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+BODY {
+scrollbar-face-color:#000000; scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#000000;
+scrollbar-darkshadow-color:#000000;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-arrow-color:#FFFFFF;
+scrollbar-track-color:#000000;
+}

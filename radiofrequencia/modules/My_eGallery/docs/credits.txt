@@ -1,0 +1,15 @@
+CREDITS for My_eGallery
+=======================
+
+* Patrick Kellum aka Patrick or pkellum
+  (http://ctarl-ctarl.com) for his precious help and hacks
+
+* The PostNuke & PhpNuke community  for providing such a good CMS and addons
+  (http://www.postnuke.com - )
+  (http://phpnuke.org) Copyright (c) 2000-2001 by Francisco Burzi (fburzi@ncc.org.ve)
+
+* Don Grabows for eGallery 1.0 (PHP/MySQL)
+  (http://ecomjunk.com) which this modules is based on.
+
+* King Network's  for ImageArcadia (Perl)
+  (http://wwW.imagesarcadia.com) which My_eGallery admin panel is based on.

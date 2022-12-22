@@ -1,0 +1,591 @@
+<% 
+'#########################################################################################
+'#----------------------------------------------------------------------------------------
+'#########################################################################################
+'#
+'#  CÓDIGO: VirtuaStore Versão 1.2 - Copyright 2001-2003 VirtuaWorks                                    
+'#  URL: www.virtuastore.com.br / www.virtuaworks.com.br                                                           
+'#  E-MAIL: webmaster@virtuaworks.com.br                                                                                          
+'#  AUTORES: Otávio Dias(Desenvolvedor) / Jone Bandinelli(Desenvolvedor) / Daniel Kern(Revisão)                
+'# 
+'#     Este programa é um software livre; você pode redistribuí-lo e/ou 
+'#     modificá-lo sob os termos do GNU General Public License como 
+'#     publicado pela Free Software Foundation.
+'#     É importante lembrar que qualquer alteração feita no programa 
+'#     deve ser informada e enviada para os criadores, através de e-mail 
+'#     ou da página de onde foi baixado o código.
+'#
+'#  //-------------------------------------------------------------------------------------
+'#  // LEIA COM ATENÇÃO: O software VirtuaStore 1.2 deve conter as frases
+'#  // "Powered by VirtuaStore 1.2" ou "Software derivado de VirtuaStore 1.2" e 
+'#  // o link para o site http://www.virtuastore.com.br no créditos da 
+'#  // sua loja virtual para ser utilizado gratuitamente. Se o link e/ou uma das 
+'#  // frases não estiver presentes ou visiveis este software deixará de ser
+'#  // considerado Open-source(gratuito) e o uso sem autorização terá 
+'#  // penalidades judiciais de acordo com as leis de pirataria de software.
+'#  //--------------------------------------------------------------------------------------
+'#      
+'#     Este programa é distribuído com a esperança de que lhe seja útil,
+'#     porém SEM NENHUMA GARANTIA. Veja a GNU General Public License
+'#     abaixo (GNU Licença Pública Geral) para mais detalhes.
+'# 
+'#     Você deve receber a cópia da Licença GNU com este programa, 
+'#     caso contrário escreva para
+'#     Free Software Foundation, Inc., 59 Temple Place, Suite 330, 
+'#     Boston, MA  02111-1307  USA
+'# 
+'#     Para enviar suas dúvidas, sugestões e/ou contratar a VirtuaWorks 
+'#     Internet Design entre em contato através do e-mail 
+'#     contato@virtuaworks.com.br ou pelo endereço abaixo: 
+'#     Rua Venâncio Aires, 1001 - Niterói - Canoas - RS - Brasil. Cep 92110-000.
+'#
+'#     Para ajuda e suporte acesse: http://www.virtuastore.com.br
+'#
+'#     BOM PROVEITO!          
+'#     Equipe VirtuaStore
+'#     []'s
+'#
+'#########################################################################################
+'#----------------------------------------------------------------------------------------
+'#########################################################################################
+
+'INÍCIO DO CÓDIGO
+'----------------------------------------------------------------------------------------------------------------
+'Este código está otimizado e roda tanto em Windows 2000/NT/XP/ME/98 quanto em servidores UNIX-LINUX com chilli!ASP
+%>
+<!-- #include file="topo.asp" -->
+<%
+'Chama as variaveis
+strEmail = request.form("email")
+strSenha = request.form("senha")
+strSenha = CStr(strSenha)
+strNome = request.form("nomecompleto")
+strNascdia = request.form("nascdia")
+strNascmes = request.form("nascmes")
+strNascano = request.form("nascano")
+strCpf = request.form("cpf")
+strRg = request.form("rg")
+strEndereco = request.form("endereco")
+strBairro = request.form("bairro")
+strCidade = request.form("cidade")
+strEstado = request.form("estado")
+strOutropais = request.form("outropais")
+strCep = request.form("cepzz")
+strPais = request.form("pais")
+strFone = request.form("fone")
+if strNascano = "" then
+strNascano = "1"
+end if
+
+'Tira letras do campo CPF
+s="" 
+for x=1 to len(strCpf)
+ch=mid(strCpf,x,1)
+if asc(ch)>=48 and asc(ch)<=57 then
+s=s & ch
+end if
+next
+strCpf = s
+
+'Tira letras do campo CEP
+s="" 
+for x=1 to len(strCep)
+ch=mid(strCep,x,1)
+if asc(ch)>=48 and asc(ch)<=57 then
+s=s & ch
+end if
+next
+strCep = s
+
+'Tira letras do campo Telefone
+s="" 
+for x=1 to len(strFone)
+ch=mid(strFone,x,1)
+if asc(ch)>=48 and asc(ch)<=57 then
+s=s & ch
+end if
+next
+strFone = s
+
+'Tira letras do campo CPF
+s="" 
+for x=1 to len(strRg)
+ch=mid(strRg,x,1)
+if asc(ch)>=48 and asc(ch)<=57 then
+s=s & ch
+end if
+next
+strRg = s
+
+
+if strOutropais = "Sim" then
+strEstado = "-"
+strCep = "-"
+end if
+
+'Valida o CPF
+Dim Numero(11), soma, resultado1, resultado2
+if strCpf = "" then
+strCpf = "inv"
+end if
+if len(strCpf) <> 11 then
+strCpf = "inv"
+elseif strCpf = "00000000000" then
+strCpf = "inv"
+elseif strCpf = "11111111111" then
+strCpf = "inv"
+elseif strCpf = "01234567890" then
+strCpf = "inv"
+elseif strCpf = "22222222222" then
+strCpf = "inv"
+elseif strCpf = "33333333333" then
+strCpf = "inv"
+elseif strCpf = "44444444444" then
+strCpf = "inv"
+elseif strCpf = "55555555555" then
+strCpf = "inv"
+elseif strCpf = "66666666666" then
+strCpf = "inv"
+elseif strCpf = "77777777777" then
+strCpf = "inv"
+elseif strCpf = "88888888888" then
+strCpf = "inv"
+elseif strCpf = "99999999999" then
+strCpf = "inv"
+elseif strCpf = "12345678909" then
+strCpf = "inv"
+else
+Numero(1) = Cint(Mid(strCpf,1,1))
+Numero(2) = Cint(Mid(strCpf,2,1))
+Numero(3) = Cint(Mid(strCpf,3,1))
+Numero(4) = Cint(Mid(strCpf,4,1))
+Numero(5) = Cint(Mid(strCpf,5,1))
+Numero(6) = CInt(Mid(strCpf,6,1))
+Numero(7) = Cint(Mid(strCpf,7,1))
+Numero(8) = Cint(Mid(strCpf,8,1))
+Numero(9) = Cint(Mid(strCpf,9,1))
+Numero(10) = Cint(Mid(strCpf,10,1))
+Numero(11) = Cint(Mid(strCpf,11,1))
+soma = 10 * Numero(1) + 9 * Numero(2) + 8 * Numero(3) + 7 * Numero(4) + 6 * Numero(5) + 5 * Numero(6) + 4 * Numero(7) + 3 * Numero(8) + 2 * Numero(9)
+soma = soma -(11 * (int(soma / 11)))
+if soma = 0 or soma = 1 then
+resultado1 = 0
+else
+resultado1 = 11 - soma
+end if
+if resultado1 = Numero(10) then
+soma = Numero(1) * 11 + Numero(2) * 10 + Numero(3) * 9 + Numero(4) * 8 + Numero(5) * 7 + Numero(6) * 6 + Numero(7) * 5 + Numero(8) * 4 + Numero(9) * 3 + Numero(10) * 2
+soma = soma -(11 * (int(soma / 11)))
+if soma = 0 or soma = 1 then
+resultado2 = 0
+else
+resultado2 = 11 - soma
+end if
+if resultado2 = Numero(11) then
+else
+strCpf = "inv"
+end if
+else 
+strCpf = "inv"
+end if
+end if
+
+'Verifica se o e-mail existe
+Set dados = abredb.Execute("SELECT * FROM clientes WHERE email='"& Cripto(strEmail,True)&"';")
+if dados.EOF then
+strEmail = strEmail
+else 
+strEmail = "sim@."
+end if
+dados.close
+set dados = nothing
+anoz1 = year(now) 
+anoantigo1 = cdate(anoz1) - 100
+anonovo1 = cdate(anoz1) 
+if len(strSenha) > 10 OR len(strSenha) < 5 OR cdate(strNascano) < cdate(anoantigo1) OR cdate(strNascano) > cdate(anonovo1) OR strEmail = "" OR instr(strEmail, "@") = 0 Or instr(strEmail, ".") = 0 OR strEmail = "sim@." OR strSenha = "" OR strNome = "" OR strNascdia = "" OR strNascano = "" OR strNascmes = "" OR strRg = "" OR strEndereco = "" OR strBairro = "" OR strCidade = "" OR strCep = "" OR strFone = "" OR strCpf = "" OR strCpf = "inv" then
+
+'Valida o CPF e retorna a transação na loja
+ElCpf = request.form("cpf")
+if strCpf = "inv" then
+strCpf = ElCpf
+end if
+s="" 
+for x=1 to len(ElCpf)
+ch=mid(ElCpf,x,1)
+if asc(ch)>=48 and asc(ch)<=57 then
+s=s & ch
+end if
+next
+ElCpf = s
+if ElCpf = "" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+end if
+if len(ElCpf) <> 11 then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg142 & "</font>"
+elseif ElCpf = "00000000000" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "11111111111" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "01234567890" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "22222222222" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "33333333333" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "44444444444" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "55555555555" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "66666666666" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "77777777777" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "88888888888" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "99999999999" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+elseif ElCpf = "12345678909" then
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+else
+Numero(1) = Cint(Mid(ElCpf,1,1))
+Numero(2) = Cint(Mid(ElCpf,2,1))
+Numero(3) = Cint(Mid(ElCpf,3,1))
+Numero(4) = Cint(Mid(ElCpf,4,1))
+Numero(5) = Cint(Mid(ElCpf,5,1))
+Numero(6) = CInt(Mid(ElCpf,6,1))
+Numero(7) = Cint(Mid(ElCpf,7,1))
+Numero(8) = Cint(Mid(ElCpf,8,1))
+Numero(9) = Cint(Mid(ElCpf,9,1))
+Numero(10) = Cint(Mid(ElCpf,10,1))
+Numero(11) = Cint(Mid(ElCpf,11,1))
+soma = 10 * Numero(1) + 9 * Numero(2) + 8 * Numero(3) + 7 * Numero(4) + 6 * Numero(5) + 5 * Numero(6) + 4 * Numero(7) + 3 * Numero(8) + 2 * Numero(9)
+soma = soma -(11 * (int(soma / 11)))
+if soma = 0 or soma = 1 then
+resultado1 = 0
+else
+resultado1 = 11 - soma
+end if
+if resultado1 = Numero(10) then
+soma = Numero(1) * 11 + Numero(2) * 10 + Numero(3) * 9 + Numero(4) * 8 + Numero(5) * 7 + Numero(6) * 6 + Numero(7) * 5 + Numero(8) * 4 + Numero(9) * 3 + Numero(10) * 2
+soma = soma -(11 * (int(soma / 11)))
+if soma = 0 or soma = 1 then
+resultado2 = 0
+else
+resultado2 = 11 - soma
+end if
+if resultado2 = Numero(11) then
+erro4 = ""
+else
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+end if
+else 
+erro4 = "<font style=font-size:10px; color=red> - " & strLg143 & "</font>"
+end if
+end if
+
+'Valida o CEP e data de nascimento
+if strOutropais = "Sim" then
+strEstado = "-"
+strCep = "-"
+else
+if strCep = "" then
+erro9 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+if isnumeric(strCep) = false then
+erro9 = "<font style=font-size:10px; color=red> - " & strLg144 & "</font>"
+else
+erro9 = ""
+end if
+end if
+end if
+anoz = year(now) 
+anoantigo = cdate(anoz) - 100
+anonovo = cdate(anoz) 
+if strNascdia = "" OR strNascmes = "" OR strNascano = "" then
+erro3 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+if cdate(strNascano) < cdate(anoantigo) OR cdate(strNascano) > cdate(anonovo) then
+erro3 = "<font style=font-size:10px; color=red> - " & strLg144 & "</font>"
+else
+erro3 = ""
+end if
+end if
+
+'Valida o telefone
+if strFone = "" then
+erro10 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+if isnumeric(strFone) = false then
+erro10 = "<font style=font-size:10px; color=red> - " & strLg144 & "</font>"
+else
+erro10 = ""
+end if
+end if
+
+'Valida o endereço
+if strEstado = "" then
+strEstado = "-"
+end if
+if strCidade = "" then
+erro8 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+erro8 = ""
+end if
+if strBairro = "" then
+erro7 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+erro7 = ""
+end if
+if strEndereco = "" then
+erro6 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+erro6 = ""
+end if
+if strRg = "" then
+erro5 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+
+'Valida o RG
+if isnumeric(strRG) = false then
+erro5 = "<font style=font-size:10px; color=red> - " & strLg144 & "</font>"
+else
+erro5 = ""
+end if
+end if
+
+'Valida o e-mail
+if strEmail = "" OR instr(strEmail, "@") = 0 Or instr(strEmail, ".") = 0 then
+erro = "<font style=font-size:10px; color=red> - " & strLg144 & "</font>"
+else
+erro = ""
+end if
+if strEmail = "sim@." then
+erro = "<font style=font-size:10px; color=red> - " & strLg145 & "</font>"
+strEmail = ""
+end if
+if strSenha = "" then
+erro1 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+erro1 = ""
+end if
+if len(strSenha) > 10 then
+erro1 = "<font style=font-size:10px; color=red> - " & strLg234 & "</font>"
+end if
+if len(strSenha) < 5 then
+erro1 = "<font style=font-size:10px; color=red> - " & strLg235 & "</font>"
+end if
+if strNome = "" then
+erro2 = "<font style=font-size:10px; color=red> - " & strLg141 & "</font>"
+else
+erro2 = ""
+end if
+if strNascano = "1" then
+strNascano = ""
+end if
+%>
+  	<table><tr><td align="left" valign="top">
+				   <table border="0" cellspacing="4" cellpadding="4" width=590><tr><td><font face="<%=fonte%>" style=font-size:11px;color:000000> <a href=default.asp style=text-decoration:none; onMouseOut="window.status='';return true;" onMouseOver="window.status='Home';return true;"><b>Home</b></a> » <%=strLg5%><br><br><div align=left> <table border=0 cellspacing=0 width=100% cellpadding=0><tr><td height=5></td></tr><tr><td height=1 bgcolor=<%=cor3%>></td></tr><tr><td height=5></td></tr></table></div><font style=font-size:10px><%=strLg122%>
+				   		  <table cellspacing="1" cellpadding="1" align="center" width=98%>
+						  		 <SCRIPT LANGUAGE="JavaScript">
+								 		 <!--
+										 function paises(){
+										 var currentState = document.registro1.outropais.checked == false; 
+										 var newState = document.registro1.outropais.checked == true;
+										 if (newState != currentState){
+										 	document.registro1.cepzz.disabled = newState;
+											document.registro1.estado.disabled = newState;
+											document.registro1.pais.disabled = !newState;
+										if (document.registro1.pais.disabled = !newState) {
+										   document.registro1.pais.value = "Brasil";
+										   				}
+												}
+										}
+
+									 function limpar () {
+									 	document.registro1.nomecompleto.value = '';
+										 document.registro1.email.value = '';
+										 document.registro1.nascdia.value = '';
+										 document.registro1.nascmes.value = '';
+										 document.registro1.nascano.value = '';
+										 document.registro1.cpf.value = '';
+										 document.registro1.rg.value = '';
+										 document.registro1.endereco.value = '';
+										 document.registro1.bairro.value = '';
+										 document.registro1.cidade.value = '';
+										 document.registro1.estado.value = 'AC';
+										 document.registro1.cepzz.value = '';
+										 document.registro1.fone.value = '';
+										 document.registro1.outropais.checked = false;
+										 document.registro1.pais.value = 'Brasil';
+									}
+									// -->
+							</SCRIPT>
+					<form action=registros.asp method=post name="registro1" onMouseOver="javascript: paises();">
+					 <input type=hidden name=tipo value=cadastrar>
+					  <tr><td colspan=2><br><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><b><%=strLg107%><table border=0 cellspacing=0 width=100% cellpadding=0><tr><td height=5></td></tr><tr><td height=1 bgcolor=<%=cor3%>></td></tr><tr><td height=5></td></tr></table></td></tr>
+					  <tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg231%></td><td><input type=text name=email style=font-family:<%=fonte%>;font-size:11px;color:#000000; size=30 value="<%=strEmail%>"><%=erro%></td></tr>
+					  <tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg232%></td><td><input type=password name=senha style=font-family:<%=fonte%>;font-size:11px;color:#000000; value=""><%=erro1%></td></tr>
+					  <tr><td colspan=2><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><br><b><%=strLg107%><table border=0 cellspacing=0 width=100% cellpadding=0><tr><td height=5></td></tr><tr><td height=1 bgcolor=<%=cor3%>></td></tr><tr><td height=5></td></tr></table></b></td></tr>
+					  <tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg118%></td><td><input type=text size=40 name=nomecompleto style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%=strNome%>"><%=erro2%></td></tr>
+					  <tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg117%></td><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><select style="font-family:<%=fonte%>;font-size:11px;color:#000000;" name="nascdia">
+<%
+'Verifica se o dia está em branco e retorna
+ if strNascdia = "" then%>
+<option select value="">Dia
+<%else%>
+<option value="<%= strNascdia %>" selected><%= strNascdia %></option>
+<option value="">---</option>
+<%end if
+%>
+<option value="01">01<option value="02">02<option value="03">03<option value="04">04<option value="05">05<option value="06">06<option value="07">07<option value="08">08<option value="09">09<option value="10">10<option value="11">11<option value="12">12<option value="13">13<option value="14">14<option value="15">15<option value="16">16 <option value="17">17 <option value="18">18<option value="19">19<option value="20">20 <option value="21">21 <option value="22">22<option value="23">23<option value="24">24 <option value="25">25<option value="26">26<option value="27">27<option value="28">28<option value="29">29<option value="30">30 <option value="31">31</option></select><b>/</b> <select style="font-family:<%=fonte%>;font-size:11px;color:#000000;" name="nascmes">
+<%
+'Verifica se o dia está em branco e retorna
+ if strNascmes = "" then%>
+<option value=""> Mês
+<%else%>
+<option value="<%= strNascmes %>" selected><%= strNascmes %></option>
+<option value="">---</option>
+<%end if
+%>
+<option value="Jan">Jan <option value="Fev">Fev<option value="Mar">Mar<option value="Abr">Abr<option value="Mai">Mai <option value="Jun">Jun <option value="Jul">Jul<option value="Ago">Ago<option value="Set">Set<option value="Out">Out<option value="Nov">Nov<option value="Dez">Dez</option></select><b>/</b><input style="font-family:<%=fonte%>;font-size:11px;color:#000000;" maxLength="4" size="5" name="nascano" value="<%=strNascano%>"><%=erro3%></font></td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg116%></td><td><input type=text size=19 name=cpf style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%=strCpf%>"><%=erro4%></td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg115%></td><td><input type=text size=19 name=rg style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%=strRg%>"><%=erro5%></td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg114%></td><td><input type=text size=37 name=endereco style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%=strEndereco%>"><%=erro6%></td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg113%></td><td><input type=text size=15 name=bairro style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%=strBairro%>"><%=erro7%></td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg112%></td><td><input type=text size=34 name=cidade style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%=strCidade%>"><%=erro8%></td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg111%></td><td><select style=font-family:<%=fonte%>;font-size:11px;color:#000000; name="estado"> 
+<%
+'Verifica se "outro pais" está selecionado
+if strOutropais = "Sim" then
+%>
+   				  	<option value="AC">AC<option value="AL">AL<option value="AM">AM<option value="AP">AP<option value="BA">BA<option value="CE">CE<option value="DF">DF<option value="ES">ES<option value="GO">GO<option value="MA">MA<option value="MG">MG<option value="MS">MS<option value="MT">MT<option value="PA">PA<option value="PB">PB<option value="PE">PE<option value="PI">PI<option value="PR">PR<option value="RJ">RJ<option value="RN">RN<option value="RO">RO<option value="RR">RR<option value="RS">RS<option value="SC">SC<option value="SE">SE<option value="SP">SP<option value="TO">TO</option></select><font face="<%=fonte%>" style=font-family:<%=fonte%>;font-size:11px;color:#000000;>  <input type="checkbox" name="outropais" value="Sim" onclick="javascript: paises();" checked>Outro País</td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg82%></td><td><input type=text size=13 name=cepzz style=font-family:<%=fonte%>;font-size:11px;color:#000000; value=""></td></tr>
+					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg110%></td><td><select style=font-family:<%=fonte%>;font-size:11px;color:#000000; name="pais">
+<%
+'Verifica se o pais selecionado é o Brasil 
+if strPais = "" OR strPais = "Brasil" then%>
+<option value="Brasil" select>Brasil</option>
+<%else%>
+<option value="<%= strPais %>" select><%= strPais %></option>
+<option value="">-----------------------------------------</option>
+<option value="Brasil">Brasil</option>
+<%end if
+%>
+<option value="Afeganistão">Afeganistão</option><option value="África do Sul">África do Sul</option><option value="Aland - Finlândia">Aland - Finlândia</option><option value="Albânia">Albânia</option><option value="Alemanha">Alemanha</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla - Reino Unido">Anguilla - Reino Unido</option><option value="Antártida">Antártida</option><option value="Antígua e Barbuda">Antígua e Barbuda</option><option value="Antilhas Holandesa">Antilhas Holandesas</option><option value="Arábia Saudita">Arábia Saudita</option><option value="Argélia">Argélia</option><option value="Argentina">Argentina</option><option value="Armênia">Armênia</option><option value="Aruba - Holanda">Aruba - Holanda</option><option value="Ascensão - Reino Unido">Ascensão - Reino Unido</option><option value="Austrália">Austrália</option><option value="Áustria">Áustria</option><option value="Azerbaijão">Azerbaijão</option><option value="Bahamas">Bahamas</option><option value="Bahrein">Bahrein</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Bélgica">Bélgica</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermudas - Reino Unido">Bermudas - Reino Unido</option><option value="Bioko - Guiné Equatorial">Bioko - Guiné Equatorial</option>
+<option value="Bolívia">Bolívia</option><option value="Bósnia-Herzegóvina">Bósnia-Herzegóvina</option><option value="Botsuana">Botsuana</option><option value="Brunei">Brunei</option><option value="Bulgária">Bulgária</option><option value="Burkina Fasso">Burkina Fasso</option><option value="Burundi">Burundi</option><option value="Butão">Butão</option><option value="Cabo Verde">Cabo Verde</option><option value="Camarões">Camarões</option><option value="Camboja">Camboja</option><option value="Canadá">Canadá</option><option value="Cazaquistão">Cazaquistão</option><option value="Ceuta - Espanha">Ceuta - Espanha</option><option value="Chade">Chade</option><option value="Chile">Chile</option><option value="China">China</option><option value="Chipre">Chipre</option><option value="Cidade do Vaticano">Cidade do Vaticano</option><option value="Cingapura">Cingapura</option><option value="Colômbia">Colômbia</option><option value="Congo">Congo</option><option value="Coréia do Norte">Coréia do Norte</option><option value="Coréia do Sul">Coréia do Sul</option><option value="Córsega - França">Córsega - França</option><option value="Costa do Marfim">Costa do Marfim</option><option value="Costa Rica">Costa Rica</option><option value="Creta - Grécia">Creta - Grécia</option><option value="Croácia">Croácia</option><option value="Cuba">Cuba</option><option value="Curaçao - Holanda">Curaçao - Holanda</option><option value="Dinamarca">Dinamarca</option>
+<option value="Djibuti">Djibuti</option><option value="Dominica">Dominica</option><option value="Egito">Egito</option><option value="El Salvador">El Salvador</option><option value="Emirado Árabes Unidos">Emirado Árabes Unidos</option><option value="Equador">Equador</option><option value="Eritréia">Eritréia</option><option value="Eslováquia">Eslováquia</option><option value="Eslovênia">Eslovênia</option><option value="Espanha">Espanha</option><option value="Estados Unidos">Estados Unidos</option><option value="Estônia">Estônia</option><option value="Etiópia">Etiópia</option><option value="Fiji">Fiji</option><option value="Filipinas">Filipinas</option><option value="Finlândia">Finlândia</option><option value="França">França</option><option value="Gabão">Gabão</option><option value="Gâmbia">Gâmbia</option><option value="Gana">Gana</option><option value="Geórgia">Geórgia</option><option value="Gibraltar - Reino Unido">Gibraltar - Reino Unido</option><option value="Granada">Granada</option><option value="Grécia">Grécia</option><option value="Groenlândia - Dinamarca">Groenlândia - Dinamarca</option><option value="Guadalupe - França">Guadalupe - França</option><option value="Guam - Estados Unidos">Guam - Estados Unidos</option><option value="Guatemala">Guatemala</option><option value="Guiana">Guiana</option><option value="Guiana Francesa">Guiana Francesa</option><option value="Guiné">Guiné</option><option value="Guiné Equatorial">Guiné Equatorial</option>
+<option value="Guiné-Bissau">Guiné-Bissau</option><option value="Haiti">Haiti</option><option value="Holanda">Holanda</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungria">Hungria</option><option value="Iêmen">Iêmen</option><option value="IIhas Virgens - Estados Unidos">IIhas Virgens - Estados Unidos</option><option value="Ilha de Man - Reino Unido">Ilha de Man - Reino Unido</option><option value="Ilha Natal - Austrália">Ilha Natal - Austrália</option><option value="Ilha Norfolk - Austrália">Ilha Norfolk - Austrália</option><option value="Ilha Pitcairn - Reino Unido">Ilha Pitcairn - Reino Unido</option><option value="Ilha Wrangel - Rússia">Ilha Wrangel - Rússia</option><option value="Ilhas Aleutas - Estados Unidos">Ilhas Aleutas - Estados Unidos</option><option value="Ilhas Canárias - Espanha">Ilhas Canárias - Espanha</option><option value="Ilhas Cayman - Reino Unido">Ilhas Cayman - Reino Unido</option><option value="Ilhas Comores">Ilhas Comores</option><option value="Ilhas Cook - Nova Zelândia">Ilhas Cook - Nova Zelândia</option><option value="Ilhas do Canal - Reino Unido">Ilhas do Canal - Reino Unido</option><option value="Ilhas Salomão">Ilhas Salomão</option><option value="Ilhas Seychelles">Ilhas Seychelles</option><option value="Ilhas Tokelau - Nova Zelândia">Ilhas Tokelau - Nova Zelândia</option><option value="Ilhas Turks e Caicos - Reino Unido">Ilhas Turks e Caicos - Reino Unido</option>
+<option value="Ilhas Virgens - Reino Unido">Ilhas Virgens - Reino Unido</option><option value="Ilhas Wallis e Futuna - França">Ilhas Wallis e Futuna - França</option><option value="Ilhsa Cocos - Austrália">Ilhsa Cocos - Austrália</option><option value="Índia">Índia</option><option value="Indonésia">Indonésia</option><option value="Irã">Irã</option><option value="Iraque">Iraque</option><option value="Irlanda">Irlanda</option><option value="Islândia">Islândia</option><option value="Israel">Israel</option><option value="Itália">Itália</option><option value="Iugoslávia">Iugoslávia</option><option value="Jamaica">Jamaica</option><option value="Jan Mayen - Noruega">Jan Mayen - Noruega</option><option value="Japão">Japão</option><option value="Jordânia">Jordânia</option><option value="Kiribati">Kiribati</option><option value="Kuait">Kuait</option><option value="Laos">Laos</option><option value="Lesoto">Lesoto</option><option value="Letônia">Letônia</option><option value="Líbano">Líbano</option><option value="Libéria">Libéria</option><option value="Líbia">Líbia</option><option value="Liechtenstein">Liechtenstein</option><option value="Lituânia">Lituânia</option><option value="Luxemburgo">Luxemburgo</option><option value="Macau - Portugal">Macau - Portugal</option><option value="Macedônia">Macedônia</option><option value="Madagascar">Madagascar</option><option value="Madeira - Portugal">Madeira - Portugal</option><option value="Malásia">Malásia</option><option value="Malaui">Malaui</option>
+<option value="Maldivas">Maldivas</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marrocos">Marrocos</option><option value="Martinica - França">Martinica - França</option><option value="Maurício - Reino Unido">Maurício - Reino Unido</option><option value="Mauritânia">Mauritânia</option><option value="México">México</option><option value="Micronésia">Micronésia</option><option value="Moçambique">Moçambique</option><option value="Moldova">Moldova</option><option value="Mônaco">Mônaco</option><option value="Mongólia">Mongólia</option><option value="MontSerrat - Reino Unido">MontSerrat - Reino Unido</option><option value="Myanma">Myanma</option><option value="Namíbia">Namíbia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Nicarágua">Nicarágua</option><option value="Níger">Níger</option><option value="Nigéria">Nigéria</option><option value="Niue">Niue</option><option value="Noruega">Noruega</option><option value="Nova Bretanha - Papua-Nova Guiné">Nova Bretanha - Papua-Nova Guiné</option><option value="Nova Caledônia - França">Nova Caledônia - França</option><option value="Nova Zelândia">Nova Zelândia</option><option value="Omã">Omã</option><option value="Palau - Estados Unidos">Palau - Estados Unidos</option><option value="Palestina">Palestina</option><option value="Panamá">Panamá</option><option value="Papua-Nova Guiné">Papua-Nova Guiné</option><option value="Paquistão">Paquistão</option>
+<option value="Paraguai">Paraguai</option><option value="Peru">Peru</option><option value="Polinésia Francesa">Polinésia Francesa</option><option value="Polônia">Polônia</option><option value="Porto Rico">Porto Rico</option><option value="Portugal">Portugal</option><option value="Qatar">Qatar</option><option value="Quênia">Quênia</option><option value="Quirguistão">Quirguistão</option><option value="Reino Unido">Reino Unido</option><option value="República Centro-Africana">República Centro-Africana</option><option value="República Dominicana">República Dominicana</option><option value="República Tcheca">República Tcheca</option><option value="Romênia">Romênia</option><option value="Ruanda">Ruanda</option><option value="Rússia">Rússia</option><option value="Samoa Ocidental">Samoa Ocidental</option><option value="San Marino">San Marino</option><option value="Santa Helena - Reino Unido">Santa Helena - Reino Unido</option><option value="Santa Lúcia">Santa Lúcia</option><option value="São Cristovão e Névis">São Cristovão e Névis</option><option value="São Tomé e Príncipe">São Tomé e Príncipe</option><option value="São Vicente e Granadinas">São Vicente e Granadinas</option><option value="Sardenha - Itália">Sardenha - Itália</option><option value="Senegal">Senegal</option><option value="Serra Leoa">Serra Leoa</option><option value="Síria">Síria</option><option value="Somália">Somália</option><option value="Sri Lanka">Sri Lanka</option><option value="Suazilândia">Suazilândia</option>
+<option value="Sudão">Sudão</option><option value="Suécia">Suécia</option><option value="Suíça">Suíça</option><option value="Suriname">Suriname</option><option value="Tadjiquistão">Tadjiquistão</option><option value="Tailândia">Tailândia</option><option value="Taiti">Taiti</option><option value="Taiwan">Taiwan</option><option value="Tanzânia">Tanzânia</option><option value="Terra de Francisco José - Rússia">Terra de Francisco José - Rússia</option><option value="Togo">Togo</option><option value="Tonga">Tonga</option><option value="Trinidad e Tobago">Trinidad e Tobago</option><option value="Tristão da Cunha - Reino Unido">Tristão da Cunha - Reino Unido</option><option value="Tunísia">Tunísia</option><option value="Turcomenistão">Turcomenistão</option><option value="Turquia">Turquia</option><option value="Tuvalu">Tuvalu</option><option value="Ucrânia">Ucrânia</option><option value="Uganda">Uganda</option><option value="Uruguai">Uruguai</option><option value="Uzbequistão">Uzbequistão</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Vietnã">Vietnã</option><option value="Zaire">Zaire</option><option value="Zâmbia">Zâmbia</option><option value="Zimbábue">Zimbábue</option></select></td></tr>
+<%else
+if strEstado = "" then
+else%>
+<option value="<%= strEstado %>" select><%= strEstado %></option>
+<option value="">---</option>
+<%end if%>
+	  	  					<option value="AC">AC<option value="AL">AL<option value="AM">AM<option value="AP">AP<option value="BA">BA<option value="CE">CE<option value="DF">DF<option value="ES">ES<option value="GO">GO<option value="MA">MA<option value="MG">MG<option value="MS">MS<option value="MT">MT<option value="PA">PA<option value="PB">PB<option value="PE">PE<option value="PI">PI<option value="PR">PR<option value="RJ">RJ<option value="RN">RN<option value="RO">RO<option value="RR">RR<option value="RS">RS<option value="SC">SC<option value="SE">SE<option value="SP">SP<option value="TO">TO</option></select><font face="<%=fonte%>" style=font-family:<%=fonte%>;font-size:11px;color:#000000;>  <input type="checkbox" name="outropais" value="Sim" onclick="javascript: paises();">Outro País</td></tr>
+							<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;>CEP:</td><td><input type=text size=13 name=cepzz style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%= strCep %>"><%= erro9 %></td></tr>
+							<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;>País:</td><td><select style=font-family:<%=fonte%>;font-size:11px;color:#000000; name="pais">
+<%'Verifica se o pais selecionado é o Brasil 
+if strPais = "" OR strPais = "Brasil" then%>
+<option value="Brasil" select>Brasil</option>
+<%else%>
+<option value="<%= strPais %>" select><%= strPais %></option>
+<option value="">-----------------------------------------</option>
+<option value="Brasil">Brasil</option>
+<%end if
+%>
+<option value="Afeganistão">Afeganistão</option><option value="África do Sul">África do Sul</option><option value="Aland - Finlândia">Aland - Finlândia</option><option value="Albânia">Albânia</option><option value="Alemanha">Alemanha</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla - Reino Unido">Anguilla - Reino Unido</option><option value="Antártida">Antártida</option><option value="Antígua e Barbuda">Antígua e Barbuda</option><option value="Antilhas Holandesa">Antilhas Holandesas</option><option value="Arábia Saudita">Arábia Saudita</option><option value="Argélia">Argélia</option><option value="Argentina">Argentina</option><option value="Armênia">Armênia</option><option value="Aruba - Holanda">Aruba - Holanda</option><option value="Ascensão - Reino Unido">Ascensão - Reino Unido</option><option value="Austrália">Austrália</option><option value="Áustria">Áustria</option><option value="Azerbaijão">Azerbaijão</option><option value="Bahamas">Bahamas</option><option value="Bahrein">Bahrein</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Bélgica">Bélgica</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermudas - Reino Unido">Bermudas - Reino Unido</option><option value="Bioko - Guiné Equatorial">Bioko - Guiné Equatorial</option>
+<option value="Bolívia">Bolívia</option><option value="Bósnia-Herzegóvina">Bósnia-Herzegóvina</option><option value="Botsuana">Botsuana</option><option value="Brunei">Brunei</option><option value="Bulgária">Bulgária</option><option value="Burkina Fasso">Burkina Fasso</option><option value="Burundi">Burundi</option><option value="Butão">Butão</option><option value="Cabo Verde">Cabo Verde</option><option value="Camarões">Camarões</option><option value="Camboja">Camboja</option><option value="Canadá">Canadá</option><option value="Cazaquistão">Cazaquistão</option><option value="Ceuta - Espanha">Ceuta - Espanha</option><option value="Chade">Chade</option><option value="Chile">Chile</option><option value="China">China</option><option value="Chipre">Chipre</option><option value="Cidade do Vaticano">Cidade do Vaticano</option><option value="Cingapura">Cingapura</option><option value="Colômbia">Colômbia</option><option value="Congo">Congo</option><option value="Coréia do Norte">Coréia do Norte</option><option value="Coréia do Sul">Coréia do Sul</option><option value="Córsega - França">Córsega - França</option><option value="Costa do Marfim">Costa do Marfim</option><option value="Costa Rica">Costa Rica</option><option value="Creta - Grécia">Creta - Grécia</option><option value="Croácia">Croácia</option><option value="Cuba">Cuba</option><option value="Curaçao - Holanda">Curaçao - Holanda</option><option value="Dinamarca">Dinamarca</option>
+<option value="Djibuti">Djibuti</option><option value="Dominica">Dominica</option><option value="Egito">Egito</option><option value="El Salvador">El Salvador</option><option value="Emirado Árabes Unidos">Emirado Árabes Unidos</option><option value="Equador">Equador</option><option value="Eritréia">Eritréia</option><option value="Eslováquia">Eslováquia</option><option value="Eslovênia">Eslovênia</option><option value="Espanha">Espanha</option><option value="Estados Unidos">Estados Unidos</option><option value="Estônia">Estônia</option><option value="Etiópia">Etiópia</option><option value="Fiji">Fiji</option><option value="Filipinas">Filipinas</option><option value="Finlândia">Finlândia</option><option value="França">França</option><option value="Gabão">Gabão</option><option value="Gâmbia">Gâmbia</option><option value="Gana">Gana</option><option value="Geórgia">Geórgia</option><option value="Gibraltar - Reino Unido">Gibraltar - Reino Unido</option><option value="Granada">Granada</option><option value="Grécia">Grécia</option><option value="Groenlândia - Dinamarca">Groenlândia - Dinamarca</option><option value="Guadalupe - França">Guadalupe - França</option><option value="Guam - Estados Unidos">Guam - Estados Unidos</option><option value="Guatemala">Guatemala</option><option value="Guiana">Guiana</option><option value="Guiana Francesa">Guiana Francesa</option><option value="Guiné">Guiné</option><option value="Guiné Equatorial">Guiné Equatorial</option>
+<option value="Guiné-Bissau">Guiné-Bissau</option><option value="Haiti">Haiti</option><option value="Holanda">Holanda</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungria">Hungria</option><option value="Iêmen">Iêmen</option><option value="IIhas Virgens - Estados Unidos">IIhas Virgens - Estados Unidos</option><option value="Ilha de Man - Reino Unido">Ilha de Man - Reino Unido</option><option value="Ilha Natal - Austrália">Ilha Natal - Austrália</option><option value="Ilha Norfolk - Austrália">Ilha Norfolk - Austrália</option><option value="Ilha Pitcairn - Reino Unido">Ilha Pitcairn - Reino Unido</option><option value="Ilha Wrangel - Rússia">Ilha Wrangel - Rússia</option><option value="Ilhas Aleutas - Estados Unidos">Ilhas Aleutas - Estados Unidos</option><option value="Ilhas Canárias - Espanha">Ilhas Canárias - Espanha</option><option value="Ilhas Cayman - Reino Unido">Ilhas Cayman - Reino Unido</option><option value="Ilhas Comores">Ilhas Comores</option><option value="Ilhas Cook - Nova Zelândia">Ilhas Cook - Nova Zelândia</option><option value="Ilhas do Canal - Reino Unido">Ilhas do Canal - Reino Unido</option><option value="Ilhas Salomão">Ilhas Salomão</option><option value="Ilhas Seychelles">Ilhas Seychelles</option><option value="Ilhas Tokelau - Nova Zelândia">Ilhas Tokelau - Nova Zelândia</option><option value="Ilhas Turks e Caicos - Reino Unido">Ilhas Turks e Caicos - Reino Unido</option>
+<option value="Ilhas Virgens - Reino Unido">Ilhas Virgens - Reino Unido</option><option value="Ilhas Wallis e Futuna - França">Ilhas Wallis e Futuna - França</option><option value="Ilhsa Cocos - Austrália">Ilhsa Cocos - Austrália</option><option value="Índia">Índia</option><option value="Indonésia">Indonésia</option><option value="Irã">Irã</option><option value="Iraque">Iraque</option><option value="Irlanda">Irlanda</option><option value="Islândia">Islândia</option><option value="Israel">Israel</option><option value="Itália">Itália</option><option value="Iugoslávia">Iugoslávia</option><option value="Jamaica">Jamaica</option><option value="Jan Mayen - Noruega">Jan Mayen - Noruega</option><option value="Japão">Japão</option><option value="Jordânia">Jordânia</option><option value="Kiribati">Kiribati</option><option value="Kuait">Kuait</option><option value="Laos">Laos</option><option value="Lesoto">Lesoto</option><option value="Letônia">Letônia</option><option value="Líbano">Líbano</option><option value="Libéria">Libéria</option><option value="Líbia">Líbia</option><option value="Liechtenstein">Liechtenstein</option><option value="Lituânia">Lituânia</option><option value="Luxemburgo">Luxemburgo</option><option value="Macau - Portugal">Macau - Portugal</option><option value="Macedônia">Macedônia</option><option value="Madagascar">Madagascar</option><option value="Madeira - Portugal">Madeira - Portugal</option><option value="Malásia">Malásia</option><option value="Malaui">Malaui</option>
+<option value="Maldivas">Maldivas</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marrocos">Marrocos</option><option value="Martinica - França">Martinica - França</option><option value="Maurício - Reino Unido">Maurício - Reino Unido</option><option value="Mauritânia">Mauritânia</option><option value="México">México</option><option value="Micronésia">Micronésia</option><option value="Moçambique">Moçambique</option><option value="Moldova">Moldova</option><option value="Mônaco">Mônaco</option><option value="Mongólia">Mongólia</option><option value="MontSerrat - Reino Unido">MontSerrat - Reino Unido</option><option value="Myanma">Myanma</option><option value="Namíbia">Namíbia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Nicarágua">Nicarágua</option><option value="Níger">Níger</option><option value="Nigéria">Nigéria</option><option value="Niue">Niue</option><option value="Noruega">Noruega</option><option value="Nova Bretanha - Papua-Nova Guiné">Nova Bretanha - Papua-Nova Guiné</option><option value="Nova Caledônia - França">Nova Caledônia - França</option><option value="Nova Zelândia">Nova Zelândia</option><option value="Omã">Omã</option><option value="Palau - Estados Unidos">Palau - Estados Unidos</option><option value="Palestina">Palestina</option><option value="Panamá">Panamá</option><option value="Papua-Nova Guiné">Papua-Nova Guiné</option><option value="Paquistão">Paquistão</option>
+<option value="Paraguai">Paraguai</option><option value="Peru">Peru</option><option value="Polinésia Francesa">Polinésia Francesa</option><option value="Polônia">Polônia</option><option value="Porto Rico">Porto Rico</option><option value="Portugal">Portugal</option><option value="Qatar">Qatar</option><option value="Quênia">Quênia</option><option value="Quirguistão">Quirguistão</option><option value="Reino Unido">Reino Unido</option><option value="República Centro-Africana">República Centro-Africana</option><option value="República Dominicana">República Dominicana</option><option value="República Tcheca">República Tcheca</option><option value="Romênia">Romênia</option><option value="Ruanda">Ruanda</option><option value="Rússia">Rússia</option><option value="Samoa Ocidental">Samoa Ocidental</option><option value="San Marino">San Marino</option><option value="Santa Helena - Reino Unido">Santa Helena - Reino Unido</option><option value="Santa Lúcia">Santa Lúcia</option><option value="São Cristovão e Névis">São Cristovão e Névis</option><option value="São Tomé e Príncipe">São Tomé e Príncipe</option><option value="São Vicente e Granadinas">São Vicente e Granadinas</option><option value="Sardenha - Itália">Sardenha - Itália</option><option value="Senegal">Senegal</option><option value="Serra Leoa">Serra Leoa</option><option value="Síria">Síria</option><option value="Somália">Somália</option><option value="Sri Lanka">Sri Lanka</option><option value="Suazilândia">Suazilândia</option>
+<option value="Sudão">Sudão</option><option value="Suécia">Suécia</option><option value="Suíça">Suíça</option><option value="Suriname">Suriname</option><option value="Tadjiquistão">Tadjiquistão</option><option value="Tailândia">Tailândia</option><option value="Taiti">Taiti</option><option value="Taiwan">Taiwan</option><option value="Tanzânia">Tanzânia</option><option value="Terra de Francisco José - Rússia">Terra de Francisco José - Rússia</option><option value="Togo">Togo</option><option value="Tonga">Tonga</option><option value="Trinidad e Tobago">Trinidad e Tobago</option><option value="Tristão da Cunha - Reino Unido">Tristão da Cunha - Reino Unido</option><option value="Tunísia">Tunísia</option><option value="Turcomenistão">Turcomenistão</option><option value="Turquia">Turquia</option><option value="Tuvalu">Tuvalu</option><option value="Ucrânia">Ucrânia</option><option value="Uganda">Uganda</option><option value="Uruguai">Uruguai</option><option value="Uzbequistão">Uzbequistão</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Vietnã">Vietnã</option><option value="Zaire">Zaire</option><option value="Zâmbia">Zâmbia</option><option value="Zimbábue">Zimbábue</option></select></td></tr>
+<%end if%>
+	  	  					<tr><td><font style=font-family:<%=fonte%>;font-size:11px;color:#000000;><%=strLg109%></td><td><input type=text size=15 name=fone style=font-family:<%=fonte%>;font-size:11px;color:#000000; value="<%=strFone%>"> <font style=font-family:<%=fonte%>;font-size:9px;color:#000000;><%=erro10%></td></tr>
+							<tr><td colspan=2><table border=0 cellspacing=0 width=100% cellpadding=0><tr><td height=5></td></tr><tr><td height=1 bgcolor=<%=cor3%>></td></tr><tr><td height=5></td></tr></table></td></tr>
+							<tr align=center><td valign=top><div id="layer1" style="position:absolute; left:350px"><input type=image src=<%=dirlingua%>/imagens/prosseguir.gif onMouseOut="window.status='';return true;" onMouseOver="window.status='Prosseguir';return true;"></div></td><td valign=top></form><div id="layer1" style="position:absolute; left:470px"><input type=image src=<%=dirlingua%>/imagens/limpar.gif onMouseOut="window.status='';return true;" onMouseOver="window.status='Limpar';return true;" OnClick="javascript: limpar()"></div></td></tr>
+						</table>
+					</form></td></tr>
+			</table></td></tr>
+		</table>
+		<!-- #include file="baixo.asp" -->
+<%else
+'Transforma os meses para numeros
+if strNascmes = "Jan" then
+strNascmes = "01"
+end if
+if strNascmes = "Fev" then
+strNascmes = "02"
+end if
+if strNascmes = "Mar" then
+strNascmes = "03"
+end if
+if strNascmes = "Abr" then
+strNascmes = "04"
+end if
+if strNascmes = "Mai" then
+strNascmes = "05"
+end if
+if strNascmes = "Jun" then
+strNascmes = "06"
+end if
+if strNascmes = "Jul" then
+strNascmes = "07"
+end if
+if strNascmes = "Ago" then
+strNascmes = "08"
+end if
+if strNascmes = "Set" then
+strNascmes = "09"
+end if
+if strNascmes = "Out" then
+strNascmes = "10"
+end if
+if strNascmes = "Nov" then
+strNascmes = "11"
+end if
+if strNascmes = "Dez" then
+strNascmes = "12"
+end if
+if strPais = "" then
+strPais = "Brasil"
+end if
+
+'SQL para gravação no banco de dados
+if strOutropais = "Sim" then
+textosql = "INSERT INTO clientes (datacad, nome, email, senha, cpf, rg, nascimento, endereco, bairro, cidade, pais, tel, status) VALUES ('"&day(now)&"/"&month(now)&"/"&year(now)&"', '"&Cripto(strNome,True)&"', '"&Cripto(strEmail,True)&"', '"&Cripto(strSenha,true)&"', '"&Cripto(strCpf,true)&"', '"&Cripto(strRg,true)&"', '"&Cripto(strNascdia&"/"&strNascmes&"/"&strNascano,true)&"', '"&Cripto(strEndereco,true)&"', '"&Cripto(strBairro,true)&"', '"&Cripto(strCidade,true)&"', '"&Cripto(strPais,true)&"', '"&Cripto(strFone,true)&"', 'Ativo');"
+else
+textosql = "INSERT INTO clientes (datacad, nome, email, senha, cpf, rg, nascimento, endereco, bairro, cidade, estado, cep, pais, tel, status) VALUES ('"&day(now)&"/"&month(now)&"/"&year(now)&"', '"&Cripto(strNome,true)&"', '"&Cripto(strEmail,true)&"', '"&Cripto(strSenha,true)&"', '"&Cripto(strCpf,true)&"', '"&Cripto(strRg,true)&"', '"&Cripto(strNascdia&"/"&strNascmes&"/"&strNascano,true)&"', '"&Cripto(strEndereco,true)&"', '"&Cripto(strBairro,true)&"', '"&Cripto(strCidade,true)&"', '"&Cripto(strEstado,true)&"', '"&Cripto(strCep,true)&"', '"&Cripto(strPais,true)&"', '"&Cripto(strFone,true)&"', 'Ativo');"
+end if
+
+'Insere no banco de dados
+set cadnovo = abredb.Execute(textosql)
+
+'Loga no sistema
+set passSet = abredb.Execute("select email,senha from clientes where email='"&Cripto(strEmail,true)&"';")
+real_password = passSet("senha")
+Application.lock
+session("usuario") = strEmail
+Application.unlock
+session.timeout = 999
+response.cookies(""&nomeloja&"")("usuario")= strEmail
+response.cookies(""&nomeloja&"").expires = "01/01/"&year(now) + 1
+passSet.close
+set passSet = nothing
+%>
+  			  <table><tr><td align="left" valign="top">
+			  				 <table border="0" cellspacing="4" cellpadding="4" width=590><tr><td><font face="<%=fonte%>" style=font-size:11px;color:000000><a href=default.asp style=text-decoration:none; onMouseOut="window.status='';return true;" onMouseOver="window.status='Home';return true;"><b>Home</b></a> » <%=strLg5%><br><br><table border=0 cellspacing=0 width=100% cellpadding=0><tr><td height=5></td></tr><tr><td height=1 bgcolor=<%=cor3%>></td></tr><tr><td height=5></td></tr></table><br><br><p align=center><font style=font-size:17px; color=#000000><b><%=strLg236%></b></font></p><p align=center><%=strLg237%> <b><%=strnome%></b>, <%=strLg238%>&nbsp;<%=nomeloja%>.<br></p><p align=center><a href=fechapedido.asp?compra=ok onMouseOut="window.status='';return true;" onMouseOver="window.status='<%=strLg8%>';return true;" style="text-decoration:none;"><b>:: <%=strLg8%> ::</b></a></p><p align=center></b><a href=default.asp><img src="<%=dirlingua%>/imagens/continuar.gif" onMouseOut="window.status='';return true;" onMouseOver="window.status='<%=strLg68%>';return true;" border=0></a></p> <br><table border=0 cellspacing=0 width=100% cellpadding=0><tr><td height=5></td></tr><tr><td height=1 bgcolor=<%=cor3%>></td></tr><tr><td height=5></td></tr></table></td></tr>
+							 </table></td></tr>
+			  </table>
+			  <!-- #include file="baixo.asp" -->
+<%
+end if
+
+'Fecha o banco de dados
+set abredb = nothing
+%>

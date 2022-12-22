@@ -1,0 +1,95 @@
+PHP i-Stats Installation Instructions
+Version 1.2
+
+Contents
+=========
+1. Requirements
+2. New Installations
+3. Upgrade
+4. Getting Help
+
+
+1. Requirements
+----------------
+Installation of PHP i-Stats 1.2 requires the following:
+
+   -- A web server or web hosting account running on any major OS.
+   -- MySQL Database (3.23 or higher).
+   -- PHP 4.x with support GD 2.x and MySQL.
+
+
+2. New Installations
+---------------------
+   -- Once you downloaded the file you need to uncompress it.
+
+   -- After you uncompress the file, you should have a directory called
+      PHP_i-Stats_1.2.
+   
+   -- Edit the file include/config.inc.php.
+
+   -- Enter the connection information for MySQL server.
+         ~ $cfg['dbHost']
+	 ~ $cfg['dbUser']
+	 ~ $cfg['dbPass']
+	 ~ $cfg['dbName']
+   
+   -- Enter the name and url or your website
+         ~ $cfg['sitename']
+	 ~ $cfg['siteurl']
+   
+   -- Choose default language file.
+         ~ $cfg['langFile']
+
+   -- Set Permission
+         ~ $cfg['public']  // change it to FALSE if you don't want public your statistics
+         ~ $cfg['username']
+         ~ $cfg['password']
+   
+   -- Execute "sql/SQL_new_install.sql" with MySQL on phpMyAdmin or shell.
+   
+   -- Upload all files to your web server.
+   
+   -- insert the following code to your web page. For example if you
+      placed PHP i-Stats in a directory /stats of your web root, and
+      your URL is http://yourdomain.com, you should insert this code
+      to your web page:
+
+      <script language="Javascript">
+      function replaceText(text){
+	      while(text.lastIndexOf("&") > 0){
+		      text = text.replace('&', '[i-Stats]');
+	      }
+	      return text;
+      }
+
+      var web_referrer = replaceText(document.referrer);
+      <!--
+      istat = new Image(1,1);
+      istat.src = "http://yourdomain.com/stats/counter.php?sw="+screen.width+"&sc="+screen.colorDepth+"&referer="+web_referrer+"&page="+location.href;
+      //-->
+      </script>
+   
+   -- Point your browser at this location for check your stats. For example
+      if your domain name is www.yourdomain.com and you placed PHP i-Stats
+      in a directory /stats of your web root you would enter
+      http://www.yourdomain.com/stats/ into your browser. After you done
+      this you should see the stats of your website.
+
+
+3. Upgrade
+-----------
+   -- Edit the file include/config.inc.php.
+
+   -- upload "upgrade.php" to your current i-Stats directory.
+
+   -- Running http://yourdomain.com/stats/upgrade.php in your browser.
+
+   -- Delete all "PHP i-Stats" files from your web server (NOT MySQL), and
+      upload "PHP i-Stats 1.2" files to web server.
+
+
+3. Getting Help
+----------------
+If you still can not get PHP i-Stats installed, come to
+http://www.samphp.com/forum and ask your question. Please
+be sure and tell us exactly what did not work for you.

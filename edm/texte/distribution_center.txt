@@ -1,0 +1,3 @@
+textField7b=<b>DISTRIBUTION CENTRES</b>
+104, rue de la Burlington<br>Sherbrooke (Québec)<br>J1L 1H1
+365, du Saguenay<br>Victoriaville (Québec)<br>G6T 1T5

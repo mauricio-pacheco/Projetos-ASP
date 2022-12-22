@@ -1,0 +1,9 @@
+textField5=<b>MANAGEMENT</b>
+<b>Jeffrey K. Casselman </b><br>President and Chief Executive Officer
+<b>Larry Beasley</b><br>Vice-president, Marketing
+<b>Josée Bélanger</b><br>Corporate Secretary
+<b>Guy Cardinal</b><br>Vice-president, Operations
+<b>Michel Fortin</b><br>Vice-president, Human Resources<br>and Organizational Development
+<b>Josée Girard</b><br>Vice-president, Finance
+<b>Marcel Sirois</b><br>Vice-president, Customer<br>Service and Logistics
+<b>Aurèle Turcotte</b><br>Vice-president, Business Development 

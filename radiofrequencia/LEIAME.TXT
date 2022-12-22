@@ -1,0 +1,358 @@
+CNB-Kayapó
+----------
+
+Índice
+------
+I. Introdução
+
+II. Instalação
+  II.I My_eGallery
+  II.II NSN Banners
+  II.III NSN Sentinel
+  II.IV Calendário de Eventos
+
+III. Quem somos
+
+IV. Perguntas Frequentes
+
+
+I. Introdução
+-------------
+
+O que é?!?
+----------
+Esta é uma versão do PHP-Nuke feita para os usuários que procuram um pouco mais do PHP-Nuke original. Esta
+versão vem com todas as correções dos erros descobertos pelo chatserv (o usuário que mais coleciona, organiza e
+fornece correções para PHP-Nuke) da NukeResources -http://nukeresources.com-, possui Módulos da NSN (Nuke
+Scripts Network) -http://nukescripts.net-, de Bob Marion, possui a prata da casa, o CNB Your_Account na versão
+4.4, de André Escudero, além do popular My_eGallery (2.8), Event_Calendar (adaptado para a versão 7.5 por
+XPK_Fenix).
+
+O que há nesta versão?!?
+------------------------
+Esta versão do PHP-Nuke deve ser instalada a partir do zero, ou seja, é ideal que se instale somente para novos
+portais.
+
+Nesta versão, como dito anteriormente, você poderá usufruir do que há de melhor para PHP-Nuke atualmente.
+
+Além de vários Módulos para controlar melhor o gerenciamento de seu conteúdo, também nos importamos (e muito) 
+com o quesito segurança, por isso é que decidimos instalar o NSN Sentinel, que tem garantido a segurança de muitos e muitos 
+portais rodando PHP-Nuke.
+
+Descrição dos Módulos desta versão
+----------------------------------
+Legenda:
+(1) Ativo por padrão
+(2) Ativo, porém invisível no Bloco Módulos
+(3) Inativo por padrão
+
+
+· Arquivo de Notícias (1)
+Este é o Módulo de Arquivo de Notícias. É aqui que ficam as Notícias antigas, categorizadas por ano e por meses.
+
+· AvantGo (1)
+Este Módulo é uma interface simples que mostra as 10 últimas notícias, sem formatação, ideal para PalmTops ou
+navegadores que não suportem HTML 4.01 Transitional.
+
+· Busca Avançada (1)
+Este é o Módulo Recherches, feito pelos Franceses do GopsFrench.net (Não tenho certeza, mas me parece que o site
+saiu do ar!!!)
+
+· Diário de Usuário (1)
+com este Módulo é poss[ivel oferecer aos seus usuários a possibilidades de eles manterem um pequeno Blog, com
+poucos recursos mas é bastante interessanta...
+
+· Downloads (1)
+Este é o Módulo NSN Downloads Groups. com ele é possível categorizar os arquivos para download além de permitir
+que determinados grupos de usuários tenham acesso a eles (ou a uma categoria inteira).
+
+· Enquetes (1)
+O Módulo padrão de Enquetes do PHP-Nuke. Não há muito o que dizer sobre ele. Leve, pequeno e eficiente.
+
+· Enviar Notícia (1)
+Este Modulo foi modificado e inserimos o FCKEditor, já que há muitos webmaster que reclamam por não terem um
+Editor de HTML acoplado nas notícias. com ele tem um verdadeiro editor de HTML que lhe permite o envio de
+arquivos (imagens) e formatação por tabelas.
+
+· Estatísticas (1)
+O Módulo padrão de Estatísticas do PHP-Nuke. Simples e eficiente.
+
+· Galeria de Fotos (1)
+Este é o My_eGallery 2.8. Uma nova versão liberada para atender aos usuários que clamavam por atualizações nest
+eMódulo, que ficou muito popular por ser bem simples, leve e dar conta do recado.
+
+Se você procura uma Galeria de Fotos simples, sem muitas complicações quanto a Coppermine, esta Galeria foi
+feita para você!
+
+· Grupos de Usuários (1)
+Este é o Módulo NSN Groups. Com ele é possível criar Grupos de usuários e fornecer acesso diferenciado a cada um
+deles. É um adicional aos três simples níveis de acesso que o PHP-Nuke original oferece. Fundamental para quem
+tem necessidade de diferenciar conteúdo para diferentes grupos.
+
+· Mensagens Privadas (1)
+O tradicional Módulo de troca de mensagens entre usuários do phpBB. Não há muito o que comentar sobre ele, ele
+simplesmente funciona!
+
+· Recomende-nos (1)
+Um simples script que permite que seus visitantes enviem um e-mail com uma mensagem padrão (alterável no arquivo
+modules/languages/lang-brazilian.php) a pessoas conhecidas. Propaganda é a alma do negócio! @;D
+
+· Sua Conta (1)
+A prata da casa. O Módulo NSN Your Account foi cedido pelo seu autor original, Bob Marion, ao nosso integrante
+André Escudero, que aceitou o presente e hoje e o principal desenvolvedor do novo CNB Your Account. Esta versão,
+a 4.4 possui algumas novidades como a possibilidade de se criar campos novos no formulário de cadastro, dentre
+muitas outras...
+
+· Top 10 (1)
+Como o próprio nome diz, este é o sistema de Top 10 do Portal. com ele são mostrados os 10 mais em cada uma das
+seçóes do Portal, como por exemplo as 10 notícias mais lidas, as 10 notícias mais comentadas, etc...
+
+· Tópicos (1)
+Este é o Módulo que fornece uma visão sobre so assuntos tratados no Portal.
+
+· Web Links (1)
+Sem muito o que dizer. Este Módulo categoriza e contabiliza cliques a sites inseridos pela Administração.
+
+· Gerenciador de Banners (2)
+Este é o NSN Banner Adds. Um excelente gerenciador de banners que permite que sejam inseridos banners em Flash,
+GIFs e envia relatórios demonstrativos ao clientes.
+
+· IPs Bloqueados (3)
+Este Módulo é um simples bloqueador de IPs do PHP-Nuke. simples, leve e eficiente.
+
+· Faixas de IPs Bloqueados (3)
+Com este Módulo é possível gerenciar os IPs (ou faixas completas de IPs) bloqueados no Portal.
+
+· Referenciadores Bloqueados (3)
+Hoje há diversos robôes (BOTs) que acessam seu site com uma função apenas: atrapalhar seus usuários. Com este
+Módulo é possível bloquear que ueuários (ou robôs) que venha mde determinados sites sejam bloqueados.
+
+· Calendário (3)
+Este é o Event Calendar. Com ele é possível agendar (e mostrar aos seus usuários) Eventos variados como
+Reuniões, Encontros e Aniversários.
+
+· Conteúdo (3)
+O famoso Módulo de Conteúdo. com ele é possível migrar conteúdo HTML estático para o "padrão PHP-Nuke".
+
+· Enciclopédia (3)
+Ideal para pessoas que contenham portais que possuam termos próprios, como termos jurídicos, marítimos ou até
+mesmo biológicos!
+
+· Perguntas Frequentes (3)
+A famosa e indispensável seção FAQ (Perguntas Frequentes). Crie e gerencie seçòes de Pergutnas Frequentes e
+poupe o tempo de seus visitantes.
+
+· Contate-nos (3)
+Um simples formulário que envia um e-mail para o Administrador do Portal, com uma mensagem. Um canal sempre
+aberto entre os usuários e o Administrador!
+
+· Foros (3)
+O conceituadíssimo phpBB. Uns adoram, outros odeiam, mas a verdade é que ele faz, e muito bem, o seu trabalho.
+UM poderos osistema de Foros com inúmeros recursos.
+
+· Lista de Usuários (3)
+Um simples Módulo que facilita que um usuário seja encontrado. Pertencente à família phpBB, este Módulo permite
+que sejam geradas listas de usuários e ordená-las por nome, por tempo, etc...
+
+· Revisões (3)
+Particularmente, nunca encontrei uma função para este Módulo, porém, ele se propõe a categorizar e organizar
+Revisões sobre produtos, Livros, sites, etc...
+
+· Enviar um Arquivo (3)
+Este Módulo é pertencente ao NSN Downloads Groups que permite que seus usuários possam enviar arquivos para o
+servidor (e já inserir o devido link na Módulo de Downloads). Ideal para quem pretende criar um diretório ou
+repositório de arquivos.
+
+
+II. Instalação
+--------------
+Para esta versão foi desenvolvida uma nova versão do Instalador Web, desenvolvida por XPK_FENIX, que, além
+de implementar as funcionalidades do sistema, agora possui suporte multi-Temas.
+
+O Processo de instalação é simples e rápido, devendo apenas seguir os passos:
+
+1. Obter o pacote CNB-Kayapó.tar.gz
+2. Descompactar o pacote;
+3. Subir oconteúdo do diretório html para o servidor
+4. Acessar: http://www.seusite.com.br/install
+5. Seguir os passos de instalação, preenchendo com atenção os campos solicitados.
+
+-=- Com isso, seu PHP-Nuke já estará instalado! -=- 
+
+Como existem diversos Módulos adicionais instalados, é necessário fazer alguns ajustes para que eles fuincionem bem,
+por isso, criamos esta lista de Módulos que necessitam de alterações e instruções de como proceder:
+
+Configuração dos Módulos já instalados nesta versão
+---------------------------------------------------
+>> My_eGallery
+É necessário alterar a configuração CHMOD para ambientes (*NIX) nos seguintes arquivos:
+
+1. Sete CHMOD 777 todos os diretórios (categorias) e sub-diretórios (sub-categorias), localizadas em 
+/modules/My_eGallery/gallery/ (CHMOD apenas os DIRETÓRIOS, NÃO OS ARQUIVOS!!!
+2. 'CHMOD 777' modules/My_eGallery/temp para permitir que usuários enviem imagens. 
+Por questões de segurança você deve setar este diretório em outro lugar. O novo caminho pode ser configurado no 
+Menu de Administração.
+3. 'CHMOD 666' config.php localizado em 'admin/modules/gallery/'
+4. O Modulo já está ativo por padrão!
+5. Tudo pronto para montar suas galerias. @:)
+
+>> NSN Banners
+A maioria das modificações já foram feitas.
+
+Agora, o que é preciso ser explicado é como funcionam os banners e como fazer novos Temas mostrar estes banners:
+
+- No arquivo theme.php de seu Tema preferido (VOCÊ DEVE EDITAR TODOS OS TEMAS QUE FOR UTILIZAR)
+   procure pelas funções themeheader() e themefooter(). Substitua o primeiro exemplo pelo
+   segundo exemplo:
+   (Em alguns Temas antigos você encontrará uma cópia completa do arquivo banners.php, nesse caso
+   code, in substitua a SEÇÃO COMPLETAMENTE).
+
+   Arquivos Original themeheader
+
+    if ($banners == 1) {
+	include("banners.php");
+    }
+
+   NOVAS LINHAS para a função themeheader
+
+    if ($banners == 1) {
+        include("includes/banners1.php");
+    }
+
+   NOVAS LINHAS para a função themefooter (insira, abaixo da declaração global de variáveis a variável
+   $banners to à linhaglobal)
+
+    if ($banners == 1) {
+        include("includes/banners2.php");
+    }
+
+Você terá que adicionar as seguintes variáveis em seu arquivo theme.php (se você utiliza um Tema que tenha
+    arquivos html, você deve editar os seguintes arquivos:
+
+1) VARIÁVEL $tbanners1 MOSTRA OS BANNERS NO CABEÇALHO (header.html)
+2) VARIÁVEL $tbanners2 MOSTRA OS BANNERS NO RODAPÉ (footer.html).
+
+Simplificando, basta colocar a variável $tbanners1 onde se queira mostrar os banners no cabeçalho e 
+    $tbanners2 onde quiser mostrar os banners no rodapé.
+
+
+>> NSN Sentinel
+Existem várias maneiras e métodos de se configurar o Sentinel, mas vamos relatar o básico que é ter
+o Menu de Administração restrito por um login e uma SENHA.
+
+PARA A SEGURANÇA BÁSICA DE SEU PORTAL, É MUITO IMPORTANTE QUE SEJAM SEGUIDOS OS PASSOS AQUI DESCRITOS!!!
+
+1. Entre em http://seusite.com.br/admin.php?op=ABAuthList e adicione o login e a senha que (podem ser diferentes)
+cada administrador terá. É EXTREMAMENTE IMPORTANTE que isso seja feito antes de adicionar o arquivo .htaccess
+no sistema, o que impossibilitará o login!
+
+2. Entre na Administração do  Sentinel e coloque o caminho do arquivo .htaccess
+Geralmente, o caminho é mostrado abaixo do campo.
+
+3. Ative a autenticação por HTTPAccess selecionando:
+Autenticação do Administrador: SELECIONE: Autenticação HTTP dos Administradores
+
+4. Sete CHMOD 666 noarquivo .htaccess
+Caso não esteja vendo o arquivo via FTP, habilite o filtro do seu cliente de FTP favorito para listar com
+a flag -a (o equivalente a um comando shell ls -a) para que sejammostrados arquivos com um . (ocultos).
+
+Caso você sinta que algo deu errado e aparecer a caixa de verificação desenha e mesmo entrando o login e a
+senha corretos o sistema não o logar, CALMA.
+
+Entre em seu Banco de Dados e procure a tabela $prefix_snsst_config (onde $prefix é o prefixo utilizado para
+as tabelas) e procure o campo http_auth (deve estar em 1) e altere o valor para 0.
+
+Com isso você poderá se logar novamente como administrador e tentar novamente.
+
+
+>> Calendário de Eventos
+Para que você consiga salvar as configurações do seu Calendário vocë precisa setar CHMOD 666 no arquivo
+/modules/Calendar/configset.php
+
+III. Quem somos
+---------------
+Comunidade PHP-Nuke Brasil - CNB
+http://www.phpnuke.org.br
+
+A CNB é uma Comunidade de Usuários de PHP-Nuke no Brasil.
+
+Hoje, a CNB é de propriedade da Baggio Tecnologia -http://baggio.com-, que é a principal mantenedora e
+incentivadora dos trabalho produzidos, além de fornecer todo o suporte tecnológico para que a Comunidade
+possa exercer suas funções e de sempre cumprir o compromisso de respeitar os usuários, acima de tudo, e
+melhorar seus seriços, a cada dia.
+
+Os atuais membros Administradores da Comunidade são:
+- André V. Escudero - escudero@phpnuke.org.br
+- Aparecido G. Lagoeiro - xpk_fenix@phpnuke.org.br
+- Luiz G. Aleagi Nunes - aleagi@phpnuke.org.br
+
+Principais colaboradores:
+- Frederico Baggio - http://baggio.com
+- Lucas Martinez - http://linuxdicas.com.br
+- Aldo Novak - http://academianovak.com.br
+
+Todo e qualquer tipo de ajuda é bem-vindo.
+
+-=- Você também quer nos ajudar?!? -=-
+
+Envie um e-mail para: -=- webmaster@phpnuke.org.br -=- e diga-nos como pretende fazê-lo.
+
+Estamos SEMPRE abertos a sugestões, críticas e opiniões.
+
+
+IV. Perguntas Frequentes
+------------------------
+>> 1. Se vocês se preocuparam tanto com a segurança porque não instalaram o CNB-Die, feito por vocês?
+
+Talvez muitos de vocês não saibam, mas houve uma fase em que manter um portal em PHP-Nuke sem ser
+atacado era uma tarefa muito difícil.
+
+O CNB-Die nasceu da necessidade de se barrar essa onda de ataques que vinha devastando diversos portais. 
+
+E ele cunpriu muito bem a sua tarefa. Hoje, o CNB-Die já não é tão necessário, apesar de ter cumprido sua
+tarefa dignamente, seu sucessor, o NSN Sentinel é hoje, sem sombra de dúvidas, o melhor sistema de segurança
+para PHP-Nuke.
+
+Em breve estaremos descontinuando o Projeto CNB-Die, ficando apenas a última versão disponível para quem quiser
+utilizá-la, mas deixaremos de desenvolver novas versões ou oferecer suporte.
+
+Sempre devemos respeitar a Evolução, quer ela nos favoreça ou não.
+
+>> 2. Porque Kayapó?
+
+O nome Kayapó (homônimos Kaiapó, Caiapó e Cayapó), significa "aquels que se parecem com macacos" e o nome foi
+dado pelos próprios integrantes da tribo.
+
+Estes índios habitam o platô central do país (Sul do PA, Norte do MS), entre 300 e 400 metros acima do nível do mar.
+
+Escolhemos este nome inspirados em um povo bastante evoluído social e politicamente, onde não existem chefes,
+de todas as tribos. Todas as tribos sabem como devem se portar e os líderes locais são eleitos por merecimento, 
+após muita discussão e aprendizado fornecido pelos membros mais experientes da tribo.
+
+O tema indígena surgiu, inclusive, na tentativa de resgatarmos esta fabulosa cultura que está morrendo. Nosso país 
+não consegue lutar contra isso, mesmo com os esforços do Governo Federal, Estaduais e a FUNAI, a modernidade está
+dentro das tribos e isso não é nada bom.
+
+
+---
+Aleagi:
+Ver um índio de chinelo, shorts, segurando um radinho e andando de bicicleta é algo que realmente me incomoda.
+É óbvio que isso não faz parte da cultura deles.
+
+A cultura indígina do Brasil é tão rica, que alguns países Europeus são apaixonados por ela.
+
+Não é nada raro encontrarmos peças artesanais fabulosas tombadas em Museus Europeus, onde seu acervo é 
+infinitamente mais rico que o nosso.
+
+Não me esqueço de um manto feito de penas de araras com quaqse quase 500 anos, que teve que ser emprestado por
+um desses museus para as comemorações do aniversário dos NOSSOS 500 anos do descobrimento.
+
+Isso mesmo, eles NOS emprestaram o NOSSO manto!
+
+Não somos mais donos dos nossos mantos!!!
+
+Fica aqui o manifesto de uma branco indignado com esta estúpida situação!
+
+VIVA OS KAYAPÓS!
+
+VIVA O ÍNDIO BRASILEIRO!

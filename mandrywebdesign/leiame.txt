@@ -1,0 +1,38 @@
+#################################################
+# Por: Ricardo Momm				#
+# A serviço de: Informare Vision Web		#
+# URL: http://www.ivweb.com.br			#
+# emails: 	ricardo@ivweb.com.br		#
+#			ricardom@inf.furb.br	#
+#-----------------------------------------------#
+# Este script é gratuito e não precisa de 	#
+# nenhuma licença, qualquer usuário está livre 	#
+# para fazer suas próprias modificações sobre  	#
+# este código, não precisa de minha autorização	#
+# só peço que mantenham os créditos.		#
+# 						#
+# Qualquer problema ou solicitação de novos	#
+# recursos, por favor encaminhem para o meu	#
+# email que na medida do possivel eu estarei	#
+# resolvendo. Não á novas versões previstas 	#
+# para o futuro.				#
+#						#
+# Grato, Ricardo Momm.				#
+#						#
+#-----------------------------------------------#
+# Funcionalidade				#
+#						#
+# Este script de chat é bem simples, ele usa	#
+# Banco de dados Acess, para gravar os usuarios	#
+# e as mensagens, o controle de usuários online	#
+# e de mensagens velhas é feito atravéz de um	#
+# timer, após 300s de inatividade o usuário é	#
+# desconectado e msgs com + de 300s de vida são	#
+# descartadas, ele possui recurso de conversa 	#
+# reservada. Ele não passou por testes com 	#
+# grandes números de pessoas, por isso não 	#
+# tenho como dizer a capacidade dele, mas como	#
+# todo script, este também tem seus limites.	#
+# 						#
+# Aproveitem					#
+#################################################

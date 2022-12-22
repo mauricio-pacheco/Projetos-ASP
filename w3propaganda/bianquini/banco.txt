@@ -1,0 +1,92 @@
+ADMIN
+
+data  varchar  250       
+hora  varchar  250       
+ip  varchar  250       
+host  varchar  250  
+
+
+BOLETO
+
+nosso  varchar  250 
+
+CLIENTES
+
+clienteid  int  4        
+email  varchar  250       
+senha  varchar  50       
+endereco  varchar  250       
+numero  varchar  20       
+bairro  varchar  50       
+cidade  varchar  250       
+estado  varchar  50       
+cep  varchar  30       
+cnpj  varchar  100       
+telefone  varchar  60       
+datacadastro  varchar  250       
+data  varchar  50       
+hora  varchar  50       
+datacad  varchar  250       
+nome  varchar  250       
+cpf  varchar  250       
+rg  varchar  250       
+tel  varchar  250       
+status  varchar  250       
+pais  varchar  50     
+
+COMPRAS
+
+pedido  int  4        
+idcompra  int  4    (null)  
+datacompra  varchar  50        
+clienteid  varchar  50       
+frete  varchar  250       
+totalcompra  varchar  250       
+dataentrega  varchar  250       
+endentrega  varchar  250       
+bairroentrega  varchar  250       
+cidadeentrega  varchar  250       
+estadoentrega  varchar  250       
+cepentrega  varchar  250       
+paisentrega  varchar  250       
+telentrega  varchar  250       
+pagamentovia  varchar  250       
+status  varchar  250       
+presente  varchar  250       
+msgpresente  varchar  250       
+numero  varchar  250       
+vencimento  varchar  250       
+titular  varchar  250 
+
+
+EMAIL
+
+email  varchar  250 
+
+FRETES
+
+localidade  varchar  250       
+re0  varchar  250       
+re1  varchar  250       
+re2  varchar  250       
+re3  varchar  250       
+re4  varchar  250       
+re5  varchar  250       
+re6  varchar  250       
+re7  varchar  250       
+re8  varchar  250       
+re9  varchar  250    
+
+   
+ 
+  
+   
+      
+ 
+  
+   
+  
+ 
+  
+   
+

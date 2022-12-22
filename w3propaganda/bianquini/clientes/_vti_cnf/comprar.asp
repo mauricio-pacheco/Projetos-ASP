@@ -1,0 +1,11 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|07 Mar 2003 18:20:14 -0000
+vti_extenderversion:SR|4.0.2.8912
+vti_filesize:IR|8334
+vti_backlinkinfo:VX|bianquini/clientes/produto.asp bianquini/clientes/produtos.asp bianquini/clientes/sessoes.asp bianquini/clientes/pesquisa.asp bianquini/clientes/pesquisa2.asp
+vti_cacheddtm:TX|07 Mar 2003 18:20:14 -0000
+vti_cachedlinkinfo:VX|
+vti_cachedsvcrellinks:VX|
+vti_cachedhasbots:BR|false
+vti_cachedhastheme:BR|false
+vti_cachedhasborder:BR|false

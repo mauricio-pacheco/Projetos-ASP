@@ -1,0 +1,108 @@
+.menu {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #135320; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.menu:hover {
+	FONT-WEIGHT: bold; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.menu2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #135320; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.menu2:hover {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+.menu3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #135320; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.menu3:hover {
+	FONT-WEIGHT: bold; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.chamadas {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.chamadas:hover {
+	FONT-WEIGHT: normal; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.link_vermelho {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #cc0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.link_vermelho:hover {
+	FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: none
+}
+.texto_cinza {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #666666; FONT-FAMILY: verdana, arial; TEXT-DECORATION: none
+}
+.texto_cinza:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #cc0000; FONT-FAMILY: verdana, arial; TEXT-DECORATION: none
+}
+.titulo_cobertura_cinza {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.tituto_cinza_materia {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.tituto_cinza_materia:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.titulo_branco {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A.titulo_branco:hover {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.titulo_cinza {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #666666; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A.titulo_cinza:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.titulo_pagina_cinza {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #666666; FONT-FAMILY: verdana, arial; TEXT-DECORATION: none
+}
+A.titulo_pagina_cinza:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.colunas:hover {
+	FONT-WEIGHT: normal; COLOR: #666666; TEXT-DECORATION: none
+}
+.link {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+.creditos {
+	FONT-WEIGHT: normal; COLOR: #cccccc; TEXT-DECORATION: none
+}
+.creditos:hover {
+	FONT-WEIGHT: normal; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.back_amarelo {
+	BACKGROUND-COLOR: #ffcc00
+}
+.back_laranja {
+	BACKGROUND-COLOR: #ff9900
+}
+.back_cinza {
+	BACKGROUND-COLOR: #e8e8e8
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #cccccc; SCROLLBAR-HIGHLIGHT-COLOR: #666666; SCROLLBAR-SHADOW-COLOR: #666666; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #666666; SCROLLBAR-TRACK-COLOR: #f0f0f0; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+.bt {
+	BORDER-RIGHT: #f04e23 0px double; BORDER-TOP: #f04e23 0px double; FONT-SIZE: 7pt; BACKGROUND-IMAGE: url(../imagens/bg_botao_home.gif); BORDER-LEFT: #f04e23 0px double; WIDTH: 75px; COLOR: #ffb400; LINE-HEIGHT: normal; BORDER-BOTTOM: #f04e23 0px double; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial; FONT-VARIANT: normal
+}
+.bt_ok {
+	BORDER-RIGHT: #f04e23 0px double; BORDER-TOP: #f04e23 0px double; FONT-SIZE: 7pt; BACKGROUND-IMAGE: url(../imagens/bg_botao_home.gif); BORDER-LEFT: #f04e23 0px double; WIDTH: 35px; COLOR: #ffb400; LINE-HEIGHT: normal; BORDER-BOTTOM: #f04e23 0px double; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial; FONT-VARIANT: normal
+}
+.bt_voltaraotopo {
+	BORDER-RIGHT: #f04e23 0px double; BORDER-TOP: #f04e23 0px double; FONT-SIZE: 7pt; BACKGROUND-IMAGE: url(../imagens/bg_botao_interno.gif); BORDER-LEFT: #f04e23 0px double; WIDTH: 120px; COLOR: #666666; LINE-HEIGHT: normal; BORDER-BOTTOM: #f04e23 0px double; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial; FONT-VARIANT: normal
+}
+.bt_pop {
+	BORDER-RIGHT: #f04e23 0px double; BORDER-TOP: #f04e23 0px double; FONT-SIZE: 7pt; BACKGROUND-IMAGE: url(../imagens/bg_botao_interno.gif); BORDER-LEFT: #f04e23 0px double; WIDTH: 120px; COLOR: #666666; LINE-HEIGHT: normal; BORDER-BOTTOM: #f04e23 0px double; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial; FONT-VARIANT: normal
+}
+.bt_imprimir {
+	BORDER-RIGHT: #f04e23 0px double; BORDER-TOP: #f04e23 0px double; FONT-SIZE: 7pt; BACKGROUND-IMAGE: url(../imagens/bg_botao_interno.gif); BORDER-LEFT: #f04e23 0px double; WIDTH: 65px; COLOR: #666666; LINE-HEIGHT: normal; BORDER-BOTTOM: #f04e23 0px double; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial; FONT-VARIANT: normal
+}
+.bt_enviar {
+	BORDER-RIGHT: #f04e23 0px double; BORDER-TOP: #f04e23 0px double; FONT-SIZE: 7pt; BACKGROUND-IMAGE: url(../imagens/bg_botao_interno.gif); BORDER-LEFT: #f04e23 0px double; WIDTH: 120px; COLOR: #666666; LINE-HEIGHT: normal; BORDER-BOTTOM: #f04e23 0px double; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial; FONT-VARIANT: normal
+}
+.combo_cobertura {
+	BORDER-RIGHT: #1c500c 1px double; BORDER-TOP: #1c500c 1px double; FONT-SIZE: 7pt; BORDER-LEFT: #1c500c 1px double; WIDTH: 160px; COLOR: #000000; LINE-HEIGHT: normal; BORDER-BOTTOM: #1c500c 1px double; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #ffffff; FONT-VARIANT: normal
+}

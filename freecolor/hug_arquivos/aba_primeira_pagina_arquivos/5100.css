@@ -1,0 +1,141 @@
+ {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+BODY {
+	BACKGROUND: #fff; FONT: 10px Arial, Helvetica, sans-serif
+}
+A {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+.clear {
+	CLEAR: both
+}
+.titDst {
+	FONT-SIZE: 11px; MARGIN: 3px 0px 5px; COLOR: #34457b
+}
+DIV.hr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://image.ig.com.br/homev8/v2/hr_separador.gif) repeat-x center 50%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; HEIGHT: 1px
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 1px
+}
+DIV.hr HR {
+	DISPLAY: none
+}
+DIV.tudo {
+	WIDTH: 332px
+}
+DIV.topo {
+	FONT-SIZE: 11px; BACKGROUND: #fbfdfd; COLOR: #6c7a85
+}
+DIV.topo H2 A {
+	DISPLAY: block; FONT-SIZE: 10%; BACKGROUND: url(http://image.ig.com.br/homev8/v2/logo_useg.gif); FLOAT: left; MARGIN: 9px 0px 7px 4px; WIDTH: 117px; TEXT-INDENT: -15000em; HEIGHT: 26px
+}
+DIV.topo P A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 11px 0px 0px; FONT: 9px Verdana; COLOR: #6c7a85; PADDING-TOP: 3px; HEIGHT: 18px
+}
+DIV#brtpAreaAbas {
+	CLEAR: both; BACKGROUND: #ffffff
+}
+DIV#brtpAreaAbas UL LI {
+	FONT-SIZE: 11px; FLOAT: left; TEXT-ALIGN: center
+}
+DIV#brtpAreaAbas UL LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://image.ig.com.br/homev8/v2/separador_us.gif) #5e8fb5 no-repeat right 50%; PADDING-BOTTOM: 4px; FONT: 10px Arial; WIDTH: 82px; COLOR: #fff; PADDING-TOP: 4px
+}
+UNKNOWN {
+	FONT-SIZE: 9px
+}
+DIV#brtpAreaAbas UL.cor2 LI A {
+	BACKGROUND-COLOR: #88abc8
+}
+DIV#brtpAreaAbas UL LI A.ultimo {
+	BACKGROUND-IMAGE: none; WIDTH: 84px
+}
+DIV#brtpAreaAbas UL LI A:hover {
+	BACKGROUND: #e9edf1; COLOR: #34457b
+}
+DIV#brtpAreaAbas UL LI A:active {
+	BACKGROUND: #e9edf1; COLOR: #34457b
+}
+DIV#brtpAreaAbas UL LI A.ativo {
+	BACKGROUND: #e9edf1; COLOR: #34457b
+}
+.px16 {
+	FONT-SIZE: 1px; WIDTH: 150px; HEIGHT: 16px
+}
+.bdt1 {
+	BORDER-RIGHT: #7996a8 1px solid; BORDER-TOP: #7996a8 1px solid; BORDER-LEFT: #7996a8 1px solid; WIDTH: 144px; BORDER-BOTTOM: #7996a8 1px solid
+}
+.px14 {
+	FONT-SIZE: 1px; WIDTH: 150px; HEIGHT: 8px
+}
+UNKNOWN {
+	HEIGHT: 6px
+}
+.dst_fot {
+	WIDTH: 148px; TOP: 0px; HEIGHT: 110px; BACKGROUND-COLOR: white
+}
+.dst_fot IMG {
+	MARGIN: 2px
+}
+.dst_descr_meds {
+	MARGIN-TOP: 2px; WIDTH: 152px; TOP: 217px; HEIGHT: 27px
+}
+.dst_descr_meds .titDst {
+	LINE-HEIGHT: 12px
+}
+DIV.conteudo {
+	CLEAR: both
+}
+DIV.conteudo H2 {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: #e9edf1; PADDING-BOTTOM: 5px; FONT: bold 18px Verdana; PADDING-TOP: 5px; BORDER-BOTTOM: #dfe5eb 2px solid; TEXT-ALIGN: center
+}
+DIV.conteudo H2 A {
+	FONT: bold 18px Verdana; COLOR: #34457b
+}
+DIV.conteudo DIV#coluna1 {
+	FLOAT: left; MARGIN: 7px 0px 6px 5px; WIDTH: 155px
+}
+UNKNOWN {
+	MARGIN-LEFT: 10px
+}
+DIV.conteudo DIV#coluna1 H3 {
+	FONT: 100% Arial
+}
+DIV.conteudo DIV#coluna1 H3 A {
+	COLOR: #34457b
+}
+DIV.conteudo DIV#coluna1 P A {
+	FONT: 100% Arial; COLOR: #6c7a85
+}
+DIV.conteudo DIV#coluna2 {
+	MARGIN: 10px 0px 0px 172px; WIDTH: 153px
+}
+UNKNOWN {
+	MARGIN-LEFT: 175px; WIDTH: 155px
+}
+DIV.conteudo DIV#coluna2 A {
+	TEXT-DECORATION: none
+}
+DIV.conteudo DIV#coluna2 P A {
+	FONT: 100% Arial; COLOR: #6c7a85
+}
+DIV.conteudo DIV#coluna2 P A:hover {
+	TEXT-DECORATION: underline
+}
+DIV.conteudo DIV#coluna2 A:hover {
+	COLOR: #6c7a85; TEXT-DECORATION: underline
+}
+DIV.conteudo DIV#coluna2 A B {
+	CURSOR: hand
+}
+DIV.conteudo DIV#coluna2 A IMG {
+	CURSOR: hand
+}

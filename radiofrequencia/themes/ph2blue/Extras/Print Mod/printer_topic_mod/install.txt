@@ -1,0 +1,323 @@
+##############################################################
+## MOD Title: Printer-friendly topic output option 
+## MOD Author: Svyatozar < svyatozar@pochtamt.ru >
+## MOD Description: This mode will add a button with a printer
+## in the row (new topic) (reply) (printer). By pressing on
+## that button the reader gets a printer-friendly view of the
+## topic.
+## See example at http://bbs.inglia.ru/viewtopic.php?t=1
+##
+## MOD Version: 1.0.1 test, please report any bugs to the author!
+## UPGRADE: If you are upgrading from version 1.0.0 go directly
+##  to the bottom to the UPGRADES section.
+## FRESH INSTALL: If you do not have version 1.0.0 installed,
+##  follow all the instruction up to the UPGRADES section.
+## Check for a recent/updated version on http://phpbbhacks.com/
+## 
+## Installation Level: (easy), no tables/languages affected 
+## Installation Time: 5 Minutes 
+## Files To Edit:
+##         templates/subSilver/subSilver.cfg
+##         viewtopic.php
+##         templates/subSilver/viewtopic_body.tpl 
+## Included Files:
+##         templates/subSilver/images/printer.gif
+##         templates/subSilver/printer_header.tpl
+##         templates/subSilver/printer_header.tpl
+##         include/page_header_printer.php
+############################################################## 
+## For Security Purposes, Please Check: http://www.phpbb.com/mods/downloads/ for the 
+## latest version of this MOD. Downloading this MOD from other sites could cause malicious code 
+## to enter into your phpBB Forum. As such, phpBB will not offer support for MOD's not offered 
+## in our MOD-Database, located at: http://www.phpbb.com/mods/downloads/ 
+############################################################## 
+## Author Notes: Note that the printer button will always be
+## in English, no matter what language is your forum is configured for.
+## You can tweak that yourself if you want, but please, don't ask me
+## to do that. I'm not ready for such a curageous undertaking as translating
+## the button text to all supported by phpBB2 languages, yet.
+## 
+############################################################## 
+## Before Adding This MOD To Your Forum, You Should Back Up All Files Related To This MOD 
+############################################################## 
+
+# 
+#-----[ COPY ]------------------------------------------ 
+# 
+
+copy printer.gif to templates/subSilver/images/printer.gif
+copy printer_header.tpl to templates/subSilver/printer_header.tpl
+copy printertopic_body.tpl to templates/subSilver/printertopic_body.tpl
+copy page_header_printer.php to include/page_header_printer.php
+
+# 
+#-----[ OPEN ]------------------------------------------ 
+#
+ 
+templates/subSilver/subSilver.cfg
+
+# 
+#-----[ FIND ]------------------------------------------ 
+# 
+
+$images['post_new'] = "$current_template_images/{LANG}/post.gif";
+$images['post_locked'] = "$current_template_images/{LANG}/reply-locked.gif";
+$images['reply_new'] = "$current_template_images/{LANG}/reply.gif";
+$images['reply_locked'] = "$current_template_images/{LANG}/reply-locked.gif";
+
+# 
+#-----[ AFTER, ADD ]------------------------------------------ 
+#
+
+$images['printer'] = "$current_template_images/printer.gif";
+
+# 
+#-----[ OPEN ]------------------------------------------ 
+#
+ 
+viewtopic.php
+
+# 
+#-----[ FIND ]------------------------------------------ 
+# 
+
+if (!eregi("modules.php", $_SERVER['PHP_SELF'])) {
+    die ("You can't access this file directly...");
+}
+$module_name = basename(dirname(__FILE__));
+require("modules/".$module_name."/nukebb.php");
+
+# 
+#-----[ REPLACE WITH ]------------------------------------------
+#
+
+if (!eregi("modules.php", $_SERVER['PHP_SELF']))
+    {
+	die ("You can't access this file directly...");
+    }
+if ($popup != "1")
+    {
+	$module_name = basename(dirname(__FILE__));
+	require("modules/".$module_name."/nukebb.php");
+    }
+    else
+    {
+	$phpbb_root_path = 'modules/Forums/';
+    }
+
+#
+#-----[ FIND ]------------------------------------------ 
+# 
+
+//
+// Post, reply and other URL generation for
+// templating vars
+//
+$new_topic_url = append_sid("posting.$phpEx?mode=newtopic&amp;" . POST_FORUM_URL . "=$forum_id");
+$reply_topic_url = append_sid("posting.$phpEx?mode=reply&amp;" . POST_TOPIC_URL . "=$topic_id");
+$view_forum_url = append_sid("viewforum.$phpEx?" . POST_FORUM_URL . "=$forum_id");
+
+# 
+#-----[ AFTER, ADD ]------------------------------------------ 
+#
+
+$printer_topic_url = append_sid("viewtopic.$phpEx?printertopic=1&" . POST_TOPIC_URL . "=$topic_id&start=$start&postdays=$post_days&postorder=$post_order&vote=viewresult&popup=1");
+
+# 
+#-----[ FIND ]------------------------------------------ 
+# 
+
+$reply_img = ( $forum_topic_data['forum_status'] == FORUM_LOCKED || $forum_topic_data['topic_status'] == TOPIC_LOCKED ) ? $images['reply_locked'] : $images['reply_new'];
+$reply_alt = ( $forum_topic_data['forum_status'] == FORUM_LOCKED || $forum_topic_data['topic_status'] == TOPIC_LOCKED ) ? $lang['Topic_locked'] : $lang['Reply_to_topic'];
+$post_img = ( $forum_topic_data['forum_status'] == FORUM_LOCKED ) ? $images['post_locked'] : $images['post_new'];
+$post_alt = ( $forum_topic_data['forum_status'] == FORUM_LOCKED ) ? $lang['Forum_locked'] : $lang['Post_new_topic'];
+
+# 
+#-----[ AFTER, ADD ]------------------------------------------ 
+#
+
+$printer_img = $images['printer'];
+$printer_alt = "Printer-friendly version";
+
+# 
+#-----[ FIND ]------------------------------------------ 
+# 
+
+//
+// Load templates
+//
+$template->set_filenames(array(
+	'body' => 'viewtopic_body.tpl')
+);
+make_jumpbox('viewforum.'.$phpEx, $forum_id);
+
+# 
+#-----[ REPLACE WITH ]------------------------------------------ 
+# 
+
+//
+// Load templates
+//
+if(isset($HTTP_GET_VARS['printertopic']))
+	$template->set_filenames(array(
+		'body' => 'printertopic_body.tpl')
+	);
+else
+	$template->set_filenames(array(
+		'body' => 'viewtopic_body.tpl')
+	);
+make_jumpbox('viewforum.'.$phpEx, $forum_id);
+
+# 
+#-----[ FIND ]------------------------------------------ 
+#
+
+//
+// Output page header
+// 
+$page_title = $lang['View_topic'] .' - ' . $topic_title;
+include('includes/page_header.'.$phpEx);
+
+# 
+#-----[ REPLACE WITH ]------------------------------------------ 
+# 
+
+//
+// Output page header
+//
+$page_title = $lang['View_topic'] .' - ' . $topic_title;
+if(isset($HTTP_GET_VARS['printertopic']))
+	include('includes/page_header_printer.'.$phpEx);
+else
+	include('includes/page_header.'.$phpEx);
+
+# 
+#-----[ FIND ]------------------------------------------ 
+#
+
+	'POST_IMG' => $post_img,
+	'REPLY_IMG' => $reply_img,
+
+# 
+#-----[ AFTER, ADD ]------------------------------------------ 
+#
+
+	'PRINTER_IMG' => $printer_img,
+	
+# 
+#-----[ FIND ]------------------------------------------ 
+#
+
+	'L_POST_NEW_TOPIC' => $post_alt, 
+	'L_POST_REPLY_TOPIC' => $reply_alt, 
+
+# 
+#-----[ AFTER, ADD ]------------------------------------------ 
+#
+
+	'L_PRINTER_TOPIC' => $printer_alt, 
+
+# 
+#-----[ FIND ]------------------------------------------ 
+#
+
+	'U_VIEW_TOPIC' => append_sid("viewtopic.$phpEx?" . POST_TOPIC_URL . "=$topic_id&amp;start=$start&amp;postdays=$post_days&amp;postorder=$post_order&amp;highlight=$highlight"),
+	'U_VIEW_FORUM' => $view_forum_url,
+	'U_VIEW_OLDER_TOPIC' => $view_prev_topic_url,
+	'U_VIEW_NEWER_TOPIC' => $view_next_topic_url,
+	'U_POST_NEW_TOPIC' => $new_topic_url,
+	'U_POST_REPLY_TOPIC' => $reply_topic_url)
+);
+
+# 
+#-----[ REPLACE WITH ]------------------------------------------ 
+# 
+
+	'U_VIEW_TOPIC' => append_sid("viewtopic.$phpEx?" . POST_TOPIC_URL . "=$topic_id&amp;start=$start&amp;postdays=$post_days&amp;postorder=$post_order&amp;highlight=$highlight"),
+	'U_VIEW_FORUM' => $view_forum_url,
+	'U_VIEW_OLDER_TOPIC' => $view_prev_topic_url,
+	'U_VIEW_NEWER_TOPIC' => $view_next_topic_url,
+	'U_POST_NEW_TOPIC' => $new_topic_url,
+	'U_POST_REPLY_TOPIC' => $reply_topic_url,
+	'U_PRINTER_TOPIC' => $printer_topic_url)
+);
+
+# 
+#-----[ FIND ]------------------------------------------ 
+#
+
+$template->pparse('body');
+
+include('includes/page_tail.'.$phpEx);
+
+?>
+
+# 
+#-----[ REPLACE WITH ]------------------------------------------ 
+# 
+
+$template->pparse('body');
+if(!isset($HTTP_GET_VARS['printertopic']))
+include('includes/page_tail.'.$phpEx);
+?>
+
+# 
+#-----[ OPEN ]------------------------------------------ 
+# 
+
+templates/subSilver/viewtopic_body.tpl
+
+# 
+#-----[ FIND ]------------------------------------------ 
+#
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" border="0" alt="{L_POST_NEW_TOPIC}" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" border="0" alt="{L_POST_REPLY_TOPIC}" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="{U_INDEX}" class="nav">{L_INDEX}</a> 
+	  -> <a href="{U_VIEW_FORUM}" class="nav">{FORUM_NAME}</a></span></td>
+  </tr>
+</table>
+
+# 
+#-----[ REPLACE WITH ]------------------------------------------ 
+# 
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" border="0" alt="{L_POST_NEW_TOPIC}" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" border="0" alt="{L_POST_REPLY_TOPIC}" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="{U_PRINTER_TOPIC}"><img src="{PRINTER_IMG}" border="0" alt="{L_PRINTER_TOPIC}" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="{U_INDEX}" class="nav">{L_INDEX}</a> 
+	  -> <a href="{U_VIEW_FORUM}" class="nav">{FORUM_NAME}</a></span></td>
+  </tr>
+</table>
+
+# 
+#-----[ FIND ]------------------------------------------ 
+#
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" border="0" alt="{L_POST_NEW_TOPIC}" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" border="0" alt="{L_POST_REPLY_TOPIC}" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="{U_INDEX}" class="nav">{L_INDEX}</a> 
+	  -> <a href="{U_VIEW_FORUM}" class="nav">{FORUM_NAME}</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">{S_TIMEZONE}</span><br /><span class="nav">{PAGINATION}</span> 
+	  </td>
+  </tr>
+
+# 
+#-----[ REPLACE WITH ]------------------------------------------ 
+# 
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" border="0" alt="{L_POST_NEW_TOPIC}" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" border="0" alt="{L_POST_REPLY_TOPIC}" align="middle" /></a>&nbsp;&nbsp;&nbsp;<a href="{U_PRINTER_TOPIC}"><img src="{PRINTER_IMG}" border="0" alt="{L_PRINTER_TOPIC}" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="{U_INDEX}" class="nav">{L_INDEX}</a> 
+	  -> <a href="{U_VIEW_FORUM}" class="nav">{FORUM_NAME}</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">{S_TIMEZONE}</span><br /><span class="nav">{PAGINATION}</span> 
+	  </td>
+  </tr>
+
+# 
+#-----[ SAVE/CLOSE ALL FILES ]------------------------------------------ 
+# 
+# EoM

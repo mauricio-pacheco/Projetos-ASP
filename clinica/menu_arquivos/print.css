@@ -1,0 +1,432 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 76%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 600px; BACKGROUND-COLOR: #41586a; TEXT-ALIGN: left
+}
+FORM {
+	MARGIN-BOTTOM: 0px
+}
+A {
+	COLOR: #6699cc; TEXT-DECORATION: none
+}
+HR {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM: #c0c0c0 1px solid; HEIGHT: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#topmenu A {
+	COLOR: #000
+}
+.body {
+	FONT-WEIGHT: normal; COLOR: #333333
+}
+.vav {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #888888
+}
+.date {
+	FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: #ffffff
+}
+.searchsite {
+	FONT-SIZE: 1em; COLOR: #333333
+}
+.menu {
+	FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #000; PADDING-TOP: 3px; HEIGHT: 25px
+}
+A.menu:link {
+	DISPLAY: block; FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #000; PADDING-TOP: 3px; HEIGHT: 25px; TEXT-DECORATION: none
+}
+A.menu:visited {
+	DISPLAY: block; FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #000; PADDING-TOP: 3px; HEIGHT: 25px; TEXT-DECORATION: none
+}
+A.menu:hover {
+	DISPLAY: block; FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #fff; PADDING-TOP: 3px; HEIGHT: 25px; TEXT-DECORATION: none
+}
+.menuover {
+	FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #ffffff; PADDING-TOP: 3px; HEIGHT: 25px; BACKGROUND-COLOR: #d47b22; TEXT-DECORATION: none
+}
+A.menuover:link {
+	DISPLAY: block; FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #ffffff; PADDING-TOP: 3px; HEIGHT: 25px; BACKGROUND-COLOR: #d47b22; TEXT-DECORATION: none
+}
+A.menuover:hover {
+	DISPLAY: block; FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #ffffff; PADDING-TOP: 3px; HEIGHT: 25px; BACKGROUND-COLOR: #d47b22; TEXT-DECORATION: none
+}
+A.menuover:visited {
+	DISPLAY: block; FONT-WEIGHT: normal; WIDTH: 200px; COLOR: #ffffff; PADDING-TOP: 3px; HEIGHT: 25px; BACKGROUND-COLOR: #d47b22; TEXT-DECORATION: none
+}
+SELECT {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.8em; COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.8em; COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+BUTTON {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.8em; COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+H1 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; COLOR: #000000
+}
+H2 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 0.8em; MARGIN-BOTTOM: 0px; COLOR: #000000
+}
+LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 0.8em; PADDING-BOTTOM: 3px; COLOR: #000000; LINE-HEIGHT: 1.5em; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+.FieldLabelInput {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.8em; VERTICAL-ALIGN: top; COLOR: #000000; BACKGROUND-COLOR: #cccccc; TEXT-ALIGN: right
+}
+.FieldLabelDisplay {
+	FONT-SIZE: 0.8em; BORDER-LEFT-COLOR: #3399cc; BORDER-BOTTOM-COLOR: #3399cc; VERTICAL-ALIGN: top; COLOR: #000000; BORDER-TOP-COLOR: #3399cc; BACKGROUND-COLOR: #e3e2f0; BORDER-RIGHT-COLOR: #3399cc
+}
+.FieldDataDisplay {
+	FONT-SIZE: 0.8em; VERTICAL-ALIGN: top; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.TableListHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.8em; COLOR: #ffffff; BACKGROUND-COLOR: #10599c
+}
+.SectionHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000
+}
+.Line {
+	BACKGROUND-COLOR: #0f077f
+}
+.TableListMain {
+	FONT-SIZE: 0.8em; COLOR: #000000; BACKGROUND-COLOR: #eeeeee
+}
+.TableListAlt {
+	FONT-SIZE: 0.8em; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.ArticleHeading {
+	FONT-SIZE: 0.8em; COLOR: #ffffff; BACKGROUND-COLOR: #11067f
+}
+.ArticleMain {
+	FONT-SIZE: 0.8em; COLOR: #000000; BACKGROUND-COLOR: #cccccc
+}
+.LoginArea {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; BACKGROUND-COLOR: #cfcfcf
+}
+.whitemenu {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; BACKGROUND-COLOR: #ffffff
+}
+.frontpage {
+	FONT-WEIGHT: normal; FONT-SIZE: 8px; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.level {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #df2f1f; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bodytxt {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.bodytxtwhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.advantage {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.advantage UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.control {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.control UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.deng {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.deng UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.dsng {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.dsng UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.encoders {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.encoders UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.integrated {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.integrated UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.modulator {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.modulator UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.mpeg {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.mpeg UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.multiplexers {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.multiplexers UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.portal {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.portal UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.vod {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.vod UL LI {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: -25px; COLOR: #333333; LINE-HEIGHT: 120%
+}
+.purplevav {
+	FONT-WEIGHT: bold; COLOR: #888888
+}
+.nav {
+	FONT-SIZE: 0.8em; COLOR: #333333
+}
+.breadcrumb {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.8em; COLOR: #cc6633! important; PADDING-TOP: 5px
+}
+.breadcrumb A {
+	COLOR: #999999
+}
+.descriptionwhite {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-STYLE: normal
+}
+.monthtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333333
+}
+.frontbody {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333
+}
+.white {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.8em; COLOR: #ffffff
+}
+.filetxt {
+	FONT-SIZE: 0.8em; COLOR: #ffffff
+}
+#homenewsevents {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; HEIGHT: 20px; BACKGROUND-COLOR: #b4b4b4
+}
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#topmenu {
+	DISPLAY: none
+}
+.menulayer {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; BORDER-LEFT: #000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+.menulayer TABLE {
+	FILTER: alpha(opacity=90); BACKGROUND-COLOR: #e6e2d0; moz-opacity: 0.9
+}
+.mininav {
+	COLOR: #fff; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+#footer {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 0.75em; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 1003px; BORDER-COLLAPSE: collapse; HEIGHT: 30px; BACKGROUND-COLOR: #6292b4; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+#footer A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#headercontainer {
+	POSITION: relative
+}
+#headercontainer TD {
+	FONT-SIZE: 0.9em; COLOR: #333333
+}
+#headercontacter TD TD {
+	FONT-SIZE: 0.9em
+}
+.homeevents {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 320px; PADDING-TOP: 0px
+}
+.homeevents LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 330px; LINE-HEIGHT: 1.3em; PADDING-TOP: 0px; BORDER-BOTTOM: #c0c0c0 1px solid; LIST-STYLE-TYPE: none; HEIGHT: 7.5em
+}
+.homeevents .homeevents1 {
+	PADDING-LEFT: 3px; WIDTH: 322px; MARGIN-RIGHT: 5px
+}
+.homeevents .homeevents2 {
+	PADDING-LEFT: 3px; WIDTH: 322px; MARGIN-RIGHT: 5px
+}
+.homeevents LI TD {
+	PADDING-LEFT: 6px; FONT-SIZE: 0.8em; COLOR: #888
+}
+.homeevents LI TD A {
+	FONT-WEIGHT: bold; COLOR: #888; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+.homeevents LI A.purplevav {
+	COLOR: #6699cc; TEXT-DECORATION: none
+}
+.homeeventsmore A {
+	CLEAR: both; DISPLAY: block; PADDING-LEFT: 335px; FONT-SIZE: 0.8em; MARGIN-BOTTOM: 5px; COLOR: #6699cc; TEXT-DECORATION: none
+}
+#homeNews {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.8em; PADDING-BOTTOM: 0px; MARGIN: 5px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#homeNews LI {
+	PADDING-BOTTOM: 5px; COLOR: #888888; LINE-HEIGHT: 1.3em; PADDING-TOP: 5px; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+#homeNews LI A {
+	COLOR: #6699cc; TEXT-DECORATION: none
+}
+.newsmore {
+	MARGIN-TOP: -3px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 6px
+}
+.newsmore A {
+	FONT-SIZE: 0.8em; COLOR: #6699cc; TEXT-DECORATION: none
+}
+.homenewsletter {
+	PADDING-LEFT: 5px; FONT-SIZE: 0.8em; COLOR: #888888
+}
+.homenewsletter A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#mainContent {
+	HEIGHT: 1%; BACKGROUND-COLOR: #fff
+}
+#mainContent TABLE TD {
+	FONT-SIZE: 0.8em; COLOR: #888888; TEXT-ALIGN: left
+}
+#mainContent TABLE TD TD {
+	FONT-SIZE: 1em
+}
+#mainContent .menuover {
+	FONT-WEIGHT: bold; COLOR: #cc6633; BACKGROUND-COLOR: #f5f0d9
+}
+#mainContent .sidenav {
+	DISPLAY: none
+}
+#mainContent SELECT {
+	FONT-SIZE: 1em
+}
+#mainContent .sidenav SELECT {
+	FONT-SIZE: 1em
+}
+#mainContent .sidenav LI {
+	FONT-SIZE: 1em
+}
+#mainContent LI {
+	FONT-SIZE: 1em; COLOR: #888888
+}
+#mainContent H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.6em; TEXT-TRANSFORM: uppercase; COLOR: #d58540
+}
+#mainContent H2 {
+	FONT-SIZE: 1em; COLOR: #666666
+}
+#mainContent .datatable {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; MARGIN: 0px; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; BORDER-COLLAPSE: collapse
+}
+#mainContent .datatable THEAD {
+	COLOR: #fff; BACKGROUND-COLOR: #d47b22
+}
+#mainContent .datatable THEAD TH {
+	PADDING-LEFT: 5px; FONT-SIZE: 0.9em; TEXT-ALIGN: left
+}
+#mainContent .datatable THEAD TH A {
+	COLOR: #fff
+}
+#mainContent FORM INPUT {
+	FONT-SIZE: 1em
+}
+#mainContent {
+	WIDTH: 1003px
+}
+#pageContent {
+	TEXT-ALIGN: center
+}
+#pageContent TABLE {
+	MARGIN: 0px auto
+}
+#adminContent {
+	HEIGHT: 1%; BACKGROUND-COLOR: #fff
+}
+#adminContent INPUT {
+	FONT-SIZE: 0.8em
+}
+#adminContent SELECT {
+	FONT-SIZE: 0.8em
+}
+#adminContent TD {
+	FONT-SIZE: 0.8em
+}
+#adminContent TH {
+	FONT-SIZE: 0.8em
+}
+#adminContent .adminTable THEAD TH {
+	COLOR: #fff; BACKGROUND-COLOR: #d47b22; TEXT-ALIGN: left
+}
+#adminContent .adminTable {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 10px; WIDTH: 90%; MARGIN-RIGHT: 10px; BORDER-COLLAPSE: collapse
+}
+#adminContent TD TD {
+	FONT-SIZE: 1em
+}
+.rightBox {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(/images/newimages/rightbox.gif) no-repeat; PADDING-BOTTOM: 10px; WIDTH: 185px; PADDING-TOP: 10px; HEIGHT: 215px
+}
+.rightBox H3 {
+	FONT-SIZE: 1.2em; COLOR: #666666; FONT-FAMILY: arial
+}
+.rightBox P {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 5px
+}
+.hiddenList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.awardbackground {
+	BACKGROUND: url(/images/award.jpg) no-repeat
+}
+.quotes {
+	DISPLAY: block; PADDING-BOTTOM: 3px; COLOR: #014165
+}
+H1.productTemplateA {
+	FONT-SIZE: 1.3em! important; COLOR: #003366! important; PADDING-TOP: 15px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 40px
+}
+H1.productTemplateB {
+	FONT-SIZE: 1.3em! important; COLOR: #ffffff! important; PADDING-TOP: 15px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 40px
+}
+.encoderstd {
+	BACKGROUND-COLOR: #77b6d0
+}
+.irdtd {
+	BACKGROUND-COLOR: #93bfeb
+}
+.modtd {
+	BACKGROUND-COLOR: #afdbdb
+}
+.mpegtd {
+	BACKGROUND-COLOR: #528789
+}
+.ondemandtd {
+	BACKGROUND-COLOR: #a2dbeb
+}
+.mansoltd {
+	BACKGROUND-COLOR: #885e80
+}
+.portalstd {
+	BACKGROUND-COLOR: #ad4858
+}
+.itvtd {
+	BACKGROUND-COLOR: #f9df79
+}
+.muxtd {
+	BACKGROUND-COLOR: #adb291
+}
+.dsngtd {
+	BACKGROUND-COLOR: #939871
+}
+.dengtd {
+	BACKGROUND-COLOR: #7f8e2b
+}
+.supporttd {
+	BACKGROUND-COLOR: #3e4723
+}

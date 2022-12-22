@@ -1,0 +1,77 @@
+body {
+scrollbar-arrow-color:  #FFFFFF;
+	scrollbar-face-color: #3D86A6;
+	scrollbar-track-color: #F4F4F4;
+	scrollbar-highlight-color: #C8D3E1;
+	scrollbar-3dlight-color: #EAEFF4;
+	scrollbar-shadow-color: #7492B6;
+	scrollbar-darkshadow-color: #3A5370;}
+A:link {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #3F88A8; TEXT-DECORATION: none
+}
+A.menu:link {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A.menu:visited {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #3F88A8; TEXT-DECORATION: none
+}
+A.cinza:link {
+	COLOR: #acacac; TEXT-DECORATION: none
+}
+A.cinza:visited {
+	COLOR: #acacac; TEXT-DECORATION: none
+}
+A.cinza:hover {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+.fonte {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.fonte2 {
+	FONT-SIZE: 10px; color:#006600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.fontemenor {
+	FONT-SIZE: 9px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.fontedestaque {
+	FONT-SIZE: 10px; COLOR: #434343; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.fontecinza {
+	FONT-SIZE: 10px; COLOR: #828282; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.fonteautor {
+	FONT-SIZE: 9px; COLOR: #828282; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.fontecode {
+	FONT-SIZE: 9px; COLOR: #585858; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.form {
+	BORDER-RIGHT: #bbbaba 1px solid; BORDER-TOP: #bbbaba 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #bbbaba 1px solid; COLOR: #434343; BORDER-BOTTOM: #bbbaba 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fdfdfd
+}
+.select {
+	FONT-SIZE: 10px; COLOR: #434343; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.busca {
+	BORDER-RIGHT: #bbbaba 1px solid; BORDER-TOP: #bbbaba 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #bbbaba 1px solid; COLOR: #434343; BORDER-BOTTOM: #bbbaba 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+.buscacat {
+	FONT-SIZE: 9px; COLOR: #434343; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.busca2 {
+	BORDER-RIGHT: #bbbaba 1px solid; BORDER-TOP: #bbbaba 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #bbbaba 1px solid; WIDTH: 138px; COLOR: #434343; BORDER-BOTTOM: #bbbaba 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+.buscacat2 {
+	FONT-SIZE: 10px; WIDTH: 138px; COLOR: #434343; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.botao {
+	BORDER-RIGHT: gray 1px groove; BORDER-TOP: gray 1px groove; FONT-SIZE: 10px; BORDER-LEFT: gray 1px groove; CURSOR: pointer; COLOR: #333333; BORDER-BOTTOM: gray 1px groove; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f5f5f5
+}

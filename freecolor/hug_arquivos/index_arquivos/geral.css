@@ -1,0 +1,93 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 10px; BACKGROUND: #fff; OVERFLOW-X: hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; OVERFLOW-X: hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: x-small arial; PADDING-TOP: 0px
+}
+BLOCKQUOTE P {
+	FONT-SIZE: 62%
+}
+A {
+	DISPLAY: block; FONT-WEIGHT: normal; COLOR: #000; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; COLOR: darkred
+}
+H3 {
+	FONT-SIZE: 1em
+}
+.txt1 {
+	FONT-SIZE: 10px; FONT-FAMILY: arial
+}
+#hn {
+	PADDING-TOP: 6px; POSITION: relative
+}
+#hn .box1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 5px; WIDTH: 45.6em; PADDING-TOP: 5px; BORDER-BOTTOM: silver 1px dotted; POSITION: relative
+}
+#painel {
+	FLOAT: left; WIDTH: 310px; TOP: 0px; HEIGHT: 227px; BACKGROUND-COLOR: #2c3b4e
+}
+UNKNOWN {
+	TOP: 0px
+}
+#painel-conteudo {
+	DISPLAY: none; opacity: 0.50
+}
+#painel H2 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-SIZE: 1.3em; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#painel H2 A {
+	COLOR: #fff
+}
+#painel H2 A B {
+	COLOR: #ffe30b
+}
+#painel H2 A:visited {
+	COLOR: #fff
+}
+#painel #imgslide {
+	MARGIN: 0px 0px 0.6em; WIDTH: 310px; HEIGHT: 182px
+}
+#painel #proximo {
+	CURSOR: hand; POSITION: absolute
+}
+#painel #anterior {
+	CURSOR: hand; POSITION: absolute
+}
+#painel #pause {
+	CURSOR: hand; POSITION: absolute
+}
+#painel #prox-ant {
+	MARGIN-LEFT: 12px; WIDTH: 290px; POSITION: absolute; TOP: 20em; HEIGHT: 18px
+}
+#painel #anterior {
+	LEFT: 0px
+}
+#painel #proximo {
+	LEFT: 278px
+}
+#painel #to-blend {
+	ZOOM: 1; opacity: 0.99
+}
+#painel #bann {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 310px; COLOR: #ffffff; PADDING-TOP: 0px; POSITION: absolute; HEIGHT: 227px
+}
+#painel #flashW {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 310px; COLOR: #ffffff; PADDING-TOP: 0px; POSITION: absolute; HEIGHT: 182px
+}
+#painel #imgGo {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 310px; COLOR: #ffffff; PADDING-TOP: 0px; POSITION: absolute; HEIGHT: 227px
+}
+#painel #imgZ {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 155px; WIDTH: 150px; COLOR: #ffffff; PADDING-TOP: 35px; POSITION: absolute; HEIGHT: 180px
+}

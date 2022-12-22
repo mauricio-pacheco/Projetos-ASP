@@ -1,0 +1,141 @@
+#########################################################################################
+#----------------------------------------------------------------------------------------
+#########################################################################################
+#
+#  CÓDIGO: VirtuaStore Versão 1.2 - Copyright 2001-2003 VirtuaWorks                                    
+#  URL: www.virtuastore.com.br / www.virtuaworks.com.br                                                           
+#  E-MAIL: webmaster@virtuaworks.com.br                                                                                          
+#  AUTORES: Otávio Dias(Desenvolvedor) / Jone Bandinelli(Desenvolvedor) / Daniel Kern(Revisão)                
+# 
+#     Este programa é um software livre; você pode redistribuí-lo e/ou 
+#     modificá-lo sob os termos do GNU General Public License como 
+#     publicado pela Free Software Foundation.
+#     É importante lembrar que qualquer alteração feita no programa 
+#     deve ser informada e enviada para os criadores, através de e-mail 
+#     ou da página de onde foi baixado o código.
+#
+#  //-------------------------------------------------------------------------------------
+#  // LEIA COM ATENÇÃO: O software VirtuaStore 1.2 deve conter as frases
+#  // "Powered by VirtuaStore 1.2" ou "Software derivado de VirtuaStore 1.2" e 
+#  // o link para o site http://www.virtuastore.com.br no créditos da 
+#  // sua loja virtual para ser utilizado gratuitamente. Se o link e/ou uma das 
+#  // frases não estiver presentes ou visiveis este software deixará de ser
+#  // considerado Open-source(gratuito) e o uso sem autorização terá 
+#  // penalidades judiciais de acordo com as leis de pirataria de software.
+#  //--------------------------------------------------------------------------------------
+#      
+#     Este programa é distribuído com a esperança de que lhe seja útil,
+#     porém SEM NENHUMA GARANTIA. Veja a GNU General Public License
+#     abaixo (GNU Licença Pública Geral) para mais detalhes.
+# 
+#     Você deve receber a cópia da Licença GNU com este programa, 
+#     caso contrário escreva para
+#     Free Software Foundation, Inc., 59 Temple Place, Suite 330, 
+#     Boston, MA  02111-1307  USA
+# 
+#     Para enviar suas dúvidas, sugestões e/ou contratar a VirtuaWorks 
+#     Internet Design entre em contato através do e-mail 
+#     contato@virtuaworks.com.br ou pelo endereço abaixo: 
+#     Rua Venâncio Aires, 1001 - Niterói - Canoas - RS - Brasil. Cep 92110-000.
+#
+#     Para ajuda e suporte acesse: http://www.virtuastore.com.br
+#
+#     BOM PROVEITO!          
+#     Equipe VirtuaStore
+#     []'s
+#
+#########################################################################################
+#----------------------------------------------------------------------------------------
+#########################################################################################
+
+>>>>>>>>>>>>>>LEIA ABAIXO<<<<<<<<<<<<<<<<
+
+
+A VirtuaStore 1.2 é um sistema de e-commerce open-source que tem o objetivo de 
+criar uma alternativa gratuita aos aplicativos de comércio eletrônico que existem
+atualmente pela Internet. Ele é escrito inteiramente em ASP.
+
+Uma das muitas metas do sistema é criar um aplicativo que seja fácil de
+usar e instalar. Tentamos ao máximo facilitar o processo de instalação
+da VirtuaStore.
+
+
+Requerimentos:
+--------------
+
+Os requerimentos para o uso da VirtuaStore 1.2 são as seguintes:
+
+- PWS(Personal Web Server) para Windows 95/98/ME ou ISS(Internet Information Services) 4.0 ou superior para Windows 2000/XP/NT *RECOMENDADO*
+- Apache Webserver 1.3 ou superior com Sun Chilli!ASP 2.0 ou superior para Linux e/ou outros OSs
+
+
+
+Processo de Instalação:
+-----------------------
+
+1 - Descompacte os arquivos
+  
+2 - Edite o arquivo CONFIG.ASP de acordo com os dados e configurações da sua loja.
+
+3 - Atualize, se necessário, os valores do frete fazendo o seguinte:
+	- Pegue a tabela de fretes referente ao seu estado no site do correios : www.correios.com.br ou em uma
+	  agencia dos correios.
+	(sua tabela será assim)
+
+
+
+	- São 2 tabelas, uma com os valores de frete Capital-Capital e outra com os valores Capital-Interior/Interior-Interior
+	- As tabelas estão divididas em 11 colunas cada uma, uma dando os valores do peso, uma dando os valores de frete
+	  para seu estado e as outras dando os valores de frete para o resto do país.
+	- Pegue todos os valores abra a tabela "fretes" e faça o seguinte:
+	
+	VALORES DE:              PREÇOS:
+        capital                  re0: pegue o valor de frete "até 1" do seu estado(2 coluna) - tabela CAPITAL-CAPITAL
+				 re1: peque o valor de frete "até 1" dos estados da 3 coluna da tabela - tabela CAPITAL-CAPITAL
+				 re2: peque o valor de frete "até 1" dos estados da 4 coluna da tabela - tabela CAPITAL-CAPITAL
+				 re3: peque o valor de frete "até 1" dos estados da 5 coluna da tabela - tabela CAPITAL-CAPITAL
+				 re... peque o valor de frete "até 1" dos estados da proxima coluna respctivamente - tabela CAPITAL-CAPITAL
+
+	interior	         re0: pegue o valor de frete "até 1" do seu estado(2 coluna) - tabela CAPITAL-INTERIOR
+				 re1: peque o valor de frete "até 1" dos estados da 3 coluna da tabela - tabela CAPITAL-INTERIOR
+				 re2: peque o valor de frete "até 1" dos estados da 4 coluna da tabela - tabela CAPITAL-INTERIOR
+				 re3: peque o valor de frete "até 1" dos estados da 5 coluna da tabela - tabela CAPITAL-INTERIOR
+				 re... peque o valor de frete "até 1" dos estados da proxima coluna respctivamente - tabela CAPITAL-INTERIOR
+
+	pesocapital              re0: pegue o valor de frete "acima 14kg" do seu estado(2 coluna) - tabela CAPITAL-CAPITAL
+				 re1: peque o valor de frete "acima 14kg" dos estados da 3 coluna da tabela - tabela CAPITAL-CAPITAL
+				 re2: peque o valor de frete "acima 14kg" dos estados da 4 coluna da tabela - tabela CAPITAL-CAPITAL
+				 re3: peque o valor de frete "acima 14kg" dos estados da 5 coluna da tabela - tabela CAPITAL-CAPITAL
+				 re... peque o valor de frete "acima 14kg" dos estados da proxima coluna respctivamente - tabela CAPITAL-CAPITAL
+
+	pesointerior             re0: pegue o valor de frete "acima 14kg" do seu estado(2 coluna) - tabela CAPITAL-INTERIOR
+				 re1: peque o valor de frete "acima 14kg" dos estados da 3 coluna da tabela - tabela CAPITAL-INTERIOR
+				 re2: peque o valor de frete "acima 14kg" dos estados da 4 coluna da tabela - tabela CAPITAL-INTERIOR
+				 re3: peque o valor de frete "acima 14kg" dos estados da 5 coluna da tabela - tabela CAPITAL-INTERIOR
+				 re... peque o valor de frete "acima 14kg" dos estados da proxima coluna respctivamente - tabela CAPITAL-INTERIOR
+
+
+4 - De upload usando o programa de FTP de sua escolha das figuras que você vai usar na loja dentro da pasta "produtos" com o nome que você cadastrou no banco de dados
+
+5 - Pronto, sua VirtuaStore está pronta para uso!
+
+
+Bugs e novos modulos:
+---------------------
+- Ocorre erros com ","(Virgula) e "."(Ponto) no valores em certos servidores Linux com Chilli!ASP, para arrumar se usa o camando : replace(variavel_com_problema, ", ou .", "") na variavel com o problema.
+
+
+Suporte:
+--------
+
+Para qualquer tipo de informação, para suporte, sugestões, comentários ou o que
+for, acesse o site do sistema VirtuaStore:
+
+http://www.virtuastore.com.br
+
+Lá você encontrará fóruns de discussão, ferramentas e diversas informações sobre a VirtuaStore e comércio eletrônico
+
+É isso...
+Bom Proveito,
+Equipe VirtuaStore
+[]'s

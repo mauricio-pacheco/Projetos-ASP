@@ -1,0 +1,87 @@
+.texto {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma, Arial
+}
+.titulo_pagina {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #336699
+}
+.link_paginas {
+	FONT-SIZE: 11px; COLOR: #336699; TEXT-DECORATION: underline
+}
+.link_paginas:hover {
+	COLOR: orangered; TEXT-DECORATION: underline
+}
+.link_album {
+	FONT-SIZE: 11px; COLOR: #336699; TEXT-DECORATION: underline
+}
+.link_album:hover {
+	COLOR: orangered
+}
+.links_paginacao {
+	FONT-SIZE: 11px; COLOR: #336699; TEXT-DECORATION: none
+}
+.links_paginacao:hover {
+	COLOR: orangered; TEXT-DECORATION: underline
+}
+.home_titulo7000 {
+	FONT-SIZE: 10px; COLOR: white; TEXT-DECORATION: none
+}
+.home_titulo7000:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.home_titulo1000 {
+	FONT-SIZE: 10px; COLOR: black; TEXT-DECORATION: none
+}
+.home_titulo1000:hover {
+	COLOR: #005DA2; TEXT-DECORATION: underline
+}
+.home_titulo1 {
+	FONT-SIZE: 11px; COLOR: black; TEXT-DECORATION: none
+}
+.home_titulo1:hover {
+	COLOR: orangered; TEXT-DECORATION: underline
+}
+.home_titulo2 {
+	FONT-SIZE: 11px; COLOR: dimgray; TEXT-DECORATION: none
+}
+.home_titulo2:hover {
+	COLOR: silver; TEXT-DECORATION: none
+}
+.home_titulo3 {
+	FONT-SIZE: 11px; COLOR: #ce6600; TEXT-DECORATION: none
+}
+.home_titulo3:hover {
+	COLOR: #ce6600; TEXT-DECORATION: underline
+}
+.home_titulo4 {
+	FONT-SIZE: 11px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.home_titulo4:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.home_fundo1 {
+	BACKGROUND: #ffffff
+}
+.home_fundo2 {
+	BACKGROUND: white; HEIGHT: 25px
+}
+.tab {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; BACKGROUND: whitesmoke; BORDER-LEFT: gainsboro 1px solid; BORDER-BOTTOM: gainsboro 1px solid
+}
+.tab_select {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: silver 1px solid; BORDER-BOTTOM: medium none
+}
+.enquetes_barra {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: #ff8f66; FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='orangered', gradientType='0'); BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.link_forum {
+	FONT-SIZE: 11px; COLOR: #336699; TEXT-DECORATION: none
+}
+.link_forum:hover {
+	COLOR: orangered; TEXT-DECORATION: underline
+}
+.keywords {
+	FONT-SIZE: 0px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial; TEXT-DECORATION: none
+}
+.keywords:hover {
+	COLOR: #ffffff
+}

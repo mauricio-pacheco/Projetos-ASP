@@ -1,0 +1,33 @@
+/* CSS Document */
+
+FONT
+{
+FONT-FAMILY: Verdana,Helvetica, sans-serif;
+FONT-SIZE: 10px
+}
+
+BODY {
+background-color: #FFFFFF;
+margin: 0px;
+padding:0px;
+}
+
+TD
+{
+FONT-FAMILY: Verdana,Helvetica, sans-serif;
+FONT-SIZE: 10px
+}
+
+.link1
+{BACKGROUND: none; 
+COLOR: #F44903; FONT-SIZE: 14px; 
+FONT-FAMILY: Verdana, Helvetica, sans-serif; 
+TEXT-DECORATION: none
+}
+
+.title
+{BACKGROUND: none; 
+COLOR: #000000; FONT-SIZE: 16px; 
+FONT-FAMILY: Verdana, Helvetica, sans-serif; 
+TEXT-DECORATION: none
+}

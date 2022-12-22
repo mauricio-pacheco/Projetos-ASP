@@ -1,0 +1,58 @@
+/* The content of the posts (body of text) */
+body{background:#F2F1ED;color:#000000;font:12px Verdana,Arial,Helvetica,sans-serif;
+scrollbar-3dlight-color:#d1d7dc;
+scrollbar-arrow-color:#004A9D;
+scrollbar-darkshadow-color:#98aab1;
+scrollbar-face-color:#dee3e7;
+scrollbar-highlight-color:#ffffff;
+scrollbar-shadow-color:#dee3e7;
+scrollbar-track-color:#efefef}
+
+/* General page style */
+a:link,a:active,a:visited,a.postlink{color:#000000;text-decoration:none}
+a:hover{color:#0099cc}
+
+/* This is the border line & background colour round the entire page */
+.bodyline{background:#ffffff;border:1px solid #98aab1}
+
+/* Form elements */
+input{border-color: #004A9D; color:#000000; background-color: transparent; font:normal 11px Verdana,Arial,Helvetica,sans-serif;border-width: 1px 1px 1px 1px}
+textarea{border-color: #004A9D; color:#000000; background-color: #FCFCFC; font:normal 11px Verdana,Arial,Helvetica,sans-serif;border-width: 1px 1px 1px 1px}
+select{border-color: #004A9D; color:#000000; font:normal 11px Verdana,Arial,Helvetica,sans-serif}
+
+/* Gets rid of the need for border="0" on hyperlinked images */
+img{border:0}
+
+/* Begin Center block */
+
+/* Table Header cells */
+th{background:#F9BC5E url(images/navbar.jpg);color:#FABF0D;font-size:11px;
+font-weight:bold;height:27px;white-space:nowrap;text-align:center;padding-left:8px;padding-right:8px}
+
+/* Category gradients*/
+td.cat{font-weight:bold;letter-spacing:1px;background:#ffffff url(images/cellpic1.gif);
+height:27px;text-indent:4px}
+
+/* Main table cell colours and backgrounds */
+.row1{background:#EAEFF3}
+.row2,.helpline{background:#D9E2EC}
+.row3{background:#cedcec}
+
+/* End Center block */
+
+/* Menubar links */
+div#menubar {font-size: 12px; font-weight: bold; font-family: Verdana, Helvetica; color: #0f0f0f; text-decoration: none}
+div#menubar a {font-size: 12px; font-weight: bold; font-family: Verdana, Helvetica; color: #0f0f0f; text-decoration: none}
+div#menubar a:hover {font-size: 12px; font-weight: bold; font-family: Verdana, Helvetica; color: #004A9D; text-decoration: none}
+
+.title 		 {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 13px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.content 	 {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.block-title {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Helvetica}
+.storytitle  {BACKGROUND: none; COLOR: #FFFFFF; FONT-SIZE: 11px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.storycat	 {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+.boxtitle 	 {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.boxcontent  {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.option 	 {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.tiny		 {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.small		 {BACKGROUND: none; COLOR: #004A9D; FONT-SIZE: 9px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.dcode		 {BACKGROUND: none; COLOR: #F3EAA0; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}

@@ -1,0 +1,24 @@
+.menu_titulos {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; FONT-SIZE: 11px; BORDER-LEFT: gainsboro 1px solid; COLOR: black; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_titulos_over {
+	BORDER-RIGHT: #019839 1px solid; BORDER-TOP: #019839 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #019839 1px solid; COLOR: black; BORDER-BOTTOM: #019839 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_titulos_selected {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; FONT-SIZE: 11px; BORDER-LEFT: gainsboro 1px solid; COLOR: black; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_fundo {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.submenu_fundo {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #FCEDC9
+}
+.menu_transparent {
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(Opacity=90)
+}
+.menu_sombra {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FILTER: progid:DXImageTransform.Microsoft.Shadow(strength=5,color=gray,direction=135); BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.menu_sombra3 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FILTER: progid:DXImageTransform.Microsoft.Shadow(strength=5,color=gray,direction=135); BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}

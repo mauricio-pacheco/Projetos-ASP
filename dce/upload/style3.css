@@ -1,0 +1,426 @@
+BODY {
+	MARGIN: 0px
+}
+BODY {
+	FONT-SIZE: 11px; COLOR: #595959; LINE-HEIGHT: 11px; FONT-FAMILY: tahoma
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #595959; LINE-HEIGHT: 11px; FONT-FAMILY: tahoma
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #595959; LINE-HEIGHT: 11px; FONT-FAMILY: tahoma
+}
+IMG {
+	BORDER-COLOR: #000000; BORDER-RIGHT: 10px; BORDER-TOP: 10px; BORDER-LEFT: 10px; BORDER-BOTTOM: 10px
+}
+A {
+	FONT-SIZE: 11px; COLOR: #595959; FONT-FAMILY: tahoma
+}
+A:visited {
+	COLOR: #595959
+}
+A:hover {
+	COLOR: #a1a0a0
+}
+A:active {
+	COLOR: #595959
+}
+INPUT {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; FONT-SIZE: 10px; MARGIN: 0px; BORDER-LEFT: #a9a9a9 1px solid; COLOR: #000000; BORDER-BOTTOM: #a9a9a9 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafbfa
+}
+SELECT {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; FONT-SIZE: 10px; MARGIN: 0px; BORDER-LEFT: #a9a9a9 1px solid; COLOR: #000000; BORDER-BOTTOM: #a9a9a9 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafbfa
+}
+TEXTAREA {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; FONT-SIZE: 10px; MARGIN: 0px; BORDER-LEFT: #a9a9a9 1px solid; COLOR: #000000; BORDER-BOTTOM: #a9a9a9 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafbfa
+}
+.box {
+	BORDER-RIGHT: #d9d9d9 1px solid; BORDER-TOP: #d9d9d9 1px solid; BORDER-LEFT: #d9d9d9 1px solid; BORDER-BOTTOM: #d9d9d9 1px solid; BACKGROUND-COLOR: #f4f5f7
+}
+.pequeno {
+	FONT-SIZE: 10px; COLOR: #595959; LINE-HEIGHT: 13px; FONT-FAMILY: 'verdana', 'arial'
+}
+.texto_pequeno {
+	FONT-SIZE: 10px; COLOR: #595959; LINE-HEIGHT: 15px; FONT-FAMILY: 'verdana', 'arial'
+}
+.textob {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #373737; LINE-HEIGHT: 18px; FONT-FAMILY: 'verdana', 'arial'
+}
+.textgreen {
+	COLOR: #359a00
+}
+.textgreen2 {
+	TEXT-TRANSFORM: uppercase; COLOR: #2d9500
+}
+.textorange {
+	COLOR: #f0ac00
+}
+.textblack {
+	COLOR: #000000
+}
+.system {
+	BORDER-RIGHT: #cccccc thin dotted; BORDER-TOP: #cccccc thin dotted; BORDER-LEFT: #c?ccccc thin dotted; BORDER-BOTTOM: #cccccc thin dotted
+}
+.systemheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.systemtext {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.systemsmalltext {
+	FONT-SIZE: 9px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.creation {
+	BORDER-RIGHT: #ffffff thin dotted; BORDER-TOP: #ffffff thin dotted; FONT-SIZE: 12px; BORDER-LEFT: #ffffff thin dotted; COLOR: #000000; BORDER-BOTTOM: #ffffff thin dotted; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.thinline {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.dottedline {
+	BORDER-RIGHT: #cccccc thin dotted; BORDER-TOP: #cccccc thin dotted; BORDER-LEFT: #cccccc thin dotted; BORDER-BOTTOM: #cccccc thin dotted
+}
+.blackline {
+	BORDER-RIGHT: #000000 thin solid; BORDER-TOP: #000000 thin solid; BORDER-LEFT: #000000 thin solid; BORDER-BOTTOM: #000000 thin solid
+}
+.whiteline {
+	BORDER-RIGHT: #ffffff thin solid; BORDER-TOP: #ffffff thin solid; BORDER-LEFT: #ffffff thin solid; BORDER-BOTTOM: #ffffff thin solid
+}
+.domaintable {
+	BORDER-RIGHT: #dddddd thin solid; BORDER-TOP: #dddddd thin solid; MARGIN-LEFT: 20px; BORDER-LEFT: #dddddd thin solid; BORDER-BOTTOM: #dddddd thin solid; BORDER-COLLAPSE: collapse
+}
+.domaintable TD {
+	BORDER-RIGHT: #d6d6d6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #d6d6d6 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #d6d6d6 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #d6d6d6 1px solid
+}
+.hostingtable {
+	BORDER-RIGHT: #dddddd thin solid; BORDER-TOP: #dddddd thin solid; MARGIN-LEFT: 20px; BORDER-LEFT: #dddddd thin solid; BORDER-BOTTOM: #dddddd thin solid; BORDER-COLLAPSE: collapse
+}
+.hostingtable TD {
+	BORDER-RIGHT: #d6d6d6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #d6d6d6 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #d6d6d6 1px solid; PADDING-TOP: 5px; BORDE?R-BOTTOM: #d6d6d6 1px solid
+}
+TR.top {
+	FONT: bold 11px Verdana; COLOR: #ffffff; BACKGROUND-COLOR: #b3bcc3
+}
+#capdiv {
+	VISIBILITY: hidden; WIDTH: 149px; POSITION: absolute
+}
+.noborder {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+BODY {
+	COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.body {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.header {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+A.Blue {
+	COLOR: #518E65; TEXT-DECORATION: none
+}
+A.Blue:hover {
+	COLOR: #518E65; TEXT-DECORATION: none
+}
+A.white {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.BillingLink {
+	COLOR: #518E65; TEXT-DECORATION: none
+}
+A.BillingLink:hover {
+	COLOR: #518E65; TEXT-DECORATION: none
+}
+A {
+	COLOR: #3E6C4D; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #3E6C4D; TEXT-DECORATION: none
+}
+.packages {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 26px; FONT-SIZE: 75%; PADDING-BOTTOM: 13px; COLOR: #333333; PADDING-TOP: 12px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.5steps {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 11px; FONT-SIZE: 70%; PADDING-BOTTOM: 7px; COLOR: #333333; PADDING-TOP: 7px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.AdText {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 11px; FONT-SIZE: 70%; PADDING-BOTTOM: 7px; COLOR: #333333; PADDING-TOP: 7px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.PkgNotes {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; COLOR: #333333; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.MediumTextBox {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 10px; BORDER-TOP: medium none; PADDING-LEFT: 8px; FONT-SIZE: 11px; FLOAT: none; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 213px; COLOR: #333333; MARGIN-RIGHT: auto; PADDING-TOP: 8px; BORDER-BOTTOM: medium none; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 30px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.packages2 {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FONT-SIZE: 70%; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 9px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.packages3 {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-SIZE: 70%; PADDING-BOTTOM: 9px; COLOR: #333333; PADDING-TOP: 6px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.testimonial {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 9px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 15px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.DOF {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 15px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 15px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.ClientName {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 13px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.MoreFeatures {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 11px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.details {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 70%; PADDING-BOTTOM: 6px; TEXT-TRANSFORM: uppercase; COLOR: #3c5366; PADDING-TOP: 6px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 0px; BACKGROUND-COLOR: #ffffff
+}
+.details2 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 70%; PADDING-BOTTOM: 6px; TEXT-TRANSFORM: uppercase; COLOR: #3c5366; PADDING-TOP: 6px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 0px; BACKGROUND-COLOR: #fbfbfb
+}
+.ReferralText {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 70%; PADDING-BOTTOM: 12px; COLOR: #333333; PADDING-TOP: 10px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.Locations {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 70%; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.ServerFeatures {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 75%; PADDING-BOTTOM: 8px; COLOR: #e9a31c; LINE-HEIGHT: 28px; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.ServerHeader {
+	PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 11px; COLOR: #065a90; PADDING-TOP: 15px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.AvailableOptions {
+	PADDING-LEFT: 55px; FONT-SIZE: 70%; PADDING-BOTTOM: 8px; COLOR: #333333; LINE-HEIGHT: 28px; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.ServerText {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FONT-SIZE: 70%; COLOR: #333333; PADDING-TOP: 10px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.ChooseBetween {
+	PADDING-LEFT: 15px; FONT-SIZE: 70%; COLOR: #333333; PADDING-TOP: 20px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.PkgDescription1 {
+	PADDING-LEFT: 16px; FONT-SIZE: 70%; PADDING-BOTTOM: 7px; COLOR: #333333; PADDING-TOP: 7px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.PkgDescription {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 70%; PADDING-BOTTOM: 7px; COLOR: #333333; PADDING-TOP: 7px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.SmallTextBox {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 5px; BORDER-TOP: medium none; PADDING-LEFT: 5px; FONT-SIZE: 70%; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 185px; COLOR: #333333; PADDING-TOP: 4px; BORDER-BOTTOM: medium none; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.WebmailText {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 12px; FONT-SIZE: 70%; COLOR: #333333; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.CompareName {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: normal; FONT-SIZE: 70%; PADDING-BOTTOM: 8px; TEXT-TRANSFORM: uppercase; COLOR: #333333; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f6fdfe
+}
+.CompareInfo {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: normal; FONT-SIZE: 70%; PADDING-BOTTOM: 8px; VERTICAL-ALIGN: middle; TEXT-TRANSFORM: uppercase; COLOR: #333333; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.DetailsTitle {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 75%; PADDING-BOTTOM: 8px; TEXT-TRANSFORM: uppercase; COLOR: #333333; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.DomainText {
+	PADDING-RIGHT: 23px; PADDING-LEFT: 23px; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.LargeTextBox {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 8px; BORDER-TOP: medium none; PADDING-LEFT: 8px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(images/domains/input_bg.gif); VERTICAL-ALIGN: middle; BORDER-LEFT: medium none; WIDTH: 324px; COLOR: #333333; PADDING-TOP: 5px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 26px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.DomainPackages {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; FONT-SIZE: 70%; COLOR: #333333; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.OptionText {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 11px; COLOR: #333333; PADDING-TOP: 30px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.LargeTextBox2 {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 8px; BORDER-TOP: medium none; PADDING-LEFT: 8px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(images/domains/input_bg2.gif); VERTICAL-ALIGN: middle; BORDER-LEFT: medium none; WIDTH: 324px; COLOR: #333333; PADDING-TOP: 5px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 26px; TEXT-ALIGN: left
+}
+
+.AddPackage {
+	PADDING-LEFT: 15px; FONT-SIZE: 70%; PADDING-BOTTOM: 12px; COLOR: #333333; PADDING-TOP: 9px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.SupportSearchBox1 {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 5px; BORDER-TOP: medium none; PADDING-LEFT: 7px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(images/support/input_bg1.gif); VERTICAL-ALIGN: middle; BORDER-LEFT: medium none; WIDTH: 325px; COLOR: #333333; PADDING-TOP: 6px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 27px; TEXT-ALIGN: left
+}
+.Billing {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 75%; PADDING-BOTTOM: 8px; COLOR: #333333; LINE-HEIGHT: 20px; PADDING-TOP: 8px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; LETTER-SPACING: normal
+}
+.Forums {
+	PADDING-LEFT: 8px; FONT-SIZE: 70%; PADDING-BOTTOM: 10px; COLOR: #f26403; LINE-HEIGHT: 20px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.LinuxFaqs {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 70%; PADDING-BOTTOM: 6px; COLOR: #333333; LINE-HEIGHT: 18px; PADDING-TOP: 6px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.Codebank {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #2ab0dd; LINE-HEIGHT: 42px; PADDING-TOP: 5px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.CodebankWhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 31px; PADDING-TOP: 3px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.AboutUs {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 13px; FONT-SIZE: 70%; PADDING-BOTTOM: 13px; COLOR: #333333; PADDING-TOP: 13px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.PressRoom {
+	FONT-SIZE: 70%; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.PressRelease {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 70%; PADDING-BOTTOM: 10px; COLOR: #333333; PADDING-TOP: 10px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.AcctInfo {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; COLOR: #333333; PADDING-TOP: 1px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.AcctInfoBox {
+	BORDER-RIGHT: #52c4ea 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #52c4ea 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 11px; BORDER-LEFT: #52c4ea 1px solid; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #52c4ea 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #fbfbfb
+}
+.Definitions {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; COLOR: #333333; PADDING-TOP: 5px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.blue_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #5b90c6; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.packages {
+	FONT-SIZE: 70%; COLOR: #333333; LINE-HEIGHT: 15px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; HEIGHT: 68px; TEXT-ALIGN: left
+}
+.DataCenter {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 12px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.wbheaders {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; MARGIN-LEFT: 20px; TEXT-TRANSFORM: none; COLOR: #666666; MARGIN-RIGHT: 20px; PADDING-TOP: 1px; BACKGROUND-REPEAT: repeat-y; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 0px; BACKGROUND-COLOR: #e0e0e0
+}
+.wbbody {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.DomainMediumTextBox {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BORDER-LEFT: 1px solid; WIDTH: 157px; COLOR: #444444; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white
+}
+.TextBox {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BORDER-LEFT: 1px solid; WIDTH: 203px; COLOR: #444444; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white
+}
+.DrpState {
+	FONT-SIZE: 11px; WIDTH: 203px; COLOR: #444444; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.DrpPlan {
+	FONT-SIZE: 11px; WIDTH: 448px; COLOR: #444444; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.DrpMonth {
+	FONT-SIZE: 11px; WIDTH: 125px; COLOR: #444444; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.DrpYear {
+	FONT-SIZE: 11px; WIDTH: 75px; COLOR: #444444; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.HalfTextBox {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BORDER-LEFT: 1px solid; WIDTH: 100px; COLOR: #444444; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white
+}
+.TinyTextBox {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BORDER-LEFT: 1px solid; WIDTH: 55px; COLOR: #444444; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white
+}
+.Ed_MediumTextBox {
+	BORDER-RIGHT: #5b90c6 1px solid; BORDER-TOP: #5b90c6 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #5b90c6 1px solid; WIDTH: 157px; COLOR: #444444; BORDER-BOTTOM: #5b90c6 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white
+}
+.TopTen {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; COLOR: #333333; PADDING-TOP: 10px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+
+.menu_top {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Tahoma, Arial, Verdana, sans-serif
+}
+.menu_top:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.menu_top:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.menu_top:hover {
+	COLOR: #008040; TEXT-DECORATION: none
+}
+.menu_top:active {
+	COLOR: #008040; TEXT-DECORATION: none
+}
+.menu_down {
+	FONT-SIZE: 11px; COLOR: #4a4a4a; FONT-FAMILY: Tahoma, Arial, Verdana, sans-serif
+}
+.menu_down:link {
+	COLOR: #4a4a4a; TEXT-DECORATION: none
+}
+.menu_down:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.menu_down:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.menu_down:active {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+
+.not {
+	FONT-WEIGHT: ; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.not A:link {
+	FONT-WEIGHT: ; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.not A:visited {
+	FONT-WEIGHT: ; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.not A:hover {
+	FONT-WEIGHT: ; FONT-SIZE: 11px; COLOR: #009242; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.td_cinza_direita {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: 0px; BORDER-LEFT: #999999 1px; BORDER-BOTTOM: 0px
+}
+.tahoma_laranja_11 {
+	FONT-SIZE: 11px; COLOR: #e08214; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.tahoma_cinza_11 {
+	FONT-SIZE: 11px; COLOR: #727272; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.txt_box_1 {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; BORDER-LEFT: #d1d1d1 1px solid; COLOR: #666666; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial; HEIGHT: 18px; BACKGROUND-COLOR: #fcfcfc
+}
+.lateral_1 {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(../imagens/home_lat_dir.gif); BORDER-LEFT: #666666 1px solid; BACKGROUND-REPEAT: repeat-y
+}
+.lateral_2 {
+	BORDER-RIGHT: #666666 1px solid; BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(../imagens/home_lat_esq.gif); BACKGROUND-REPEAT: repeat-y
+}
+BODY {
+	BACKGROUND-POSITION: center 50%;  BACKGROUND-REPEAT: repeat-y
+}
+.tahoma_cinza_12 {
+	FONT-SIZE: 12px; COLOR: #727272; FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.input-txt {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #d1d1d1 1px solid; WIDTH: 100%; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.input-Multiline {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #d1d1d1 1px solid; WIDTH: 100%; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.input-btn {
+	BORDER-RIGHT: 1px outset; PADDING-RIGHT: 1px; BORDER-TOP: 1px outset; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 9px; BACKGROUND-IMAGE: url(../imagens/input_fd_btn.gif); PADDING-BOTTOM: 1px; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: 1px outset; WIDTH: 150px; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: 1px outset; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; backgroung-image: repeat-x
+}
+.input-txt-variavel {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #d1d1d1 1px solid; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.superfaq_box {
+	BORDER-RIGHT: #b2b2b2 1px solid; BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; BACKGROUND-COLOR: #f3f3f3
+}
+.tahoma_preta_11 {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.superfaq_boxSubmenu {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.input-btnSuperFaq {
+	BORDER-RIGHT: 1px outset; PADDING-RIGHT: 1px; BORDER-TOP: 1px outset; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(../imagens/input_fd_btn.gif); PADDING-BOTTOM: 1px; MARGIN: 0px 0px 0px 1px; BORDER-LEFT: 1px outset; WIDTH: 80px; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: 1px outset; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma, sans-serif; HEIGHT: 20px; backgroung-image: repeat-x
+}
+.txt_box_1Multiline {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; BORDER-LEFT: #d1d1d1 1px solid; COLOR: #666666; PADDING-TOP: 1px; BORDER-BOTTOM: #f1f1f1 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial; BACKGROUND-COLOR: #fcfcfc
+}
+.seta {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(/imagens/setinha.gif); BACKGROUND-REPEAT: no-repeat
+}
+.setaazul {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(/imagens/setinha_azul.gif); BACKGROUND-REPEAT: no-repeat
+}
+#hospedagem A {
+	FONT-SIZE: 2px; COLOR: #e08214; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,51 @@
+UNKNOWN {
+	COLOR: #fe934c; TEXT-DECORATION: none
+}
+.menu:hover {
+	TEXT-DECORATION: none
+}
+.sidemenu {
+	COLOR: #fe934c; TEXT-DECORATION: none
+}
+.m1 {
+	BORDER-RIGHT: #4d4d4d 1px solid; BORDER-TOP: #4d4d4d 1px solid; BORDER-LEFT: #4d4d4d 1px solid; BORDER-BOTTOM: #4d4d4d 1px solid
+}
+.orange {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+.orange:hover {
+	TEXT-DECORATION: none
+}
+.dropshad {
+	FILTER: DropShadow(OffX=2, OffY=3, color:#666666)
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #FF8000; TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #FFFFFF
+}
+TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #FFFFFF
+}
+SELECT {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 1px solid; COLOR: #e6e6e6; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #FFFFFF
+}
+INPUT {
+	BORDER-BOTTOM-COLOR: #FF8000; BORDER-LEFT-COLOR: #FF8000; BORDER-RIGHT-COLOR: #FF8000; BORDER-TOP-COLOR: #FF8000; COLOR: #FF8000; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+TEXTAREA {
+	BORDER-BOTTOM-COLOR: #FF8000; BORDER-LEFT-COLOR: #FF8000; BORDER-RIGHT-COLOR: #FF8000; BORDER-TOP-COLOR: #FF8000; COLOR: #FF8000; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+SELECT {
+	BORDER-BOTTOM-COLOR: #FF8000; BORDER-LEFT-COLOR: #FF8000; BORDER-RIGHT-COLOR: #FF8000; BORDER-TOP-COLOR: #FF8000; COLOR: #FF8000; FONT-SIZE: 10px; input.radio: #F4F6FB 
+}
+BODY {
+scrollbar-face-color:#009900; scrollbar-highlight-color:#009900; scrollbar-3dlight-color:#FFFFFF; scrollbar-darkshadow-color:#009900; scrollbar-shadow-color:#FFFFFF; scrollbar-arrow-color:#FFFFFF; scrollbar-track-color:#009900;
+}

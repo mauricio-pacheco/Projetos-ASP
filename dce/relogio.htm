@@ -1,0 +1,35 @@
+﻿<html>
+<head>
+<title>Relogio</title> 
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=1.10)">
+<meta http-equiv="Page-Exit" content="blendTrans(Duration=1.10)">
+<script language="JavaScript" type="text/javascript">
+function horas(){
+	var now = new Date();
+	var hours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds()
+	if (hours <=9)
+hours="0"+hours;
+	if (minutes<=9)
+minutes="0"+minutes;
+	if (seconds<=9)
+seconds="0"+seconds;
+	var cdate="<font color=#434343 size=1 face=verdana>Hora Certa: "+hours+":"+minutes+":"+seconds+" "+"</font>" 
+	clock.innerHTML= cdate;
+setTimeout("horas()",1000);
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body {
+	background-color: #F2F2F2;
+}
+-->
+</style></head>
+<body leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
+<div align="center"><span id="clock" ></span>
+  <script>setTimeout("horas()",1000);</script>
+</div>
+</body>
+</html>

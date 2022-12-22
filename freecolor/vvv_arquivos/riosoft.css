@@ -1,0 +1,33 @@
+.lateral {
+	BORDER-RIGHT: #0053a5 1px solid
+}
+BODY {
+	BACKGROUND-IMAGE: url(../img/fundo_branco.gif); MARGIN: 0px
+}
+.menu_home {
+	FONT: 11px/16px Tahoma; COLOR: #000000
+}
+A.menu_home:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu_home:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu_home:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.menu_home:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.content {
+	FONT: 11px/16px Tahoma; COLOR: #000000
+}
+.contentTit {
+	FONT: bold 14px/16px Tahoma; COLOR: #0256ae
+}
+.contentTitWhite {
+	FONT: bold 11px/16px Tahoma; COLOR: #ffffff
+}
+.ERRO {
+	FONT: bold 11px/16px Tahoma; COLOR: #ff0000
+}

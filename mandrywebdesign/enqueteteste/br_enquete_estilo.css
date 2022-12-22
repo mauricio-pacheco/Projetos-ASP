@@ -1,0 +1,40 @@
+
+
+.text {font-family: verdana ; font-size: px; color:#333333 }
+.italic {font-family: verdana; font-size: 11px; color: #ff0000; font-style: italic;}
+
+
+
+TD {
+	font-size: 8pt; color: #808080; font-family: Verdana
+}
+A:link {
+	color: #666666; text-decoration: none
+}
+A:visited {
+	color: #666666; text-decoration: none
+}
+A:active {
+	color: black; text-decoration: none
+}
+A:hover {
+	color: black; text-decoration: underline
+}
+
+
+
+
+
+
+
+/* Barra de navegação - Para vizualizar necessita do Internet Explorer 5.5 ou superior */
+body {
+	scrollbar-face-color: #E8E8E8;
+	scrollbar-shadow-color: #dddddd;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #C0C0C0;
+	scrollbar-darkshadow-color: #C0C0C0;
+	scrollbar-track-color: #D8D8D8;
+	scrollbar-arrow-color: #000000;
+	background-color: #ffffff;
+	}

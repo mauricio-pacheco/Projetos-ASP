@@ -1,0 +1,1 @@
+<% =application("activevisitors") %> usuário(s) online

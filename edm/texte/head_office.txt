@@ -1,0 +1,3 @@
+textField7=<b>HEAD OFFICE</b>
+2171 rue King Ouest<br>Sherbrooke (Québec)<br>J1J 2G1
+Tel.: (819) 566-1515<br>Fax : (819) 566-7323<br>

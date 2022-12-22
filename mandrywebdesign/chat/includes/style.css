@@ -1,0 +1,106 @@
+html, body, table {
+	padding: 0;
+
+	font-family: verdana,lucida,helvetica,arial,sans-serif;
+	font-size: 10px;
+}
+
+.text,div,span,td,p,li,input,select,textarea,legend,blockquote,pre {
+	font-family: verdana,lucida,helvetica,arial,sans-serif;
+	font-size: 10px;
+}
+
+.smtext {
+	font-family: verdana,lucida,helvetica,arial,sans-serif;
+	font-size: 10px;
+}
+
+.iframe {
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+#chatBox {
+	width: 100%;
+	height: 335;
+	overflow: auto;
+}
+
+#usersBox {
+
+	height: 280;
+	padding: 0 5px 0 10px;
+	overflow: auto;
+}
+
+.chatBorderText {
+	font-weight: bold;
+	color: black;
+	font-size: 10px;
+}
+
+.LogOut {
+	color: #3B71B6;
+	font-size: 10px;
+	font-family: verdana;
+}
+
+.Copyright, a.Copyright, a.Copyright:visited, a.Copyright:visited:hover, a.Copyright:hover {
+	color: #3B71B6;
+	font-size: 10px;
+	font-family: verdana;
+}
+
+.UserStatus {
+	color: green;
+}
+
+.soundoptions {
+	font-size: 10px;
+}
+
+.privatemessage {
+	font-weight: bold;
+	font-size: 10px;
+	color: green;
+}
+
+.consolemessage {
+	font-size: 10px;
+	color: green;
+	font-weight: bold;
+}
+
+#emoticons {
+    position:absolute;
+    top: 320px;
+    left: 21px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #C1C1C1;
+    border-left: 1px solid #C1C1C1;
+    border-right: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+	filter:
+    progid:DXImageTransform.Microsoft.Alpha(opacity=95);
+    -moz-opacity: 0.95;
+    overflow: hidden;
+	z-index: 1
+}
+
+#emoticons div {
+    width:235px;
+    height:50px;
+    display:block;
+    overflow:hidden
+}
+
+#emoticons div span {
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid #C1C1C1;
+    border-left: 1px solid #C1C1C1;
+    border-right: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    padding: 0px;
+    text-align: center
+}

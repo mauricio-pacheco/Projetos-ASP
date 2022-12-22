@@ -1,0 +1,100 @@
+#########################################################################################
+#----------------------------------------------------------------------------------------
+#########################################################################################
+#
+#  CÓDIGO: VirtuaStore Versão 1.2 - Copyright 2001-2003 VirtuaWorks                                    
+#  URL: www.virtuastore.com.br / www.virtuaworks.com.br                                                           
+#  E-MAIL: webmaster@virtuaworks.com.br                                                                                          
+#  AUTORES: Otávio Dias(Desenvolvedor) / Jone Bandinelli(Desenvolvedor) / Daniel Kern(Revisão)                
+# 
+#     Este programa é um software livre; você pode redistribuí-lo e/ou 
+#     modificá-lo sob os termos do GNU General Public License como 
+#     publicado pela Free Software Foundation.
+#     É importante lembrar que qualquer alteração feita no programa 
+#     deve ser informada e enviada para os criadores, através de e-mail 
+#     ou da página de onde foi baixado o código.
+#
+#  //-------------------------------------------------------------------------------------
+#  // LEIA COM ATENÇÃO: O software VirtuaStore 1.2 deve conter as frases
+#  // "Powered by VirtuaStore 1.2" ou "Software derivado de VirtuaStore 1.2" e 
+#  // o link para o site http://www.virtuastore.com.br no créditos da 
+#  // sua loja virtual para ser utilizado gratuitamente. Se o link e/ou uma das 
+#  // frases não estiver presentes ou visiveis este software deixará de ser
+#  // considerado Open-source(gratuito) e o uso sem autorização terá 
+#  // penalidades judiciais de acordo com as leis de pirataria de software.
+#  //--------------------------------------------------------------------------------------
+#      
+#     Este programa é distribuído com a esperança de que lhe seja útil,
+#     porém SEM NENHUMA GARANTIA. Veja a GNU General Public License
+#     abaixo (GNU Licença Pública Geral) para mais detalhes.
+# 
+#     Você deve receber a cópia da Licença GNU com este programa, 
+#     caso contrário escreva para
+#     Free Software Foundation, Inc., 59 Temple Place, Suite 330, 
+#     Boston, MA  02111-1307  USA
+# 
+#     Para enviar suas dúvidas, sugestões e/ou contratar a VirtuaWorks 
+#     Internet Design entre em contato através do e-mail 
+#     contato@virtuaworks.com.br ou pelo endereço abaixo: 
+#     Rua Venâncio Aires, 1001 - Niterói - Canoas - RS - Brasil. Cep 92110-000.
+#
+#     Para ajuda e suporte acesse: http://www.virtuastore.com.br
+#
+#     BOM PROVEITO!          
+#     Equipe VirtuaStore
+#     []'s
+#
+#########################################################################################
+#----------------------------------------------------------------------------------------
+#########################################################################################
+
+>>>>>>>>>>>>>>LEIA ABAIXO<<<<<<<<<<<<<<<<
+
+=========================================================================================
+
+        O QUE HÁ DE NOVO NA VIRTUASTORE? - WHAT'S NEW IN THE VIRTUASTORE?  
+
+                     NOTAS DA VERSÃO / NOTES OF VERSION
+                      
+
+#########################################################################################
+#
+#  >> VirtuaStore 1.0 <<
+#
+#     - Loja virtual em ASP com banco de dados Access;
+#     - Necessita do arquivo Global.asa;
+#
+#  >> VirtuaStore 1.0.9 <<
+#   
+#     - Versão sem o arquivo Global.asa;
+#     - Melhoras nas opções de compras do cliente;
+#     - Correção no Administrador;
+#
+#  >> VirtuaStore 1.1 <<
+#  
+#     - Versão Integrada que Suporta banco de dados MySql, SQL Server e Access;
+#     - Não necessita do arquivo Global.asa;
+#     - Novo sistema de campeões de venda que possibilita ao usurário ver quais 
+#       foram os produtos mais vendidos;
+#     - Correção de 99,9% nos Bugs do Administrador;
+#     - Maior Confiabilidade nos dados;
+#     - Criptografia de 32 Bits, onde somente os que possuem a VirtuaStore podem 
+#       descriptografar os dados;
+#
+#  >> VirtuaStore 1.1.2 <<
+#
+#     - Todos os erros principais corrigidos;
+#     - Tela de Erro Personalizada Totalmente Personalizada;
+#     - Mensagens de erros amigáveis;
+#     - Suporte Para Manipulação On-Line do banco de dados;
+#
+#  >> VirtuaStore 1.2. <<
+#
+#     - Adição da opção "Enviar para presente"
+#     - Alguns bugs na criptografia
+#     - Erros na modificação de dados de usuario
+#     - Suporte a boleto bancário itáu, bradesco, banco do brasil, banespa e unibanco
+#
+#
+#########################################################################################
+

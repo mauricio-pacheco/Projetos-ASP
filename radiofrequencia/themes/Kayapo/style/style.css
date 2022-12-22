@@ -1,0 +1,212 @@
+FONT
+{
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial;
+FONT-SIZE: 10px
+}
+
+P.center
+{
+text-align: center
+}
+
+BODY {
+background-color: #666666;
+margin: 0px;
+padding:0px;
+}
+
+TD
+{
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial;
+FONT-SIZE: 10px
+}
+
+P
+{
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial;
+FONT-SIZE: 10px
+}
+
+DIV
+{
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial;
+FONT-SIZE: 10px
+}
+
+/* Form elements */
+form
+{
+display:inline
+}
+
+input
+{
+margin-bottom:2px;
+margin-top:2px;
+text-indent:2px
+}
+
+input,textarea,select
+{
+border-color:#000000;
+color:#000000;
+font-size:10px
+}
+
+/* Fancy form styles for IE */
+input,textarea,select
+{background: #ffffff;
+border-width:1px;
+font:normal 10px Verdana, Arial, Helvetica, sans-serif
+}
+
+
+A:link
+{
+BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 10px; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: underline}
+
+A:active
+{BACKGROUND: none;
+COLOR: #FF6600;
+FONT-SIZE: 10px;
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial;
+TEXT-DECORATION: underline
+}
+
+A:visited
+{
+BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 10px; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: underline
+}
+
+A:hover
+{BACKGROUND: none; 
+COLOR: #F44903; FONT-SIZE: 10px; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: none
+}
+
+.title
+{BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 13px; 
+FONT-WEIGHT: bold; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: none
+}
+
+.content
+{BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 10px; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial
+}
+
+.storytitle
+{BACKGROUND: none; 
+COLOR: #363636; 
+FONT-SIZE: 14px; 
+FONT-WEIGHT: bold; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: none
+}
+
+.storycat
+{BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 13px; 
+FONT-WEIGHT: bold; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: underline
+}
+
+.boxtitle
+{BACKGROUND: none; 
+COLOR: #363636; 
+FONT-SIZE: 10px; 
+FONT-WEIGHT: bold; 
+FONT-FAMILY: Verdana, sans-serif, 
+Helvetica; TEXT-DECORATION: none
+}
+
+.boxcontent
+{BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 12px; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial
+}
+
+.option
+{BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 13px; 
+FONT-WEIGHT: bold; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: none
+}
+
+.tiny
+{BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 10px; 
+FONT-WEIGHT: normal; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: none
+}
+
+.footmsg
+{BACKGROUND: none; 
+COLOR: #CACACA; 
+FONT-SIZE: 8px; 
+FONT-WEIGHT: normal; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: none
+}
+
+.footmsg_l
+{BACKGROUND: none; 
+COLOR: #CACACA; 
+FONT-SIZE: 8px; 
+FONT-WEIGHT: normal; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: underline
+}
+
+.box
+{FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+FONT-SIZE: 10px; 
+border: 1px solid #000000; 
+background-color: #FFFFFF
+}
+
+.link1
+{BACKGROUND: none; 
+COLOR: #F44903; FONT-SIZE: 14px; 
+FONT-FAMILY: Cursor, Sans-Serif, Helvetica, Verdana, Arial; 
+TEXT-DECORATION: none
+}
+
+.submited
+{BACKGROUND: none; 
+COLOR: #000000; 
+FONT-SIZE: 10px; 
+FONT-FAMILY: courrier, Cursor, Sans-Serif, Helvetica, Verdana, Arial
+}
+
+td.top
+{
+vertical-align: top;
+} 
+
+
+div.center
+{
+text-align: center
+}

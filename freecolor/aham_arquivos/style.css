@@ -1,0 +1,112 @@
+body{
+scrollbar-arrow-color:  #ffffff;
+	scrollbar-face-color: #BF0907;
+	scrollbar-track-color: #ffffff;
+	scrollbar-highlight-color: #C8D3E1;
+	scrollbar-3dlight-color: #EAEFF4;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-darkshadow-color: #3A5370;}
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #E02323; TEXT-DECORATION: none
+}
+A.menu:link {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A.menu:visited {
+	COLOR: #434343; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #E02323; TEXT-DECORATION: none
+}
+
+A:hover {
+	TEXT-DECORATION: none
+}
+.home_vototop {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-SIZE: 9px; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Verdana
+}
+.home_top10 {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-SIZE: 9px; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: Verdana
+}
+.home_top10b {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-SIZE: 9px; PADDING-BOTTOM: 3px; COLOR: #f08578; PADDING-TOP: 5px; FONT-FAMILY: Verdana
+}
+.home_notdest01 {
+	FONT-SIZE: 10px; COLOR: #58595a; LINE-HEIGHT: 11px; FONT-FAMILY: Verdana
+}
+.home_not01 {
+	FONT-SIZE: 10px; COLOR: #58595a; FONT-FAMILY: Verdana
+}
+.home_clipetit01 {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana
+}
+.content01 {
+	FONT-SIZE: 10px; COLOR: #58595a; FONT-FAMILY: Verdana
+}
+.content_tit01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #58595a; FONT-FAMILY: Verdana
+}
+.noticia_tit01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000; FONT-FAMILY: Verdana
+}
+.cadForm01 {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #c0c0c0 1px solid; COLOR: #58595a; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Verdana
+}
+.noticia_cred01 {
+	FONT-SIZE: 10px; COLOR: #000; FONT-FAMILY: Verdana
+}
+.listnot01 {
+	FONT-SIZE: 11px; COLOR: #58595a; LINE-HEIGHT: 15px; FONT-FAMILY: Verdana
+}
+.cadBut01 {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #4da3d7 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: #4da3d7 1px solid; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #000 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #0066a4
+}
+.listnot_tit01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000; FONT-FAMILY: Verdana
+}
+.promo_start01 {
+	FONT-SIZE: 11px; COLOR: #293e86; FONT-FAMILY: Verdana
+}
+.content_leg01 {
+	FONT-SIZE: 9px; COLOR: #58595a; FONT-FAMILY: Verdana
+}
+.content_tit02 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Verdana
+}
+.select_contato01 {
+	FONT-WEIGHT: bold; BACKGROUND: #d5e6f4; COLOR: #000
+}
+.select_contato02 {
+	FONT-WEIGHT: bold; BACKGROUND: #d5e6f4; COLOR: #cccccc
+}
+.prog_horario01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #cb2831; FONT-FAMILY: Verdana
+}
+.prog_tit01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000; FONT-FAMILY: Verdana
+}
+.prog_horario01_current {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #fff; FONT-FAMILY: Verdana
+}
+.prog_tit01_current {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #fff; FONT-FAMILY: Verdana
+}
+.prog_desc01_current {
+	FONT-SIZE: 11px; COLOR: #fff; FONT-FAMILY: Verdana
+}
+.content02 {
+	FONT-SIZE: 11px; COLOR: #58595a; FONT-FAMILY: Verdana
+}
+.loginPedidos {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #c0c0c0 1px solid; COLOR: #58595a; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f0faff
+}

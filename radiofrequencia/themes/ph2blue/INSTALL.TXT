@@ -1,0 +1,43 @@
+***************************************************
+**          For PHP-NUKE 6.5 AND NEWER ONLY	 **
+***************************************************
+
+Original PHP-Nuke theme developed by: Pitcher - PH2 Theme modified by: Lorkan Themes 
+at http://www.lorkan.com
+
+This package contains:
+The PHP-Nuke theme "PH2 - Originally designed by: (Pitcher@Home).
+
+- Printer Mod and associated files.
+- Topics folder, which can be placed in the themes/PH2BLUE/images/ folder.
+- Admin folder, which can be placed in the themes/PH2BLUE/images/ folder.
+- Blank images
+
+*************************************************************
+Also included is the Center Forum block.
+This block matches this theme ONLY!
+This block only works as a Center Block.
+and Nukecops modded forum part for the Nukecops bundle of nuke.
+*************************************************************
+
+                  ##INSTRUCTIONS##
+
+Upload themes/PH2BLUE to your themes folder on your FTP.
+
+
+*************************************************************
+
+If you like this theme please consider adding the included OurLink button to your site.
+
+[LIABILITY]
+NO WARRANTIES.  THE PRODUCT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, INCLUDING WITHOUT LIMITATION WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.  WE ARE NOT REQUIRED TO PROVIDE ANY UPDATES OR
+SUPPORT, BUT WE MIGHT ANYWAY. ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY SHALL NOT EXCEED THE PRICE PAID FOR THE
+PRODUCT - THIS INCLUDES LEGAL FEES AND COURT COSTS.  TO THE MAXIMUM EXTENT PROVIDED BY ALL APPLICABLE
+LAWS, WE (AND OUR AGENTS, SUPPLIERS, FAMILY, AND PETS) ARE NOT TO BLAME IF THIS STUFF DOESN'T WORK, DOESN'T DO
+WHAT YOU WANT IT TO DO, OR CAUSES YOUR PC TO BLOW UP.
+
+
+**************************************************************************************************************************
+**      HOSTING THIS, OR ANY OTHER PITCHER@HOME THEME IS PROHIBITED WITHOUT THE CONSENT OF THE PITCHER@HOME ADMIN	**
+**************************************************************************************************************************
