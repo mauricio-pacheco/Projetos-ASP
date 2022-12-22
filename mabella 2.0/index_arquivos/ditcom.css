@@ -1,0 +1,57 @@
+A {
+	COLOR: #4f4f4f; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #D5302A
+}
+.text {
+	FONT-SIZE: 11px; COLOR: #4f4f4f; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.text:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #4f4f4f; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.text:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #4f4f4f; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+.menu {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.menu:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.menu:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+.noti {
+	FONT-SIZE: 11px; COLOR: #4f4f4f; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.noti:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #D5302A; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.noti:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #D5302A; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+.canal-top {
+	MARGIN-LEFT: -4px; WIDTH: 0px; COLOR: #f1f3f5
+}
+A.canal-top {
+	BORDER-RIGHT: #cecfce 1px solid; PADDING-RIGHT: 18px; BORDER-TOP: #cecfce 1px solid; PADDING-LEFT: 18px; FONT-WEIGHT: normal; BACKGROUND: #efefef; LEFT: 13px; PADDING-BOTTOM: 2px; MARGIN: 0px 3px 0px 0px; BORDER-LEFT: #cecfce 1px solid; WIDTH: 0px; COLOR: #555; PADDING-TOP: 6px; BORDER-BOTTOM: #cecfce 1px solid; POSITION: relative; TOP: 0px; HEIGHT: 18px
+}
+A.canal-top:hover {
+	BORDER-RIGHT: #cecfce 1px solid; PADDING-RIGHT: 18px; BORDER-TOP: #cecfce 1px solid; PADDING-LEFT: 18px; FONT-WEIGHT: normal; BACKGROUND: #fdfdfd; PADDING-BOTTOM: 2px; BORDER-LEFT: #cecfce 1px solid; WIDTH: auto; COLOR: #555; PADDING-TOP: 6px; BORDER-BOTTOM: #cecfce 1px solid
+}
+INPUT.central {
+	BORDER-RIGHT: #fefefe 1px ridge; BORDER-TOP: #fefefe 1px ridge; FONT-SIZE: 8pt; BORDER-LEFT: #fefefe 1px ridge; COLOR: #5f5f5f; BORDER-BOTTOM: #fefefe 1px ridge; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+.form {
+	BORDER-RIGHT: #a4a4a4 1px solid; BORDER-TOP: #a4a4a4 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #a4a4a4 1px solid; BORDER-BOTTOM: #a4a4a4 1px solid; FONT-FAMILY: tahoma,arial,verdana; HEIGHT: 18px
+}
+.formtext {
+	BORDER-RIGHT: #a4a4a4 1px solid; BORDER-TOP: #a4a4a4 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #a4a4a4 1px solid; BORDER-BOTTOM: #a4a4a4 1px solid; FONT-FAMILY: tahoma,arial,verdana
+}
+.textoa {
+	FONT: 11px Arial, Helvetica, sans-serif; COLOR: #000000; TEXT-DECORATION: blink
+}
+.keywords {
+	FONT-SIZE: 1px; FONT-FAMILY: Arial
+}

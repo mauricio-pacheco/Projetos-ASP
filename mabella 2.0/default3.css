@@ -1,0 +1,148 @@
+BODY {
+scrollbar-face-color:#F7F7F7;
+scrollbar-highlight-color:#F9DC8E;
+scrollbar-3dlight-color:#F9DC8E;
+scrollbar-darkshadow-color:#F9DC8E;
+scrollbar-shadow-color:#F9DC8E;
+scrollbar-arrow-color:#000000;
+scrollbar-track-color:#F9DC8E;
+}
+
+BODY {
+	MARGIN: 0px; BACKGROUND-COLOR: #FFFFFF
+}
+BODY {
+	FONT-SIZE: 10px; COLOR: #646464; FONT-FAMILY: verdana,arial,helvetica
+}
+DIV {
+	FONT-SIZE: 10px; COLOR: #646464; FONT-FAMILY: verdana,arial,helvetica
+}
+TD {
+	FONT-SIZE: 10px; COLOR: #646464; FONT-FAMILY: verdana,arial,helvetica
+}
+INPUT {
+	FONT-SIZE: 10px; COLOR: #646464; FONT-FAMILY: verdana,arial,helvetica
+}
+SELECT {
+	FONT-SIZE: 10px; COLOR: #646464; FONT-FAMILY: verdana,arial,helvetica
+}
+TEXTAREA {
+	FONT-SIZE: 10px; COLOR: #646464; FONT-FAMILY: verdana,arial,helvetica
+}
+INPUT {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid
+}
+INPUT.button {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 13px; BORDER-BOTTOM-WIDTH: 0px; CURSOR: hand; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 0px
+}
+SELECT {
+	
+}
+FORM {
+	MARGIN: 0px
+}
+.DF-alert {
+	BACKGROUND-COLOR: #ff9999
+}
+.mn-top {
+	BACKGROUND-IMAGE: url(../../img/home/mn_top.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 19px
+}
+.no-border {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.input-vermelho {
+	BORDER-RIGHT: #f81900 1px solid; BORDER-TOP: #f81900 1px solid; BORDER-LEFT: #f81900 1px solid; BORDER-BOTTOM: #f81900 1px solid
+}
+.font-vermelho {
+	COLOR: #f81900
+}
+#site {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#border {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 778px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+#content {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BACKGROUND-IMAGE: url(../../img/home/bg.jpg); PADDING-BOTTOM: 4px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 4px; HEIGHT: 482px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.box-borda {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 2px; MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 1px solid; HEIGHT: auto
+}
+.box-borda2 {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 2px; MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 1px solid; HEIGHT: auto
+}
+.box-borda {
+	WIDTH: 177px
+}
+.box-borda2 {
+	WIDTH: 354px
+}
+.box-content {
+	COLOR: #646464; BACKGROUND-COLOR: #fdecc2
+}
+.box-content2 {
+	COLOR: #646464; BACKGROUND-COLOR: #fdecc2
+}
+.box-content {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.box-content2 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.sub-tit {
+	PADDING-LEFT: 9px; FONT-SIZE: 9px; COLOR: #696500
+}
+A:link {
+	COLOR: #646464; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #646464; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #646464; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #646464; TEXT-DECORATION: underline
+}
+A.link-branco:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.link-branco:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.link-branco:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.link-branco:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A DIV:link {
+	COLOR: #696500; TEXT-DECORATION: none
+}
+A DIV:visited {
+	COLOR: #696500; TEXT-DECORATION: none
+}
+A DIV:active {
+	COLOR: #696500; TEXT-DECORATION: none
+}
+A DIV:hover {
+	COLOR: #696500; TEXT-DECORATION: underline
+}
+A.link-vermelho:link {
+	COLOR: #f81900; TEXT-DECORATION: none
+}
+A.link-vermelho:visited {
+	COLOR: #f81900; TEXT-DECORATION: none
+}
+A.link-vermelho:active {
+	COLOR: #f81900; TEXT-DECORATION: none
+}
+A.link-vermelho:hover {
+	COLOR: #f81900; TEXT-DECORATION: underline
+}
